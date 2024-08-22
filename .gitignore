@@ -1,0 +1,14 @@
+# Node.js
+node_modules/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.env
+.vscode/
+
+# OS
+.DS_Store  # macOS
+Thumbs.db  # Windows
