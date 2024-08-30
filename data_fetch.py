@@ -4,6 +4,7 @@ import json
 
 ### PARAM INFO ###
 # NBA is league 12
+# The API contains info back to the 2008-2009 season
 
 
 API_KEY = 'c4d5236bd0mshbc6576c04564c42p1e9e60jsned8d838ec790'  # Replace with your actual API key
@@ -17,7 +18,7 @@ headers = {
 
 params = {
     "league":"12",
-    "season":"2023-2024"
+    "season":"2008-2009"
 }
 
 response = requests.get(url, headers=headers,params=params)
@@ -27,7 +28,7 @@ response = requests.get(url, headers=headers,params=params)
 if response.status_code == 200:
     data = response.json()['response']
     df = pd.json_normalize(data)
-    df.to_csv('./games_data.csv', index=False)
-    print(df.tail(20))
+    df.to_csv('./test.csv', index=False)
+    print(df.shape)
 else:
     print(f"Error: {response.status_code}")
