@@ -360,6 +360,12 @@ def head2head(df):
 
     return df
 
+def remove_preseason(df):
+    df['date'] = pd.to_datetime(df['date'])
+    start_date = pd.to_datetime(2023-10-24)
+    
+
+
 
 
 
@@ -367,7 +373,7 @@ def head2head(df):
 
 
 def main():
-    og_df = pd.read_csv('og_games_data.csv')
+    og_df = pd.read_csv('raw23-24.csv')
     df = initialize_data(og_df)
     df = win_percentages(df)
     df = average_points(df)
@@ -394,7 +400,7 @@ def main():
     df.insert(i, 'H2H', 'H2H:')
 
     #Saving the new file
-    df.to_csv('./formatted_games_data.csv', index=False)
+    df.to_csv('./23-24.csv', index=False)
 
 if __name__ == "__main__":
     main()

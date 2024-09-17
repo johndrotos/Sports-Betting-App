@@ -18,7 +18,7 @@ headers = {
 
 params = {
     "league":"12",
-    "season":"2008-2009"
+    "season":"2022-2023"
 }
 
 response = requests.get(url, headers=headers,params=params)
@@ -28,7 +28,7 @@ response = requests.get(url, headers=headers,params=params)
 if response.status_code == 200:
     data = response.json()['response']
     df = pd.json_normalize(data)
-    df.to_csv('./test.csv', index=False)
+    df.to_csv('./raw22-23.csv', index=False)
     print(df.shape)
 else:
     print(f"Error: {response.status_code}")
