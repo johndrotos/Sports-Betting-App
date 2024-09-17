@@ -5,7 +5,7 @@ import json
 def initialize_data(dataframe):
     # Dropping Unnecesary Columns
     og_df = dataframe
-    df = og_df.drop(['stage', 'status.short', 'status.timer', 'week', 'time', 'timezone', 'status.long',
+    df = og_df.drop(['stage', 'status.short', 'venue', 'status.timer', 'week', 'time', 'timezone', 'status.long',
                     'league.id', 'league.name', 'league.type', 'league.logo', 'country.id', 'country.name', 
                     'country.code', 'country.flag', 'timestamp', 'teams.home.logo', 'teams.away.logo'], axis=1)
 
@@ -360,20 +360,12 @@ def head2head(df):
 
     return df
 
-def remove_preseason(df):
-    df['date'] = pd.to_datetime(df['date'])
-    start_date = pd.to_datetime(2023-10-24)
-    
-
-
-
-
-
 
 
 
 def main():
-    og_df = pd.read_csv('raw23-24.csv')
+    og_df = pd.read_csv('./raw_data/raw22-23.csv')
+    save_location = './formatted_data/22-23.csv'
     df = initialize_data(og_df)
     df = win_percentages(df)
     df = average_points(df)
@@ -400,7 +392,7 @@ def main():
     df.insert(i, 'H2H', 'H2H:')
 
     #Saving the new file
-    df.to_csv('./23-24.csv', index=False)
+    df.to_csv(save_location, index=False)
 
 if __name__ == "__main__":
     main()
