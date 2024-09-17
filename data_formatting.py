@@ -296,7 +296,7 @@ def head2head(df):
     df['home_h2h_record'] = 0  # Home team's wins vs the away team
     df['away_h2h_record'] = 0  # Away team's wins vs the home team
 
-    # Dictionary to store H2H stats: { (home_team, away_team): {'points_scored_home': [], 'points_scored_away': [], 'home_wins': 0, 'away_wins': 0}}
+    # Dictionary to store H2H stats: { ('team1', 'team2'): {'points_scored_team1_home': [], 'points_scored_team2_home': [], 'team1_wins': 0, 'team2_wins': 0}}
     head2head_stats = {}
 
     # Iterate through each row to calculate H2H metrics
@@ -304,47 +304,62 @@ def head2head(df):
         home_team = row['teams.home.name']
         away_team = row['teams.away.name']
 
-        # Key for head-to-head tracking
-        matchup_key = tuple(sorted(home_team, away_team))
+        # Create a unified matchup key (sorted alphabetically)
+        matchup_key = tuple(sorted([home_team, away_team]))
 
         # Initialize H2H data for this matchup if not already present
         if matchup_key not in head2head_stats:
             head2head_stats[matchup_key] = {
-                'points_scored_team1': [],  # Points scored by the home team against this away team
-                'points_scored_team2': [],  # Points scored by the away team against this home team
-                'team1_wins': 0,  # Number of wins by the home team in this matchup
-                'team2_wins': 0   # Number of wins by the away team in this matchup
+                'points_scored_team1_home': [],  # Points scored by team1 when they were home
+                'points_scored_team2_home': [],  # Points scored by team2 when they were home
+                'team1_wins': 0,  # Number of wins by team1 in this matchup
+                'team2_wins': 0   # Number of wins by team2 in this matchup
             }
 
         # Get the current H2H stats
         h2h_stats = head2head_stats[matchup_key]
 
-        # Calculate home spread for the current matchup
-        if len(h2h_stats['points_scored_team1']) > 0:
-            total_team1_points = sum(h2h_stats['points_scored_team1'])
-            total_team2_points = sum(h2h_stats['points_scored_team2'])
-            spread = total_team1_points - total_team2_points
-            if home_team == matchup_key[0]:
-                df.at[index, 'home_h2h_spread'] = spread
-            else:
-                df.at[index, 'home_h2h_spread'] = 0 - spread
+        # Identify team1 and team2 based on alphabetical order
+        team1, team2 = matchup_key
 
-
-        # Update win records for both home and away teams
-        df.at[index, 'home_h2h_record'] = h2h_stats['team1_wins']
-        df.at[index, 'away_h2h_record'] = h2h_stats['away_wins']
+        # Determine if team1 is home or away for this game
+        if home_team == team1:
+            # team1 is the home team, team2 is the away team for this game
+            total_home_points = sum(h2h_stats['points_scored_team1_home'])
+            total_away_points = sum(h2h_stats['points_scored_team2_home'])
+            df.at[index, 'home_h2h_spread'] = total_home_points - total_away_points
+            df.at[index, 'home_h2h_record'] = h2h_stats['team1_wins']
+            df.at[index, 'away_h2h_record'] = h2h_stats['team2_wins']
+        else:
+            # team2 is the home team, team1 is the away team for this game
+            total_home_points = sum(h2h_stats['points_scored_team2_home'])
+            total_away_points = sum(h2h_stats['points_scored_team1_home'])
+            df.at[index, 'home_h2h_spread'] = total_home_points - total_away_points
+            df.at[index, 'home_h2h_record'] = h2h_stats['team2_wins']
+            df.at[index, 'away_h2h_record'] = h2h_stats['team1_wins']
 
         # Determine winner and loser for the current game
         if row['home_spread'] > 0:  # Home team wins
-            h2h_stats['home_wins'] += 1
+            if home_team == team1:
+                h2h_stats['team1_wins'] += 1
+            else:
+                h2h_stats['team2_wins'] += 1
         else:  # Away team wins
-            h2h_stats['away_wins'] += 1
+            if away_team == team1:
+                h2h_stats['team1_wins'] += 1
+            else:
+                h2h_stats['team2_wins'] += 1
 
         # Update H2H points with the current game’s results
-        h2h_stats['points_scored_home'].append(row['scores.home.total'])
-        h2h_stats['points_scored_away'].append(row['scores.away.total'])
+        if home_team == team1:
+            h2h_stats['points_scored_team1_home'].append(row['scores.home.total'])
+            h2h_stats['points_scored_team2_home'].append(row['scores.away.total'])
+        else:
+            h2h_stats['points_scored_team2_home'].append(row['scores.home.total'])
+            h2h_stats['points_scored_team1_home'].append(row['scores.away.total'])
 
     return df
+
 
 
 
