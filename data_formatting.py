@@ -360,13 +360,27 @@ def head2head(df):
 
     return df
 
+def remove_pre_post(df, start_date, end_date):
+    df = df[df['date'] >= start_date]
+    df = df[df['date'] < end_date]
+    return df
+
+def remove_first_10(df):
+    df['game_number'] = df.groupby(['teams.home.name']).cumcount() + 1
+    df = df[df['game_number'] > 10]
+
+    return df.drop(columns=['game_number'])  # Drop 'game_number' after filtering
 
 
 
-def main():
-    og_df = pd.read_csv('./raw_data/raw22-23.csv')
-    save_location = './formatted_data/22-23.csv'
+
+def format(raw_data_loc, output_loc, season_start_date, season_end_date):
+    og_df = pd.read_csv(raw_data_loc)
+    save_location = output_loc
     df = initialize_data(og_df)
+    df = remove_pre_post(df, season_start_date, season_end_date)
+
+    # Feature engineering
     df = win_percentages(df)
     df = average_points(df)
     df = L10_average_points(df)
@@ -391,8 +405,63 @@ def main():
     i += 3
     df.insert(i, 'H2H', 'H2H:')
 
-    #Saving the new file
+    # Remove first 10 games
+    df = remove_first_10(df)
+
+    # Saving the new file
     df.to_csv(save_location, index=False)
+
+
+def main():
+    '''
+    #       input                       output                      start           end
+    format("./raw_data/raw08-09.csv", './formatted_data/08-09.csv', '2008-10-28', '2009-04-15')
+    format("./raw_data/raw09-10.csv", './formatted_data/09-10.csv', '2009-10-27', '2010-04-14')
+    format("./raw_data/raw10-11.csv", './formatted_data/10-11.csv', '2010-10-26', '2011-04-13')
+    format("./raw_data/raw11-12.csv", './formatted_data/11-12.csv', '2011-12-25', '2012-04-26')
+    format("./raw_data/raw12-13.csv", './formatted_data/12-13.csv', '2012-10-30', '2013-04-17')
+    format("./raw_data/raw13-14.csv", './formatted_data/13-14.csv', '2013-10-29', '2014-04-16')
+    format("./raw_data/raw14-15.csv", './formatted_data/14-15.csv', '2014-10-28', '2015-04-15')
+    format("./raw_data/raw15-16.csv", './formatted_data/15-16.csv', '2015-10-27', '2016-04-13')
+    format("./raw_data/raw16-17.csv", './formatted_data/16-17.csv', '2016-10-25', '2017-04-12')
+    format("./raw_data/raw17-18.csv", './formatted_data/17-18.csv', '2017-10-17', '2018-04-11')
+    format("./raw_data/raw18-19.csv", './formatted_data/18-19.csv', '2018-10-16', '2019-04-10')
+    format("./raw_data/raw19-20.csv", './formatted_data/19-20.csv', '2019-10-22', '2020-03-11')  # COVID interruption
+    format("./raw_data/raw20-21.csv", './formatted_data/20-21.csv', '2020-12-22', '2021-05-16')  # Shortened season
+    format("./raw_data/raw21-22.csv", './formatted_data/21-22.csv', '2021-10-19', '2022-04-10')
+    format("./raw_data/raw22-23.csv", './formatted_data/22-23.csv', '2022-10-18', '2023-04-09')
+    format("./raw_data/raw23-24.csv", './formatted_data/23-24.csv', '2023-10-24', '2024-04-14')  # Expected end date
+    '''
+
+    # Load your individual season DataFrames (these should already be in memory if you used format())
+    df_08_09 = pd.read_csv('./formatted_data/08-09.csv')
+    df_09_10 = pd.read_csv('./formatted_data/09-10.csv')
+    df_10_11 = pd.read_csv('./formatted_data/10-11.csv')
+    df_11_12 = pd.read_csv('./formatted_data/11-12.csv')
+    df_12_13 = pd.read_csv('./formatted_data/12-13.csv')
+    df_13_14 = pd.read_csv('./formatted_data/13-14.csv')
+    df_14_15 = pd.read_csv('./formatted_data/14-15.csv')
+    df_15_16 = pd.read_csv('./formatted_data/15-16.csv')
+    df_16_17 = pd.read_csv('./formatted_data/16-17.csv')
+    df_17_18 = pd.read_csv('./formatted_data/17-18.csv')
+    df_18_19 = pd.read_csv('./formatted_data/18-19.csv')
+    df_19_20 = pd.read_csv('./formatted_data/19-20.csv')
+    df_20_21 = pd.read_csv('./formatted_data/20-21.csv')
+    df_21_22 = pd.read_csv('./formatted_data/21-22.csv')
+    df_22_23 = pd.read_csv('./formatted_data/22-23.csv')
+    df_23_24 = pd.read_csv('./formatted_data/23-24.csv')
+
+    # Combine all the DataFrames into one
+    all_seasons_df = pd.concat([df_08_09, df_09_10, df_10_11, df_11_12, df_12_13, df_13_14, df_14_15,
+                                df_15_16, df_16_17, df_17_18, df_18_19, df_19_20, df_20_21, df_21_22,
+                                df_22_23, df_23_24], ignore_index=True)
+
+    # Save the combined DataFrame to a new CSV file
+    all_seasons_df.to_csv('./formatted_data/all_seasons.csv', index=False)
+
+print("Successfully merged all season dataframes!")
+
+
 
 if __name__ == "__main__":
     main()
