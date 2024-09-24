@@ -433,6 +433,7 @@ def main():
     format("./raw_data/raw23-24.csv", './formatted_data/23-24.csv', '2023-10-24', '2024-04-14')  # Expected end date
     '''
 
+    '''
     # Load your individual season DataFrames (these should already be in memory if you used format())
     df_08_09 = pd.read_csv('./formatted_data/08-09.csv')
     df_09_10 = pd.read_csv('./formatted_data/09-10.csv')
@@ -458,6 +459,26 @@ def main():
 
     # Save the combined DataFrame to a new CSV file
     all_seasons_df.to_csv('./formatted_data/all_seasons.csv', index=False)
+    '''
+
+    df = pd.read_csv('./formatted_data/all_seasons.csv')
+
+    columns_to_drop = ['date', 'teams.home.name', 'teams.away.name', 'scores.home.quarter_1', 'scores.home.quarter_2', 'scores.home.quarter_3', 'scores.home.quarter_4',
+                       'scores.home.over_time', 'scores.home.total', 'scores.away.quarter_1', 'scores.away.quarter_2', 'scores.away.quarter_3', 'scores.away.quarter_4', 
+                       'scores.away.over_time', 'scores.away.total', 'WIN_PERCENTAGES', 'CUMULATIVE_AVERAGES', 'AT_HOME_AVGS', 'ON_ROAD_AVGS', 'L10_AVERAGES', 
+                       'L5_AVERAGES', 'DAYS_SINCE', 'H2H']
+    df = df.drop(columns=columns_to_drop)
+
+
+    print(df.isnull().sum())
+
+    rows_with_nulls = df[df.isnull().any(axis=1)]
+
+    print(rows_with_nulls)
+
+    df.to_csv('./formatted_data/training_data.csv', index=False)
+
+
 
 print("Successfully merged all season dataframes!")
 
