@@ -4,6 +4,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
+from tensorflow.keras.optimizers import Adam
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -21,7 +22,7 @@ def train_random_forest(data_loc, n_estimators, max_depth, test_size):
     
     # Load the data
     X = data.drop(columns=['league.season', 'teams.home.id', 'teams.away.id', 'home_spread', 'winner'])
-    y = data['winner']  # Target variable
+    y = data['home_spread']  # Target variable
 
     # Split data into train and test sets
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=42)
@@ -34,13 +35,15 @@ def train_random_forest(data_loc, n_estimators, max_depth, test_size):
     y_pred = rf_model.predict(X_test)
 
     # Evaluate the model
-    # mae = mean_absolute_error(y_test, y_pred)
-    y_pred_class = (y_pred > 0).astype(int)  # 1 for home win, 0 for away win
-    accuracy = accuracy_score(y_test, y_pred_class) * 100
+    # Spread: 
+    mae = mean_absolute_error(y_test, y_pred)    
+    # MoneyLine:
+    # y_pred_class = (y_pred > 0).astype(int)  # 1 for home win, 0 for away win
+    # accuracy = accuracy_score(y_test, y_pred_class) * 100
 
     print(f"Random Forest Model Performance:")
     print(f"n_estimators: {n_estimators}")
-    print(f"Accuracy: {accuracy}%")
+    print(f"MAE: {mae}")
 
     # plotting feature importance
     global_importances = pd.Series(rf_model.feature_importances_, index=X_train.columns)
@@ -66,7 +69,7 @@ def train_DNN():
 
     # Load the data
     X = data.drop(columns=['league.season', 'teams.home.id', 'teams.away.id', 'home_spread', 'winner'])
-    y = data['winner']
+    y = data['home_spread']
 
     X_train, X_temp, y_train, y_temp = train_test_split(X, y, test_size=0.2, random_state=42)
     X_val, X_test, y_val, y_test = train_test_split(X_temp, y_temp, test_size=0.5, random_state=42)
@@ -89,15 +92,17 @@ def train_DNN():
 
 
     # Compile the model
-    model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
+    optimizer = Adam(learning_rate=0.0005)
+    # model.compile(optimizer=optimizer, loss='binary_crossentropy', metrics=['accuracy'])
+    model.compile(optimizer=optimizer, loss='mean_absolute_error')
 
     # Train the model with early stopping
     early_stopping = tf.keras.callbacks.EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
     history = model.fit(X_train, y_train, validation_data=(X_val, y_val), epochs=100, callbacks=[early_stopping])
 
     # Evaluate on the test set
-    loss, accuracy = model.evaluate(X_test, y_test)
-    print(f'Test Accuracy (Success Rate): {accuracy * 100:.2f}%')
+    test_loss = model.evaluate(X_test, y_test)
+    print(f'Test loss (MAE): {test_loss}')
 
 
 def main():
