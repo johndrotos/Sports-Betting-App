@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
@@ -6,19 +7,21 @@ from tensorflow.keras.layers import Dense, Dropout
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_squared_error, mean_absolute_error
+from sklearn.metrics import mean_squared_error, mean_absolute_error, accuracy_score
 
 import matplotlib.pyplot as plt
-
-
 
 def train_random_forest(data_loc, n_estimators, max_depth, test_size):
     data = pd.read_csv(data_loc)
 
-    # Load your data
-    X = data.drop(columns=['league.season', 'teams.home.id', 'teams.away.id', 'home_spread'])
-    y = data['home_spread']  # Target variable
+    # creating moneyline column
+    data['winner'] = np.where(data['home_spread'] > 0, 1, 0)
+    
+    # Load the data
+    X = data.drop(columns=['league.season', 'teams.home.id', 'teams.away.id', 'home_spread', 'winner'])
+    y = data['winner']  # Target variable
 
     # Split data into train and test sets
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=42)
@@ -31,22 +34,23 @@ def train_random_forest(data_loc, n_estimators, max_depth, test_size):
     y_pred = rf_model.predict(X_test)
 
     # Evaluate the model
-    mse = mean_squared_error(y_test, y_pred)
-    mae = mean_absolute_error(y_test, y_pred)
+    # mae = mean_absolute_error(y_test, y_pred)
+    y_pred_class = (y_pred > 0).astype(int)  # 1 for home win, 0 for away win
+    accuracy = accuracy_score(y_test, y_pred_class) * 100
 
     print(f"Random Forest Model Performance:")
     print(f"n_estimators: {n_estimators}")
-    print(f"Mean Squared Error (MSE): {mse}")
-    print(f"Mean Absolute Error (MAE): {mae}")
+    print(f"Accuracy: {accuracy}%")
 
     # plotting feature importance
     global_importances = pd.Series(rf_model.feature_importances_, index=X_train.columns)
     global_importances.sort_values(ascending=True, inplace=True)
-    plt.figure(figsize=(10, 8))
+    plt.figure(figsize=(18, 14))
     global_importances.plot.barh(color='green')
     plt.xlabel("Importance")
     plt.ylabel("Feature")
     plt.title("Global Feature Importance - Built-in Method")
+    plt.tight_layout()
     plt.savefig("feature_importance.png")
 
 
@@ -56,9 +60,13 @@ def train_random_forest(data_loc, n_estimators, max_depth, test_size):
 
 def train_DNN():
     data = pd.read_csv('./formatted_data/training_data.csv')
+    
+    # creating moneyline column
+    data['winner'] = np.where(data['home_spread'] > 0, 1, 0)
 
-    X = data.drop(columns=['league.season', 'teams.home.id', 'teams.away.id', 'home_spread'])
-    y = data['home_spread']
+    # Load the data
+    X = data.drop(columns=['league.season', 'teams.home.id', 'teams.away.id', 'home_spread', 'winner'])
+    y = data['winner']
 
     X_train, X_temp, y_train, y_temp = train_test_split(X, y, test_size=0.2, random_state=42)
     X_val, X_test, y_val, y_test = train_test_split(X_temp, y_temp, test_size=0.5, random_state=42)
@@ -81,15 +89,15 @@ def train_DNN():
 
 
     # Compile the model
-    model.compile(optimizer='adam', loss='mean_absolute_error')
+    model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
     # Train the model with early stopping
     early_stopping = tf.keras.callbacks.EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
     history = model.fit(X_train, y_train, validation_data=(X_val, y_val), epochs=100, callbacks=[early_stopping])
 
     # Evaluate on the test set
-    test_loss = model.evaluate(X_test, y_test)
-    print(f'Test loss (MAE): {test_loss}')
+    loss, accuracy = model.evaluate(X_test, y_test)
+    print(f'Test Accuracy (Success Rate): {accuracy * 100:.2f}%')
 
 
 def main():

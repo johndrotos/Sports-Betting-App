@@ -31,7 +31,7 @@ def train_random_forest():
 
 
 def main():
-    train()
+    train_random_forest()
 
 if __name__ == "__main__":
     main()

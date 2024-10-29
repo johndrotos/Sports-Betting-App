@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import json
 
 
@@ -19,6 +20,9 @@ def initialize_data(dataframe):
 
     # Calculating Spreads
     df = df.assign(home_spread=df['scores.home.total']-df['scores.away.total'])
+    df['winner'] = np.where(df['home_spread'] > 0, 1, 0)
+
+    
 
     print(df.shape)
     return df
@@ -262,6 +266,10 @@ def win_percentages(df):
             if team not in records:
                 records[team] = {'record': [], 'streak': 0}
 
+        # Include streaks
+        df.at[index, 'home_streak'] = records[home_team]['streak']
+        df.at[index, 'away_streak'] = records[away_team]['streak']
+
         # Calculate win % up to now
         home_results = records[home_team]['record']
         if len(home_results) > 0:
@@ -285,8 +293,6 @@ def win_percentages(df):
         # Update streaks
         records[winner]['streak'] = max(0, records[winner]['streak']) + 1
         records[loser]['streak'] = min(0, records[loser]['streak']) - 1
-        df.at[index, 'home_streak'] = records[home_team]['streak']
-        df.at[index, 'away_streak'] = records[away_team]['streak']
 
     return df
         
@@ -388,7 +394,21 @@ def format(raw_data_loc, output_loc, season_start_date, season_end_date):
     df = calculate_days_since_last_game(df)
     df = head2head(df)
 
-    i = 20
+    # Round Columns to 2 decimal points
+    df = df.round({'home_win_percentage': 1,
+                   'away_win_percentage': 1,
+                   'home_avg_points_scored_combined': 1,
+                   'home_avg_points_allowed_combined': 1,
+                   'away_avg_points_scored_combined': 1,
+                   'away_avg_points_allowed_combined': 1,
+                   'home_avg_points_scored_at_home': 1,
+                   'home_avg_points_allowed_at_home': 1,
+                   'away_avg_points_scored_on_road': 1,
+                   'away_avg_points_allowed_on_road': 1
+                   })
+
+
+    i = 21
     df.insert(i, 'WIN_PERCENTAGES', 'WIN_PERCENTAGES:')
     i += 5
     df.insert(i, 'CUMULATIVE_AVERAGES', 'CUM_AVERAGES:')
@@ -413,7 +433,7 @@ def format(raw_data_loc, output_loc, season_start_date, season_end_date):
 
 
 def main():
-    '''
+    
     #       input                       output                      start           end
     format("./raw_data/raw08-09.csv", './formatted_data/08-09.csv', '2008-10-28', '2009-04-15')
     format("./raw_data/raw09-10.csv", './formatted_data/09-10.csv', '2009-10-27', '2010-04-14')
@@ -431,9 +451,9 @@ def main():
     format("./raw_data/raw21-22.csv", './formatted_data/21-22.csv', '2021-10-19', '2022-04-10')
     format("./raw_data/raw22-23.csv", './formatted_data/22-23.csv', '2022-10-18', '2023-04-09')
     format("./raw_data/raw23-24.csv", './formatted_data/23-24.csv', '2023-10-24', '2024-04-14')  # Expected end date
-    '''
+    
 
-    '''
+    
     # Load your individual season DataFrames (these should already be in memory if you used format())
     df_08_09 = pd.read_csv('./formatted_data/08-09.csv')
     df_09_10 = pd.read_csv('./formatted_data/09-10.csv')
@@ -459,7 +479,7 @@ def main():
 
     # Save the combined DataFrame to a new CSV file
     all_seasons_df.to_csv('./formatted_data/all_seasons.csv', index=False)
-    '''
+    
 
     df = pd.read_csv('./formatted_data/all_seasons.csv')
 
