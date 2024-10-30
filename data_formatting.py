@@ -21,6 +21,7 @@ def initialize_data(dataframe):
     # Calculating Spreads
     df = df.assign(home_spread=df['scores.home.total']-df['scores.away.total'])
     df['winner'] = np.where(df['home_spread'] > 0, 1, 0)
+    df = df.assign(total=df['scores.home.total']+df['scores.away.total'])
 
     
 
@@ -408,7 +409,7 @@ def format(raw_data_loc, output_loc, season_start_date, season_end_date):
                    })
 
 
-    i = 21
+    i = 22
     df.insert(i, 'WIN_PERCENTAGES', 'WIN_PERCENTAGES:')
     i += 5
     df.insert(i, 'CUMULATIVE_AVERAGES', 'CUM_AVERAGES:')
