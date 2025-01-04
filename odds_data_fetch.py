@@ -12,13 +12,13 @@ REGIONS = 'us' # uk | us | eu | au. Multiple can be specified if comma delimited
 
 MARKETS = 'spreads' # h2h | spreads | totals. Multiple can be specified if comma delimited
 
-BOOKMAKERS = 'fanduel'
+BOOKMAKERS = 'draftkings, fanduel, betmgm'
 
 ODDS_FORMAT = 'decimal' # decimal | american
 
 DATE_FORMAT = 'iso'
 
-DATE = '2020-08-01T12:00:00Z'
+DATE = '2021-01-23T12:00:00Z'
 
 
 odds_response = requests.get(
@@ -27,7 +27,7 @@ odds_response = requests.get(
         'api_key': API_KEY,
         'regions': REGIONS,
         'markets': MARKETS,
-        'bookmakers': BOOKMAKERS,
+        #'bookmakers': BOOKMAKERS,
         'oddsFormat': ODDS_FORMAT,
         'dateFormat': DATE_FORMAT,
         'date': DATE
@@ -39,6 +39,7 @@ if odds_response.status_code != 200:
 
 else:
     odds_json = odds_response.json()
+    print(odds_json)
 
     with open("data.json", "w") as f:
         json.dump(odds_json, f, indent=4)
@@ -51,22 +52,22 @@ else:
         commence_time = event['commence_time']
         
         for bookmaker in event.get('bookmakers', []):
-            if bookmaker['key'] == 'fanduel':  # Ensure we only process FanDuel odds
-                for market in bookmaker.get('markets', []):
-                    if market['key'] == 'spreads':  # We're interested in spread odds
-                        for outcome in market.get('outcomes', []):
-                            data.append({
-                                'Game ID': game_id,
-                                'Home Team': home_team,
-                                'Away Team': away_team,
-                                'Commence Time': commence_time,
-                                'Bookmaker': bookmaker['title'],
-                                'Outcome Name': outcome['name'],
-                                'Point': outcome['point'],
-                                'Price': outcome['price'],
-                            })
+            for market in bookmaker.get('markets', []):
+                if market['key'] == 'spreads':  # We're interested in spread odds
+                    for outcome in market.get('outcomes', []):
+                        data.append({
+                            'Game ID': game_id,
+                            'Home Team': home_team,
+                            'Away Team': away_team,
+                            'Commence Time': commence_time,
+                            'Bookmaker': bookmaker['title'],
+                            'Outcome Name': outcome['name'],
+                            'Point': outcome['point'],
+                            'Price': outcome['price'],
+                        })
 
     df = pd.DataFrame(data)
+    print(df)
     df.to_csv('fanduel_nba_odds.csv', index=False)
     print("Data saved to fanduel_nba_odds.csv")
 
