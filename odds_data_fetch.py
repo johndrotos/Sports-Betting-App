@@ -16,9 +16,9 @@ DATE_FORMAT = 'iso'
 # DATE = '2024-01-01T12:00:00Z'
 
 
-start_date = datetime(2023, 12, 30)  
-end_date = datetime(2024, 1, 15) 
-date_increment = timedelta(hours=12)  
+start_date = datetime(2023, 11, 25)  
+end_date = datetime(2024, 4, 15) 
+date_increment = timedelta(hours=24)  
 
 all_data = []
 
@@ -75,7 +75,8 @@ while current_date < end_date:
     
     
 df = pd.DataFrame(all_data)
-df = df.drop_duplicates(subset=['Game ID', 'Home Team', 'Away Team', 'Commence Time', 'Point'])
+df = df.drop_duplicates(subset=['Game ID', 'Outcome Name'])
+df = df[df['Outcome Name'] == df['Home Team']]
 
 df.to_csv('all_historical_odds.csv', index=False)
 print("All historical odds data saved to all_historical_odds.csv")

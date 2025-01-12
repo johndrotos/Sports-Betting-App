@@ -1,90 +1,327 @@
 Game ID,Home Team,Away Team,Commence Time,Bookmaker,Outcome Name,Point,Price,Timestamp
-fb8f7542c822454c0a32da660c91be9d,Washington Wizards,Brooklyn Nets,2023-12-30T00:10:00Z,FanDuel,Brooklyn Nets,-6.0,1.91,2023-12-29T23:55:38Z
-852bcd9da9a5bdd716b28d3590809f87,Orlando Magic,New York Knicks,2023-12-30T00:10:00Z,FanDuel,New York Knicks,-1.0,1.91,2023-12-29T23:55:38Z
+5b92c6d2f3bf39052bcf24c191f8622d,Memphis Grizzlies,Phoenix Suns,2023-11-24T22:10:42Z,FanDuel,Memphis Grizzlies,5.5,2.04,2023-11-24T23:55:39Z
+103fb410a6f5848d51fa66e7d367906f,Toronto Raptors,Chicago Bulls,2023-11-25T00:30:00Z,FanDuel,Toronto Raptors,-5.0,1.94,2023-11-24T23:55:39Z
+205b7eceda32b8bc769a5961f4f63852,New York Knicks,Miami Heat,2023-11-25T00:40:00Z,FanDuel,New York Knicks,-5.5,1.91,2023-11-24T23:55:39Z
+321fc6c9a170054dfabf8dd2d4dd2b59,Houston Rockets,Denver Nuggets,2023-11-25T01:00:00Z,FanDuel,Houston Rockets,3.0,1.89,2023-11-24T23:55:39Z
+e77bccf311b1b7318bfb7a0572ce094f,Indiana Pacers,Detroit Pistons,2023-11-25T01:00:00Z,FanDuel,Indiana Pacers,-9.0,1.93,2023-11-24T23:55:39Z
+a6d90d41d2e7e5908453d1d12afafd65,Milwaukee Bucks,Washington Wizards,2023-11-25T01:00:00Z,FanDuel,Milwaukee Bucks,-13.5,1.91,2023-11-24T23:55:39Z
+70f912b79fb177c1263d842795ee6cd5,Minnesota Timberwolves,Sacramento Kings,2023-11-25T01:00:00Z,FanDuel,Minnesota Timberwolves,-4.5,1.93,2023-11-24T23:55:39Z
+93b7182c5fc70d6fb268907751824407,Golden State Warriors,San Antonio Spurs,2023-11-25T03:00:00Z,FanDuel,Golden State Warriors,-10.0,1.91,2023-11-24T23:55:39Z
+3aaae8f9a9956777d663081d8106d11b,Los Angeles Clippers,New Orleans Pelicans,2023-11-25T03:30:00Z,FanDuel,Los Angeles Clippers,-5.0,1.88,2023-11-24T23:55:39Z
+06728e1e5678fb6a4f904c800cd3f464,Washington Wizards,Atlanta Hawks,2023-11-26T00:10:00Z,FanDuel,Washington Wizards,8.0,1.91,2023-11-24T23:55:39Z
+4a481f6659b1297ea3e621a84806dec0,Los Angeles Clippers,Dallas Mavericks,2023-11-26T03:40:00Z,FanDuel,Los Angeles Clippers,1.0,1.93,2023-11-24T23:55:39Z
+d0a2b4824b7304c73eb658170e6b0d37,Oklahoma City Thunder,Philadelphia 76ers,2023-11-25T22:10:44Z,FanDuel,Oklahoma City Thunder,7.5,2.08,2023-11-25T23:55:39Z
+835cccd8b9787a9444df9f4890ba59cf,Brooklyn Nets,Miami Heat,2023-11-25T23:11:02Z,FanDuel,Brooklyn Nets,-9.5,1.88,2023-11-25T23:55:39Z
+f13187a42416d032e79aca2df00af30d,Cleveland Cavaliers,Los Angeles Lakers,2023-11-26T00:30:00Z,FanDuel,Cleveland Cavaliers,-4.5,1.93,2023-11-25T23:55:39Z
+ea87ecd6a223e31fa02265b8fe5faf0e,Utah Jazz,New Orleans Pelicans,2023-11-26T02:30:00Z,FanDuel,Utah Jazz,2.5,1.91,2023-11-25T23:55:39Z
+f7d1dd19a6969abbafb573c5c06a6c7c,Milwaukee Bucks,Portland Trail Blazers,2023-11-26T20:30:00Z,FanDuel,Milwaukee Bucks,-12.0,1.91,2023-11-25T23:55:39Z
+3a7425b0f8487a723856a7c913c9f421,Boston Celtics,Atlanta Hawks,2023-11-26T23:00:00Z,FanDuel,Boston Celtics,-7.5,1.93,2023-11-25T23:55:39Z
+99f1891388a534a6413432949ca524a4,Orlando Magic,Charlotte Hornets,2023-11-26T23:00:00Z,FanDuel,Orlando Magic,-7.0,1.93,2023-11-25T23:55:39Z
+550fd7764bd7eefdb4c0469586d55597,Memphis Grizzlies,Minnesota Timberwolves,2023-11-26T23:00:00Z,FanDuel,Memphis Grizzlies,6.5,1.91,2023-11-25T23:55:39Z
+a9ae5c8afd31ab4b4b6572df2643c11c,New York Knicks,Phoenix Suns,2023-11-26T23:00:00Z,FanDuel,New York Knicks,-3.0,1.89,2023-11-25T23:55:39Z
+de2b98284401822a174b61abb551cf9a,Brooklyn Nets,Chicago Bulls,2023-11-27T00:30:00Z,FanDuel,Brooklyn Nets,-3.0,1.91,2023-11-25T23:55:39Z
+71ceb5f4bbea89e08a03778261af4d60,Cleveland Cavaliers,Toronto Raptors,2023-11-27T00:30:00Z,FanDuel,Cleveland Cavaliers,-4.0,1.91,2023-11-25T23:55:39Z
+0c0efe94b3f5002d1a461c59f7169c3b,Denver Nuggets,San Antonio Spurs,2023-11-27T01:00:00Z,FanDuel,Denver Nuggets,-11.5,1.91,2023-11-25T23:55:39Z
+e8e333d395fd2a7236d04eb94b251138,Detroit Pistons,Washington Wizards,2023-11-28T00:10:00Z,FanDuel,Detroit Pistons,-2.0,1.91,2023-11-27T23:55:39Z
+9ea3f8d44c3ee1cfe36771954b94dde2,Indiana Pacers,Portland Trail Blazers,2023-11-28T00:10:00Z,FanDuel,Indiana Pacers,-12.0,1.93,2023-11-27T23:55:39Z
+6b7639a8b3a1f305d65824cbc347e867,Philadelphia 76ers,Los Angeles Lakers,2023-11-28T00:10:00Z,FanDuel,Philadelphia 76ers,-5.5,1.88,2023-11-27T23:55:39Z
+f4d06e5401884544d96b187f5dba7a68,Utah Jazz,New Orleans Pelicans,2023-11-28T02:10:00Z,FanDuel,Utah Jazz,6.0,1.91,2023-11-27T23:55:39Z
+b02941250d262e5be0eedb11db6a7113,Los Angeles Clippers,Denver Nuggets,2023-11-28T03:40:00Z,FanDuel,Los Angeles Clippers,-11.0,1.91,2023-11-27T23:55:39Z
+9775829c11d30d986a7a6b0dbbcfdaf8,Miami Heat,Milwaukee Bucks,2023-11-29T00:30:00Z,FanDuel,Miami Heat,3.0,1.93,2023-11-27T23:55:39Z
+1b58f3d0ab131d0f38fc4621391ac5c7,Cleveland Cavaliers,Atlanta Hawks,2023-11-29T00:40:00Z,FanDuel,Cleveland Cavaliers,-5.0,1.94,2023-11-27T23:55:39Z
+2c16d0e46875e73d598d5b6a61f51182,Boston Celtics,Chicago Bulls,2023-11-29T00:40:00Z,FanDuel,Boston Celtics,-12.5,1.89,2023-11-27T23:55:39Z
+e13d008147495accb152be60001f7be5,Brooklyn Nets,Toronto Raptors,2023-11-29T00:40:00Z,FanDuel,Brooklyn Nets,-2.0,1.89,2023-11-27T23:55:39Z
+bba4c8948bcea8449488aa2ede6f0974,New York Knicks,Charlotte Hornets,2023-11-29T00:40:00Z,FanDuel,New York Knicks,-11.5,1.91,2023-11-27T23:55:39Z
+7ece9f386503920cc48c8bb3e70f941e,Minnesota Timberwolves,Oklahoma City Thunder,2023-11-29T01:10:00Z,FanDuel,Minnesota Timberwolves,-4.0,1.91,2023-11-27T23:55:39Z
+a56048c7b35931ab5e6ea3b1287f81b2,Dallas Mavericks,Houston Rockets,2023-11-29T01:40:00Z,FanDuel,Dallas Mavericks,-5.5,1.89,2023-11-27T23:55:39Z
+50bc1a2a62efb4ed1327f7a0a9e822ee,Sacramento Kings,Golden State Warriors,2023-11-29T03:00:00Z,FanDuel,Sacramento Kings,-2.5,1.93,2023-11-27T23:55:39Z
+da359da99aa27e97d38f2df709343998,Detroit Pistons,Los Angeles Lakers,2023-11-30T00:10:00Z,FanDuel,Detroit Pistons,7.0,1.89,2023-11-28T23:55:39Z
+0a502b246aa29f8ac2edb7a3ddf71ae9,Orlando Magic,Washington Wizards,2023-11-30T00:10:00Z,FanDuel,Orlando Magic,-9.5,1.89,2023-11-28T23:55:39Z
+2667f897a67e6cdad61bd26a3b941d83,Toronto Raptors,Phoenix Suns,2023-11-30T00:40:00Z,FanDuel,Toronto Raptors,2.0,1.91,2023-11-28T23:55:39Z
+f77515821e02328a6e0a2f850b6e5c08,New Orleans Pelicans,Philadelphia 76ers,2023-11-30T01:10:00Z,FanDuel,New Orleans Pelicans,1.5,1.91,2023-11-28T23:55:39Z
+7149f35b7118c49f8dbdb72d9e35c1e2,Memphis Grizzlies,Utah Jazz,2023-11-30T01:10:00Z,FanDuel,Memphis Grizzlies,-4.0,1.91,2023-11-29T23:55:39Z
+7fdd11caadf931e3443fa12532d723a3,Denver Nuggets,Houston Rockets,2023-11-30T02:10:00Z,FanDuel,Denver Nuggets,-9.0,1.89,2023-11-29T23:55:39Z
+31fcd6f4035039847d263d5cb7b0e056,Sacramento Kings,Los Angeles Clippers,2023-11-30T03:10:00Z,FanDuel,Sacramento Kings,1.5,1.89,2023-11-29T23:55:39Z
+e4258466e51cc5370cfae6a31648dde4,Cleveland Cavaliers,Portland Trail Blazers,2023-12-01T00:00:00Z,FanDuel,Cleveland Cavaliers,-12.0,1.91,2023-11-29T23:55:39Z
+77ac6998a2067818b44b1ecc634c8fe4,Brooklyn Nets,Charlotte Hornets,2023-12-01T00:30:00Z,FanDuel,Brooklyn Nets,-8.5,1.91,2023-11-29T23:55:39Z
+4e1c59771863d6ae1a2904c76576cb14,Indiana Pacers,Boston Celtics,2023-12-05T00:30:00Z,FanDuel,Indiana Pacers,5.0,1.91,2023-11-29T23:55:39Z
+9f8d190cf4e30de3a216f87d71298fa1,Sacramento Kings,New Orleans Pelicans,2023-12-05T03:00:00Z,FanDuel,Sacramento Kings,-5.0,1.91,2023-11-29T23:55:39Z
+ec282e0c8b645a366ef55cf3d58b3dff,Milwaukee Bucks,New York Knicks,2023-12-06T00:30:00Z,FanDuel,Milwaukee Bucks,-6.0,1.91,2023-11-29T23:55:39Z
+db8f2e10cb78a4981e53fb37d333ec4c,Los Angeles Lakers,Phoenix Suns,2023-12-06T03:00:00Z,FanDuel,Los Angeles Lakers,-2.0,1.94,2023-11-29T23:55:39Z
+1cee3f4592eaf62234fd1951befbea46,New York Knicks,Detroit Pistons,2023-12-01T00:40:00Z,FanDuel,New York Knicks,-14.5,1.91,2023-11-30T23:55:39Z
+609b5ffb58297bad9c013edb71dc46c6,Miami Heat,Indiana Pacers,2023-12-01T00:40:00Z,FanDuel,Miami Heat,-4.0,1.91,2023-11-30T23:55:39Z
+17f8e0a55b1887cec5315d260a283478,San Antonio Spurs,Atlanta Hawks,2023-12-01T01:10:00Z,FanDuel,San Antonio Spurs,6.5,1.93,2023-11-30T23:55:39Z
+406c3d8f150b9fa25dea3aa878181ac1,Chicago Bulls,Milwaukee Bucks,2023-12-01T01:10:00Z,FanDuel,Chicago Bulls,9.5,1.93,2023-11-30T23:55:39Z
+de7d917b9d999a8d573c8ac652dffb12,Oklahoma City Thunder,Los Angeles Lakers,2023-12-01T01:10:00Z,FanDuel,Oklahoma City Thunder,-5.5,1.93,2023-11-30T23:55:39Z
+8a626ab40f62f3ea6fa90ca2cc250e23,Minnesota Timberwolves,Utah Jazz,2023-12-01T01:10:00Z,FanDuel,Minnesota Timberwolves,-12.0,1.89,2023-11-30T23:55:39Z
+9e0bbfbe89531d05205dd8b4dcaa8ce8,Golden State Warriors,Los Angeles Clippers,2023-12-01T03:10:00Z,FanDuel,Golden State Warriors,-2.0,1.88,2023-11-30T23:55:39Z
+728e70970079a8b6d6c78ad4c023a8e9,Orlando Magic,Washington Wizards,2023-12-02T00:00:00Z,FanDuel,Orlando Magic,-10.5,1.91,2023-12-01T23:55:39Z
+399a3c1f45c5f65be82fe6832d3ce73f,Boston Celtics,Philadelphia 76ers,2023-12-02T00:30:00Z,FanDuel,Boston Celtics,-9.5,1.88,2023-12-01T23:55:39Z
+01c4e091e120235e35446fa2879cc8de,Dallas Mavericks,Memphis Grizzlies,2023-12-02T00:30:00Z,FanDuel,Dallas Mavericks,-6.0,1.91,2023-12-01T23:55:39Z
+b9d61a322682b6728d0cd4f68146e1ee,Toronto Raptors,New York Knicks,2023-12-02T00:30:00Z,FanDuel,Toronto Raptors,-1.5,1.88,2023-12-01T23:55:39Z
+61bd8ec9b76403fcef40236847c6c9ce,New Orleans Pelicans,San Antonio Spurs,2023-12-02T01:00:00Z,FanDuel,New Orleans Pelicans,-13.0,1.93,2023-12-01T23:55:39Z
+d97150f15bf9d6cd414269c0457bd6ad,Phoenix Suns,Denver Nuggets,2023-12-02T03:10:00Z,FanDuel,Phoenix Suns,2.5,1.88,2023-12-01T23:55:39Z
+4da21f7ca5a39d289b4c37bc816e8dd6,Los Angeles Clippers,Golden State Warriors,2023-12-02T21:10:00Z,FanDuel,Los Angeles Clippers,-5.5,1.93,2023-12-01T23:55:39Z
+b328cbd8540ad153864049b5f0006dd1,Detroit Pistons,Cleveland Cavaliers,2023-12-03T00:10:00Z,FanDuel,Detroit Pistons,8.0,1.89,2023-12-01T23:55:39Z
+e9339a49fe88b1245b585ac0db2875fb,Milwaukee Bucks,Atlanta Hawks,2023-12-03T01:10:00Z,FanDuel,Milwaukee Bucks,-6.5,1.89,2023-12-01T23:55:39Z
+905a6cb00e6dad89b6b4dbdec3ea5efc,Los Angeles Lakers,Houston Rockets,2023-12-03T03:40:00Z,FanDuel,Los Angeles Lakers,-5.0,1.91,2023-12-01T23:55:39Z
+6688d5f254cbf4b07a735b975477b699,Charlotte Hornets,Minnesota Timberwolves,2023-12-02T22:10:00Z,FanDuel,Charlotte Hornets,0.5,1.91,2023-12-02T23:55:38Z
+1dc9f1fc0ddd17f90265ace33e4ab39c,Brooklyn Nets,Orlando Magic,2023-12-03T00:10:00Z,FanDuel,Brooklyn Nets,-2.5,1.93,2023-12-02T23:55:38Z
+8a862df79575ec8ca6cb9c6f71c56af4,Miami Heat,Indiana Pacers,2023-12-03T01:00:00Z,FanDuel,Miami Heat,-4.5,1.91,2023-12-02T23:55:38Z
+13a8de51d52aaeea1999c5e8ca5ca782,Chicago Bulls,New Orleans Pelicans,2023-12-03T01:10:00Z,FanDuel,Chicago Bulls,1.0,1.91,2023-12-02T23:55:38Z
+f5abaaaa0722dfbee1e2586c9849db21,Dallas Mavericks,Oklahoma City Thunder,2023-12-03T02:00:00Z,FanDuel,Dallas Mavericks,4.0,1.89,2023-12-02T23:55:38Z
+1a897f4c221aec37878085db7da91dde,Phoenix Suns,Memphis Grizzlies,2023-12-03T02:00:00Z,FanDuel,Phoenix Suns,-8.5,1.91,2023-12-02T23:55:38Z
+55cef49479f2640a682cb6f3b5d14927,Utah Jazz,Portland Trail Blazers,2023-12-03T02:30:00Z,FanDuel,Utah Jazz,-1.5,1.91,2023-12-02T23:55:38Z
+8041c154530b720bbe5300ae311ec4ca,Sacramento Kings,Denver Nuggets,2023-12-03T03:00:00Z,FanDuel,Sacramento Kings,-4.0,1.93,2023-12-02T23:55:38Z
+f8d325ce29435e932b72dc3da33599c6,Cleveland Cavaliers,Orlando Magic,2023-12-07T00:10:00Z,FanDuel,Cleveland Cavaliers,-4.5,1.91,2023-12-05T23:55:39Z
+caac7b8cf4ad7971a4f3ceee924b14a0,Detroit Pistons,Memphis Grizzlies,2023-12-07T00:10:00Z,FanDuel,Detroit Pistons,1.0,1.93,2023-12-05T23:55:39Z
+68e1aaa9722906ce16e08503aad01079,Washington Wizards,Philadelphia 76ers,2023-12-07T00:10:00Z,FanDuel,Washington Wizards,10.0,1.91,2023-12-05T23:55:39Z
+acdcf71288167a94bd9fc0e276afa660,Atlanta Hawks,Brooklyn Nets,2023-12-07T00:40:00Z,FanDuel,Atlanta Hawks,-4.0,1.93,2023-12-05T23:55:39Z
+c801e81db4b443782140d8209ebe844e,Toronto Raptors,Miami Heat,2023-12-07T00:40:00Z,FanDuel,Toronto Raptors,-3.0,1.93,2023-12-05T23:55:39Z
+259279974b230a16c69cf120c3c3fb77,Minnesota Timberwolves,San Antonio Spurs,2023-12-07T00:40:00Z,FanDuel,Minnesota Timberwolves,-12.0,1.91,2023-12-05T23:55:39Z
+311ca6b63cc3ec7096e849399760385c,Chicago Bulls,Charlotte Hornets,2023-12-07T01:10:00Z,FanDuel,Chicago Bulls,-5.0,1.93,2023-12-05T23:55:39Z
+0b44b56b2f2c6ee1ae00d0d6ebbae7e3,Houston Rockets,Oklahoma City Thunder,2023-12-07T01:10:00Z,FanDuel,Houston Rockets,1.5,1.93,2023-12-05T23:55:39Z
+35c37916db17c6c157c68438af539a17,Dallas Mavericks,Utah Jazz,2023-12-07T01:40:00Z,FanDuel,Dallas Mavericks,-8.5,1.91,2023-12-05T23:55:39Z
+3011c2459ef9077673eed4a4d671af16,Los Angeles Clippers,Denver Nuggets,2023-12-07T03:10:00Z,FanDuel,Los Angeles Clippers,1.0,1.89,2023-12-05T23:55:39Z
+653cd25d5087cdc0c122c2bcc5b294c1,Golden State Warriors,Portland Trail Blazers,2023-12-07T03:10:00Z,FanDuel,Golden State Warriors,-11.0,1.91,2023-12-05T23:55:39Z
+c575b3cbf176f4900e9d2162c005e98f,Milwaukee Bucks,Indiana Pacers,2023-12-07T22:05:00Z,FanDuel,Milwaukee Bucks,-4.5,1.88,2023-12-06T23:55:39Z
+7393699dcda6a6461f097a1cb75acb13,Los Angeles Lakers,New Orleans Pelicans,2023-12-08T02:05:00Z,FanDuel,Los Angeles Lakers,-1.5,1.89,2023-12-06T23:55:39Z
+cf259fa60951b10b982e0be05fdf229d,Philadelphia 76ers,Atlanta Hawks,2023-12-09T00:00:00Z,FanDuel,Philadelphia 76ers,-8.0,1.89,2023-12-07T23:55:40Z
+62b20fbacd5d021ec51146938bd17bec,Charlotte Hornets,Toronto Raptors,2023-12-09T00:00:00Z,FanDuel,Charlotte Hornets,4.5,1.91,2023-12-07T23:55:40Z
+394e6b40edf9d48ddb159853a4f40c7e,Orlando Magic,Detroit Pistons,2023-12-09T00:00:00Z,FanDuel,Orlando Magic,-12.0,1.94,2023-12-07T23:55:40Z
+6071740ba5ff2126064c1be11296a03b,Boston Celtics,New York Knicks,2023-12-09T00:30:00Z,FanDuel,Boston Celtics,-6.5,1.91,2023-12-07T23:55:40Z
+cd398a61291324c877b17b7b589a092e,Brooklyn Nets,Washington Wizards,2023-12-09T00:30:00Z,FanDuel,Brooklyn Nets,-9.0,1.91,2023-12-07T23:55:40Z
+74fa4118a3ab8622b7ea7b64b95a0a0f,Miami Heat,Cleveland Cavaliers,2023-12-09T01:00:00Z,FanDuel,Miami Heat,1.0,1.91,2023-12-07T23:55:40Z
+10fb6156dcb3a0b05c2065cd134b2675,Oklahoma City Thunder,Golden State Warriors,2023-12-09T01:00:00Z,FanDuel,Oklahoma City Thunder,-4.0,1.89,2023-12-07T23:55:40Z
+8cc3d7822bea80298e1ade5d5b5487e1,Memphis Grizzlies,Minnesota Timberwolves,2023-12-09T01:00:00Z,FanDuel,Memphis Grizzlies,6.5,1.91,2023-12-07T23:55:40Z
+eeb167c0f43b7a7b0277546dd1ca9789,San Antonio Spurs,Chicago Bulls,2023-12-09T01:30:00Z,FanDuel,San Antonio Spurs,2.0,1.91,2023-12-07T23:55:40Z
+9abf7d0c5286e57c97060841d6f53e03,Denver Nuggets,Houston Rockets,2023-12-09T02:00:00Z,FanDuel,Denver Nuggets,-7.5,1.89,2023-12-07T23:55:40Z
+23f682bdd3bd8f3d6d389df71a2f3c3a,Phoenix Suns,Sacramento Kings,2023-12-09T02:00:00Z,FanDuel,Phoenix Suns,1.5,1.93,2023-12-07T23:55:40Z
+bd8d3c74fcb94da369b807b305d19d86,Portland Trail Blazers,Dallas Mavericks,2023-12-09T03:00:00Z,FanDuel,Portland Trail Blazers,8.0,1.89,2023-12-07T23:55:40Z
+264e9e75b14e79dd75066cd1eeb0f8aa,Utah Jazz,Los Angeles Clippers,2023-12-09T03:00:00Z,FanDuel,Utah Jazz,5.0,1.93,2023-12-07T23:55:40Z
+a3ac2a1d3b5d4713016b8cfeb089d557,Los Angeles Lakers,Indiana Pacers,2023-12-10T01:30:00Z,FanDuel,Los Angeles Lakers,-4.0,1.93,2023-12-08T23:55:39Z
+837bd47f179cf27d9fceb17c23a32580,Charlotte Hornets,Miami Heat,2023-12-12T00:00:00Z,FanDuel,Charlotte Hornets,3.5,1.91,2023-12-09T23:55:39Z
+1357b87c524dbf1b090c2eefd5206295,Orlando Magic,Cleveland Cavaliers,2023-12-12T00:00:00Z,FanDuel,Orlando Magic,-2.5,1.89,2023-12-09T23:55:39Z
+b23ffd96ed500dcb649ce87fe7508e80,Detroit Pistons,Indiana Pacers,2023-12-12T00:00:00Z,FanDuel,Detroit Pistons,7.0,1.91,2023-12-09T23:55:39Z
+e5a5dd8ed5b44067e063cfbb2d230b7d,Philadelphia 76ers,Washington Wizards,2023-12-12T00:00:00Z,FanDuel,Philadelphia 76ers,-12.0,1.91,2023-12-09T23:55:39Z
+bf9008d47977187d2d82d18112f5135a,Atlanta Hawks,Denver Nuggets,2023-12-12T00:30:00Z,FanDuel,Atlanta Hawks,2.5,1.89,2023-12-09T23:55:39Z
+da724e8c226c1073a645981fce750346,New York Knicks,Toronto Raptors,2023-12-12T00:30:00Z,FanDuel,New York Knicks,-5.5,1.94,2023-12-09T23:55:39Z
+8c1283e5d9f34b7f481d2d8785262c08,Milwaukee Bucks,Chicago Bulls,2023-12-12T01:00:00Z,FanDuel,Milwaukee Bucks,-10.5,1.89,2023-12-09T23:55:39Z
+65c379ca6557c34e0bf1fe47728a0b7e,Memphis Grizzlies,Dallas Mavericks,2023-12-12T01:00:00Z,FanDuel,Memphis Grizzlies,3.0,1.91,2023-12-09T23:55:39Z
+a8a677bb015a168e4146b647087af47b,Houston Rockets,San Antonio Spurs,2023-12-12T01:00:00Z,FanDuel,Houston Rockets,-8.5,1.88,2023-12-09T23:55:39Z
+6d5bc70b15621885f501fe2e056d42dd,New Orleans Pelicans,Minnesota Timberwolves,2023-12-12T01:00:00Z,FanDuel,New Orleans Pelicans,-2.5,1.91,2023-12-09T23:55:39Z
+ed16caf584a6c1eb12d58b3d693c02fa,Oklahoma City Thunder,Utah Jazz,2023-12-12T01:00:00Z,FanDuel,Oklahoma City Thunder,-12.5,1.91,2023-12-09T23:55:39Z
+290a8ffe40b38b8b92f0abb206255ea8,Sacramento Kings,Brooklyn Nets,2023-12-12T03:00:00Z,FanDuel,Sacramento Kings,-5.5,1.93,2023-12-09T23:55:39Z
+6aea5d4bd500381a555063e008c29173,Los Angeles Clippers,Portland Trail Blazers,2023-12-12T03:30:00Z,FanDuel,Los Angeles Clippers,-12.5,1.91,2023-12-09T23:55:39Z
+0bec5c6131bae1717744b816b011f505,Boston Celtics,Cleveland Cavaliers,2023-12-13T00:40:00Z,FanDuel,Boston Celtics,-9.5,1.89,2023-12-11T23:55:38Z
+63aa4b1df1263c8963289370009e7959,Dallas Mavericks,Los Angeles Lakers,2023-12-13T00:40:00Z,FanDuel,Dallas Mavericks,1.5,1.93,2023-12-11T23:55:38Z
+28925a35768c579948ad277b78dd4b70,Chicago Bulls,Denver Nuggets,2023-12-13T01:10:00Z,FanDuel,Chicago Bulls,7.5,1.91,2023-12-11T23:55:38Z
+9fe7739fc60018628f98645742f468a0,Phoenix Suns,Golden State Warriors,2023-12-13T03:10:00Z,FanDuel,Phoenix Suns,-3.5,1.93,2023-12-11T23:55:38Z
+7ec80fd133ca814b6028d83f92ee93fe,Los Angeles Clippers,Sacramento Kings,2023-12-13T03:40:00Z,FanDuel,Los Angeles Clippers,-4.5,1.91,2023-12-11T23:55:38Z
+ce6c9aa55ee8613be3168bf5031920bf,Detroit Pistons,Philadelphia 76ers,2023-12-14T00:00:00Z,FanDuel,Detroit Pistons,12.0,1.91,2023-12-12T23:55:38Z
+532e7f4618fc67f69e19b99394ed0d06,Washington Wizards,New Orleans Pelicans,2023-12-14T00:00:00Z,FanDuel,Washington Wizards,8.0,1.88,2023-12-12T23:55:38Z
+62b3bd979a162d755689d1f073281ba4,Toronto Raptors,Atlanta Hawks,2023-12-14T00:40:00Z,FanDuel,Toronto Raptors,-1.5,1.91,2023-12-12T23:55:38Z
+d73b5a32c4fed2c803e8a0b60cb8cfaa,Miami Heat,Charlotte Hornets,2023-12-14T00:40:00Z,FanDuel,Miami Heat,-8.5,1.91,2023-12-12T23:55:38Z
+efd210bb5179ecdcaf5d0824e69e0b5a,Houston Rockets,Memphis Grizzlies,2023-12-14T01:00:00Z,FanDuel,Houston Rockets,-7.5,1.93,2023-12-12T23:55:38Z
+cdf9b7768fa3d45f45de1a1be87080f3,Milwaukee Bucks,Indiana Pacers,2023-12-14T01:00:00Z,FanDuel,Milwaukee Bucks,-6.5,1.91,2023-12-12T23:55:38Z
+7172092021340a418145604e6a3f0876,Utah Jazz,New York Knicks,2023-12-14T02:00:00Z,FanDuel,Utah Jazz,6.5,1.89,2023-12-12T23:55:38Z
+b911647c34891f6b884200d43e604611,San Antonio Spurs,Los Angeles Lakers,2023-12-14T01:00:00Z,FanDuel,San Antonio Spurs,3.5,1.89,2023-12-13T23:55:40Z
+42bb5f5dae1e79252cf08f0839de3710,Phoenix Suns,Brooklyn Nets,2023-12-14T02:10:00Z,FanDuel,Phoenix Suns,-4.5,1.89,2023-12-13T23:55:40Z
+4e494aca07af34003ed17847b4879aa3,Boston Celtics,Cleveland Cavaliers,2023-12-15T00:30:00Z,FanDuel,Boston Celtics,-8.5,1.91,2023-12-13T23:55:40Z
+3305a1ab996a53cc238c64a3da1332e9,Denver Nuggets,Brooklyn Nets,2023-12-15T02:00:00Z,FanDuel,Denver Nuggets,-9.5,1.91,2023-12-13T23:55:40Z
+6384abc6486f33a25144cf90d47f8e95,Sacramento Kings,Oklahoma City Thunder,2023-12-15T03:00:00Z,FanDuel,Sacramento Kings,-1.5,1.91,2023-12-13T23:55:40Z
+015ebff2bc0fe59a656c5e9ce504b350,Miami Heat,Chicago Bulls,2023-12-15T00:40:00Z,FanDuel,Miami Heat,-3.5,1.91,2023-12-14T23:55:39Z
+a5885a7f537e04b25ec1f89f73c8318c,Dallas Mavericks,Minnesota Timberwolves,2023-12-15T01:30:00Z,FanDuel,Dallas Mavericks,1.0,1.91,2023-12-14T23:55:39Z
+a9c78bf9fb22f5c531020f06414d1600,Portland Trail Blazers,Utah Jazz,2023-12-15T03:10:00Z,FanDuel,Portland Trail Blazers,-4.5,1.88,2023-12-14T23:55:39Z
+c03edf2e0fc8d63a89df27e4a699727a,Los Angeles Clippers,Golden State Warriors,2023-12-15T03:40:00Z,FanDuel,Los Angeles Clippers,-5.5,1.91,2023-12-14T23:55:39Z
+e96f56eca04c7ecb5dbc14520626c389,Charlotte Hornets,New Orleans Pelicans,2023-12-16T00:00:00Z,FanDuel,Charlotte Hornets,7.0,1.91,2023-12-14T23:55:39Z
+098ed2a2a3d0f9abba3635b3369fe973,Philadelphia 76ers,Detroit Pistons,2023-12-16T00:00:00Z,FanDuel,Philadelphia 76ers,-16.0,1.89,2023-12-14T23:55:39Z
+5320eac289b75b00008e10e823ef1733,Washington Wizards,Indiana Pacers,2023-12-16T00:00:00Z,FanDuel,Washington Wizards,9.0,1.89,2023-12-14T23:55:39Z
+6efc6f057844018bb03c6ac448f4ba6d,Toronto Raptors,Atlanta Hawks,2023-12-16T00:30:00Z,FanDuel,Toronto Raptors,-2.5,1.91,2023-12-14T23:55:39Z
+58eea45d1896f10c25ded62891e53d81,Boston Celtics,Orlando Magic,2023-12-16T00:30:00Z,FanDuel,Boston Celtics,-5.5,1.91,2023-12-14T23:55:39Z
+a7ea9b4b8abe3b67dea2baf617462153,Phoenix Suns,New York Knicks,2023-12-16T03:00:00Z,FanDuel,Phoenix Suns,-4.5,1.89,2023-12-14T23:55:39Z
+1ae5c74ed84dd10ef9a527da14c9b2ca,San Antonio Spurs,Los Angeles Lakers,2023-12-16T00:40:00Z,FanDuel,San Antonio Spurs,4.0,1.91,2023-12-15T23:55:39Z
+eda6b10887220a231c6a7e2793639156,Memphis Grizzlies,Houston Rockets,2023-12-16T01:10:00Z,FanDuel,Memphis Grizzlies,3.0,1.91,2023-12-15T23:55:39Z
+0381bd05f0ecac55cf873cd89e78d7e7,Miami Heat,Chicago Bulls,2023-12-17T01:00:00Z,FanDuel,Miami Heat,-4.5,1.91,2023-12-15T23:55:39Z
+ba86ea53d35fc93c4f62598821b40534,Minnesota Timberwolves,Indiana Pacers,2023-12-17T01:00:00Z,FanDuel,Minnesota Timberwolves,-7.0,1.91,2023-12-15T23:55:39Z
+404b081f03c1cf9c9519aff4518c9fb1,Golden State Warriors,Brooklyn Nets,2023-12-17T01:30:00Z,FanDuel,Golden State Warriors,-3.5,1.91,2023-12-15T23:55:39Z
+8e22bf1fe02decb2c89598abcd240957,Denver Nuggets,Oklahoma City Thunder,2023-12-17T02:00:00Z,FanDuel,Denver Nuggets,-5.0,1.89,2023-12-15T23:55:39Z
+f15fa604a148dbbd340c3211b2e4cbf5,Sacramento Kings,Utah Jazz,2023-12-17T03:00:00Z,FanDuel,Sacramento Kings,-11.0,1.91,2023-12-15T23:55:39Z
+0a96e6bfe2ea265e0cdb2c7bc1de9c97,Milwaukee Bucks,Detroit Pistons,2023-12-16T23:11:14Z,FanDuel,Milwaukee Bucks,-31.5,1.74,2023-12-16T23:55:39Z
+20cd11010a66fd95d5fdb0b96d348eac,Charlotte Hornets,Philadelphia 76ers,2023-12-17T00:10:00Z,FanDuel,Charlotte Hornets,12.0,1.91,2023-12-16T23:55:39Z
+14df187a9d4e24348d3e449b77d7a5d2,Cleveland Cavaliers,Atlanta Hawks,2023-12-17T00:30:00Z,FanDuel,Cleveland Cavaliers,-4.5,1.93,2023-12-16T23:55:39Z
+8f59e41201ded9b4921b7d69b3746a57,Portland Trail Blazers,Dallas Mavericks,2023-12-17T02:00:00Z,FanDuel,Portland Trail Blazers,5.0,1.93,2023-12-16T23:55:39Z
+690e6e79593f86f3d103bf298b1d23ae,Los Angeles Clippers,New York Knicks,2023-12-17T03:30:00Z,FanDuel,Los Angeles Clippers,-6.0,1.93,2023-12-16T23:55:39Z
+5431969ff2a6a8378208fe2ea29d64bf,Boston Celtics,Orlando Magic,2023-12-17T20:00:00Z,FanDuel,Boston Celtics,-8.5,1.91,2023-12-16T23:55:39Z
+871ddd1e93ef4f68780ef239bef2ed10,San Antonio Spurs,New Orleans Pelicans,2023-12-17T20:30:00Z,FanDuel,San Antonio Spurs,8.0,1.91,2023-12-16T23:55:39Z
+bd5808b47fafc02bc0f70e77a011ae88,Phoenix Suns,Washington Wizards,2023-12-18T01:00:00Z,FanDuel,Phoenix Suns,-13.0,1.93,2023-12-16T23:55:39Z
+86fea149b4e2d05e409a706113b15a4b,Portland Trail Blazers,Golden State Warriors,2023-12-18T02:00:00Z,FanDuel,Portland Trail Blazers,4.5,1.89,2023-12-16T23:55:39Z
+54a7ff3439b3c5a0f5fd6e9eebf063b3,Milwaukee Bucks,Houston Rockets,2023-12-18T00:10:00Z,FanDuel,Milwaukee Bucks,-7.0,1.91,2023-12-17T23:55:38Z
+6ca35f2b6078494be609dc20849ff102,Philadelphia 76ers,Chicago Bulls,2023-12-19T00:10:00Z,FanDuel,Philadelphia 76ers,-10.5,1.91,2023-12-17T23:55:38Z
+b8854ebb4b52d65346c7e3905a40800d,Cleveland Cavaliers,Houston Rockets,2023-12-19T00:10:00Z,FanDuel,Cleveland Cavaliers,-3.5,1.89,2023-12-18T23:55:39Z
+c61d7f837f81c0ebb5aba238e89bd6e7,Indiana Pacers,Los Angeles Clippers,2023-12-19T00:10:00Z,FanDuel,Indiana Pacers,3.5,1.91,2023-12-18T23:55:39Z
+07efeae8c927b22af0ba4e020dbb1056,Miami Heat,Minnesota Timberwolves,2023-12-19T00:30:00Z,FanDuel,Miami Heat,2.0,1.89,2023-12-18T23:55:39Z
+fe4e371e8108a82afe2c142bfac249c3,Atlanta Hawks,Detroit Pistons,2023-12-19T00:40:00Z,FanDuel,Atlanta Hawks,-12.0,1.91,2023-12-18T23:55:39Z
+f98e29b9c83b369a5edf35d387ccaca0,Toronto Raptors,Charlotte Hornets,2023-12-19T00:40:00Z,FanDuel,Toronto Raptors,-12.0,1.91,2023-12-18T23:55:39Z
+29210b4164ca0fcaaff0cf29329ae508,Oklahoma City Thunder,Memphis Grizzlies,2023-12-19T01:10:00Z,FanDuel,Oklahoma City Thunder,-10.5,1.94,2023-12-18T23:55:39Z
+94c8b2d44f2326c0065345dba27bd79b,Utah Jazz,Brooklyn Nets,2023-12-19T02:10:00Z,FanDuel,Utah Jazz,4.0,1.93,2023-12-18T23:55:39Z
+066e305acb855af6c5fd416e54a9fbcc,Denver Nuggets,Dallas Mavericks,2023-12-19T02:10:00Z,FanDuel,Denver Nuggets,-8.5,1.94,2023-12-18T23:55:39Z
+e4c991f80e0507f20b5a7f2c4bcf86b2,Los Angeles Lakers,New York Knicks,2023-12-19T03:10:00Z,FanDuel,Los Angeles Lakers,-5.0,1.91,2023-12-18T23:55:39Z
+72a46c8d7c9cbb04029cbe8c5c4c6542,Sacramento Kings,Washington Wizards,2023-12-19T03:10:00Z,FanDuel,Sacramento Kings,-14.0,1.91,2023-12-18T23:55:39Z
+ca81cc197a2d25deafb7e70e1ff5db27,New Orleans Pelicans,Memphis Grizzlies,2023-12-20T00:40:00Z,FanDuel,New Orleans Pelicans,-7.0,1.93,2023-12-18T23:55:39Z
+75a5579bbe0e162efb7b76a5150114dc,Milwaukee Bucks,San Antonio Spurs,2023-12-20T01:10:00Z,FanDuel,Milwaukee Bucks,-16.5,1.91,2023-12-18T23:55:39Z
+f3189d21c6f15e3be26715e333b6a62c,Golden State Warriors,Boston Celtics,2023-12-20T03:10:00Z,FanDuel,Golden State Warriors,5.5,1.91,2023-12-18T23:55:39Z
+cfed5291b7b9a33ad7822072f3a95fc6,Portland Trail Blazers,Phoenix Suns,2023-12-20T03:10:00Z,FanDuel,Portland Trail Blazers,7.5,1.91,2023-12-18T23:55:39Z
+251abfa044efb3a89153ba05897789eb,Indiana Pacers,Charlotte Hornets,2023-12-21T00:10:00Z,FanDuel,Indiana Pacers,-10.5,1.91,2023-12-19T23:55:39Z
+61b7b741c3e33564ea93843fb5252d5b,Cleveland Cavaliers,Utah Jazz,2023-12-21T00:10:00Z,FanDuel,Cleveland Cavaliers,-6.5,1.89,2023-12-19T23:55:39Z
+255e0f1a6d3484050307d30789c5a7a6,Orlando Magic,Miami Heat,2023-12-21T00:10:00Z,FanDuel,Orlando Magic,-5.0,1.91,2023-12-19T23:55:39Z
+0ca70c18620103621f608ad09a3df481,Philadelphia 76ers,Minnesota Timberwolves,2023-12-21T00:10:00Z,FanDuel,Philadelphia 76ers,-3.5,1.89,2023-12-19T23:55:39Z
+8b4d2b3361cdcda402582dfdb9e56c3f,Brooklyn Nets,New York Knicks,2023-12-21T00:40:00Z,FanDuel,Brooklyn Nets,1.0,1.89,2023-12-19T23:55:39Z
+74fa0c92353a59bc22e7a0732fea26f9,Toronto Raptors,Denver Nuggets,2023-12-21T00:40:00Z,FanDuel,Toronto Raptors,4.5,1.93,2023-12-19T23:55:39Z
+c79c7132487d9bd101119b185b078fd6,Houston Rockets,Atlanta Hawks,2023-12-21T01:10:00Z,FanDuel,Houston Rockets,-3.0,1.91,2023-12-19T23:55:39Z
+e92731f1079ff57d53612e42632f4460,Chicago Bulls,Los Angeles Lakers,2023-12-21T01:10:00Z,FanDuel,Chicago Bulls,4.5,1.88,2023-12-19T23:55:39Z
+b0e3d048a67c9e60eb2ddc54018c71c2,Dallas Mavericks,Los Angeles Clippers,2023-12-21T01:40:00Z,FanDuel,Dallas Mavericks,2.5,1.91,2023-12-19T23:55:39Z
+22eab68578d5078c14837e5f8d6f2b3c,Sacramento Kings,Boston Celtics,2023-12-21T03:00:00Z,FanDuel,Sacramento Kings,-3.0,1.93,2023-12-20T23:55:39Z
+a15de2fac0aea8e1e652462401125c8d,Memphis Grizzlies,Indiana Pacers,2023-12-22T01:00:00Z,FanDuel,Memphis Grizzlies,-4.5,1.91,2023-12-20T23:55:39Z
+3030d48e088feb9daafa48783e46243f,Portland Trail Blazers,Washington Wizards,2023-12-22T03:00:00Z,FanDuel,Portland Trail Blazers,-4.0,1.91,2023-12-20T23:55:39Z
+5a4b28938902c4fba16da19c6e8c1296,New York Knicks,Milwaukee Bucks,2023-12-25T17:00:00Z,FanDuel,New York Knicks,3.0,1.91,2023-12-20T23:55:39Z
+20fc47de6083f99da2027876dfebadb7,Denver Nuggets,Golden State Warriors,2023-12-25T19:30:00Z,FanDuel,Denver Nuggets,-4.5,1.83,2023-12-20T23:55:39Z
+9cb979b834e23b9dc8737eebba4db760,Los Angeles Lakers,Boston Celtics,2023-12-25T22:00:00Z,FanDuel,Los Angeles Lakers,1.5,1.91,2023-12-20T23:55:39Z
+184da460295c1cfd98b0ff31e8fc2b13,Miami Heat,Philadelphia 76ers,2023-12-26T01:00:00Z,FanDuel,Miami Heat,-1.0,1.91,2023-12-20T23:55:39Z
+96d0c38f9eae8242f2e363bdedd90c53,Phoenix Suns,Dallas Mavericks,2023-12-26T03:30:00Z,FanDuel,Phoenix Suns,-4.0,1.91,2023-12-20T23:55:39Z
+23979fa5193ad1548b417410f06d6bd7,Detroit Pistons,Utah Jazz,2023-12-22T00:10:00Z,FanDuel,Detroit Pistons,-2.0,1.89,2023-12-21T23:55:38Z
+f3bac99f387d25a715ea5f00b5f0fc76,Cleveland Cavaliers,New Orleans Pelicans,2023-12-22T00:40:00Z,FanDuel,Cleveland Cavaliers,3.5,1.91,2023-12-21T23:55:38Z
+6b54d5697223e597373ebb56eb70d332,Chicago Bulls,San Antonio Spurs,2023-12-22T01:10:00Z,FanDuel,Chicago Bulls,-6.0,1.91,2023-12-21T23:55:38Z
+2648d0a2a42a5516d56e624b2ff57258,Oklahoma City Thunder,Los Angeles Clippers,2023-12-22T01:10:00Z,FanDuel,Oklahoma City Thunder,-6.0,1.91,2023-12-21T23:55:38Z
+01ac230c76f2cccd0f69a372ca246f25,Milwaukee Bucks,Orlando Magic,2023-12-22T01:10:00Z,FanDuel,Milwaukee Bucks,-9.5,1.93,2023-12-21T23:55:38Z
+d802271c282293c17a54846e65fc823c,Minnesota Timberwolves,Los Angeles Lakers,2023-12-22T02:10:00Z,FanDuel,Minnesota Timberwolves,-9.5,1.91,2023-12-21T23:55:38Z
+ce3093694a25bccb3a00eabc834adfc0,Philadelphia 76ers,Toronto Raptors,2023-12-23T00:00:00Z,FanDuel,Philadelphia 76ers,-8.0,1.91,2023-12-21T23:55:38Z
+a4ee7ec661988001fe8aaa530a1c554a,Brooklyn Nets,Denver Nuggets,2023-12-23T00:30:00Z,FanDuel,Brooklyn Nets,4.5,1.91,2023-12-21T23:55:38Z
+4505c08ca800ce2e153ebedea59cc79e,Miami Heat,Atlanta Hawks,2023-12-23T01:00:00Z,FanDuel,Miami Heat,-1.5,1.91,2023-12-21T23:55:38Z
+abf6c54db9ffef120188eee2669e39ae,Houston Rockets,Dallas Mavericks,2023-12-23T01:00:00Z,FanDuel,Houston Rockets,-8.0,1.91,2023-12-21T23:55:38Z
+c5639f41c86ced87b712d5ad7c094be7,Golden State Warriors,Washington Wizards,2023-12-23T03:00:00Z,FanDuel,Golden State Warriors,-12.0,1.91,2023-12-21T23:55:38Z
+e25ccc0a73b0326d675ff84fe457002d,Sacramento Kings,Phoenix Suns,2023-12-23T03:00:00Z,FanDuel,Sacramento Kings,-2.5,1.91,2023-12-21T23:55:38Z
+bddb013beb95dd53b5d4b50e8724a4b5,New York Knicks,Milwaukee Bucks,2023-12-23T17:30:00Z,FanDuel,New York Knicks,2.5,1.91,2023-12-22T23:55:39Z
+47cc3ceaf582e5c4275d3e4aa3f57c46,Charlotte Hornets,Denver Nuggets,2023-12-24T00:00:00Z,FanDuel,Charlotte Hornets,8.5,1.91,2023-12-22T23:55:39Z
+7c896c95526cd2232172b564a27ac4f9,Indiana Pacers,Orlando Magic,2023-12-24T00:00:00Z,FanDuel,Indiana Pacers,-1.0,1.91,2023-12-22T23:55:39Z
+a6f1107ca15f65b4bd7887ca11ef80ee,Atlanta Hawks,Memphis Grizzlies,2023-12-24T00:30:00Z,FanDuel,Atlanta Hawks,1.0,1.91,2023-12-22T23:55:39Z
+6dabd18accf99d9c5133d56ad9b0ea38,Brooklyn Nets,Detroit Pistons,2023-12-24T00:30:00Z,FanDuel,Brooklyn Nets,-9.5,1.91,2023-12-22T23:55:39Z
+31a4136ed3ee22ce997bd23103d2c682,Toronto Raptors,Utah Jazz,2023-12-24T00:30:00Z,FanDuel,Toronto Raptors,-6.0,1.91,2023-12-22T23:55:39Z
+7f3996cc5976eb307b77e036081da9fb,Golden State Warriors,Portland Trail Blazers,2023-12-24T01:30:00Z,FanDuel,Golden State Warriors,-8.5,1.91,2023-12-22T23:55:39Z
+d5c718e775d1e9ee0e3b2bbc24fbc5fb,New Orleans Pelicans,Houston Rockets,2023-12-24T00:10:00Z,FanDuel,New Orleans Pelicans,-7.5,1.93,2023-12-23T23:55:38Z
+43d03fbd22e26bf2f365898f05b6f8d7,Chicago Bulls,Cleveland Cavaliers,2023-12-24T01:00:00Z,FanDuel,Chicago Bulls,-5.5,1.91,2023-12-23T23:55:38Z
+719105352c7dc3e657d2127d172cd90a,Oklahoma City Thunder,Los Angeles Lakers,2023-12-24T01:10:00Z,FanDuel,Oklahoma City Thunder,-3.0,1.91,2023-12-23T23:55:38Z
+118304f978b0732968df8edc010ed96a,Dallas Mavericks,San Antonio Spurs,2023-12-24T01:40:00Z,FanDuel,Dallas Mavericks,-8.0,1.91,2023-12-23T23:55:38Z
+a44b967e74012a10d7e9c6a3f4570c8f,Sacramento Kings,Minnesota Timberwolves,2023-12-24T03:10:00Z,FanDuel,Sacramento Kings,-3.0,1.91,2023-12-23T23:55:38Z
+8811ddb0d366db1fd65c124566629813,Detroit Pistons,Brooklyn Nets,2023-12-27T00:10:00Z,FanDuel,Detroit Pistons,6.0,1.93,2023-12-25T23:55:38Z
+31086b15e5261feb16dbdc162c179d5b,Washington Wizards,Orlando Magic,2023-12-27T00:10:00Z,FanDuel,Washington Wizards,6.5,1.91,2023-12-25T23:55:38Z
+332383bf7215581786c9cbfd78ba1795,Chicago Bulls,Atlanta Hawks,2023-12-27T01:00:00Z,FanDuel,Chicago Bulls,-1.0,1.88,2023-12-25T23:55:38Z
+56dd286c7b687a83f42845b574d52fe3,Houston Rockets,Indiana Pacers,2023-12-27T01:10:00Z,FanDuel,Houston Rockets,-2.5,1.91,2023-12-25T23:55:38Z
+361d1c3e2282ef4c858c10568deaa7eb,New Orleans Pelicans,Memphis Grizzlies,2023-12-27T01:10:00Z,FanDuel,New Orleans Pelicans,-4.5,1.91,2023-12-25T23:55:38Z
+467b39a8b732f8cd592bbe840c34250a,Oklahoma City Thunder,Minnesota Timberwolves,2023-12-27T01:10:00Z,FanDuel,Oklahoma City Thunder,-4.5,1.94,2023-12-25T23:55:38Z
+b13dc2d9f54ba07ac49da52f10b508eb,San Antonio Spurs,Utah Jazz,2023-12-27T01:10:00Z,FanDuel,San Antonio Spurs,2.5,1.91,2023-12-25T23:55:38Z
+5808d941d68c0ed447581ddb43da48eb,Portland Trail Blazers,Sacramento Kings,2023-12-27T03:10:00Z,FanDuel,Portland Trail Blazers,5.5,1.94,2023-12-25T23:55:38Z
+1ae80cb4d2a2f36dd4af929412f5555b,Los Angeles Clippers,Charlotte Hornets,2023-12-27T03:40:00Z,FanDuel,Los Angeles Clippers,-11.5,1.91,2023-12-25T23:55:38Z
+0acb786cec1a76fe87811b4b42b4061b,Orlando Magic,Philadelphia 76ers,2023-12-28T00:10:00Z,FanDuel,Orlando Magic,-2.5,1.94,2023-12-26T23:55:38Z
+c55ed9921bfce15d20afabb16e7c9069,Washington Wizards,Toronto Raptors,2023-12-28T00:10:00Z,FanDuel,Washington Wizards,6.5,1.91,2023-12-26T23:55:38Z
+6dae88a707aada220458191e794710e3,Brooklyn Nets,Milwaukee Bucks,2023-12-28T00:40:00Z,FanDuel,Brooklyn Nets,3.0,1.91,2023-12-26T23:55:38Z
+b59d6a3fdfcc30b542c178f27b6496c9,Houston Rockets,Phoenix Suns,2023-12-28T01:10:00Z,FanDuel,Houston Rockets,1.0,1.93,2023-12-26T23:55:38Z
+57ed0b1714d3d5e6a4c90b46edfa6fca,Oklahoma City Thunder,New York Knicks,2023-12-28T01:10:00Z,FanDuel,Oklahoma City Thunder,-2.5,1.91,2023-12-26T23:55:38Z
+a2b8a30ff6bd548cd8e7580643099746,Dallas Mavericks,Cleveland Cavaliers,2023-12-28T01:40:00Z,FanDuel,Dallas Mavericks,-4.0,1.91,2023-12-26T23:55:38Z
+0a25fa87e6a970c44bd5770e4b54440f,Boston Celtics,Detroit Pistons,2023-12-29T00:30:00Z,FanDuel,Boston Celtics,-17.5,1.91,2023-12-27T23:55:38Z
+291781e08309934322de7153e4d6a25a,Chicago Bulls,Indiana Pacers,2023-12-29T01:00:00Z,FanDuel,Chicago Bulls,2.0,1.91,2023-12-27T23:55:38Z
+633814cf1e75b797634fc10ef23011ee,New Orleans Pelicans,Utah Jazz,2023-12-29T01:00:00Z,FanDuel,New Orleans Pelicans,-8.5,1.91,2023-12-27T23:55:38Z
+b5680b7e178c6d891de102eaa4adb5d4,Denver Nuggets,Memphis Grizzlies,2023-12-29T02:00:00Z,FanDuel,Denver Nuggets,-6.0,1.91,2023-12-27T23:55:38Z
+77aa57de2c6d28b1197bd961fd14bdc6,Golden State Warriors,Miami Heat,2023-12-29T03:00:00Z,FanDuel,Golden State Warriors,-2.0,1.89,2023-12-27T23:55:38Z
+728dd6e0d122dd411ca2c76d35471cc5,Portland Trail Blazers,San Antonio Spurs,2023-12-29T03:00:00Z,FanDuel,Portland Trail Blazers,-5.5,1.91,2023-12-27T23:55:38Z
+0cdbb3003d85dc6dacc30ca76b41f408,Los Angeles Lakers,Charlotte Hornets,2023-12-29T03:30:00Z,FanDuel,Los Angeles Lakers,-12.0,1.91,2023-12-27T23:55:38Z
+1126fa50abd910e80868523920c4516d,Minnesota Timberwolves,Dallas Mavericks,2023-12-29T01:10:00Z,FanDuel,Minnesota Timberwolves,-12.5,1.91,2023-12-28T23:55:39Z
+fb8f7542c822454c0a32da660c91be9d,Washington Wizards,Brooklyn Nets,2023-12-30T00:00:00Z,FanDuel,Washington Wizards,6.0,1.91,2023-12-28T23:55:39Z
+852bcd9da9a5bdd716b28d3590809f87,Orlando Magic,New York Knicks,2023-12-30T00:00:00Z,FanDuel,Orlando Magic,-1.5,1.91,2023-12-28T23:55:39Z
+03d60dcf62b892e2dc7a4e013c9abeb0,Cleveland Cavaliers,Milwaukee Bucks,2023-12-30T00:30:00Z,FanDuel,Cleveland Cavaliers,5.0,1.91,2023-12-28T23:55:39Z
 05f41c702f32852542143ee87787049b,Boston Celtics,Toronto Raptors,2023-12-30T00:30:00Z,FanDuel,Boston Celtics,-4.5,1.88,2023-12-29T23:55:38Z
 bdaf9d2fef9628808173b856a504ee28,Atlanta Hawks,Sacramento Kings,2023-12-30T00:40:00Z,FanDuel,Atlanta Hawks,1.5,1.91,2023-12-29T23:55:38Z
-03d60dcf62b892e2dc7a4e013c9abeb0,Cleveland Cavaliers,Milwaukee Bucks,2023-12-30T00:40:00Z,FanDuel,Cleveland Cavaliers,5.0,1.91,2023-12-29T23:55:38Z
 12c7ad357f9d090c1d205b9146cf82e2,Houston Rockets,Philadelphia 76ers,2023-12-30T01:10:00Z,FanDuel,Houston Rockets,1.5,1.89,2023-12-29T23:55:38Z
-109ec3b34be7091714ef54c9f68bfb16,Phoenix Suns,Charlotte Hornets,2023-12-30T02:10:00Z,FanDuel,Charlotte Hornets,16.0,1.89,2023-12-29T23:55:38Z
+109ec3b34be7091714ef54c9f68bfb16,Phoenix Suns,Charlotte Hornets,2023-12-30T02:10:00Z,FanDuel,Phoenix Suns,-16.0,1.93,2023-12-29T23:55:38Z
 51dbe1a663136d835bd01d86aff4b351,Denver Nuggets,Oklahoma City Thunder,2023-12-30T02:10:00Z,FanDuel,Denver Nuggets,-1.5,1.93,2023-12-29T23:55:38Z
 174186f9d7a4b087e44911a23abc8641,Portland Trail Blazers,San Antonio Spurs,2023-12-30T03:00:00Z,FanDuel,Portland Trail Blazers,-5.5,1.91,2023-12-29T23:55:38Z
 278637ae0d466211ddc5c15f097cb5ee,Los Angeles Clippers,Memphis Grizzlies,2023-12-30T03:30:00Z,FanDuel,Los Angeles Clippers,-4.5,1.93,2023-12-29T23:55:38Z
 fc02d1a39b53c20230af13d9b5dd15d1,Detroit Pistons,Toronto Raptors,2023-12-30T23:00:00Z,FanDuel,Detroit Pistons,4.5,1.91,2023-12-29T23:55:38Z
 41dfd7e61e0b40fc0f10d98fa473cbef,Indiana Pacers,New York Knicks,2023-12-31T00:00:00Z,FanDuel,Indiana Pacers,-3.5,1.91,2023-12-29T23:55:38Z
-5642e6bedfa5b46e68ee9ea9ebb7c39d,Minnesota Timberwolves,Los Angeles Lakers,2023-12-31T01:00:00Z,FanDuel,Los Angeles Lakers,4.0,1.93,2023-12-29T23:55:38Z
-c5557110bef1e8e4ad64ff9e9fa867e2,Utah Jazz,Miami Heat,2023-12-30T22:10:00Z,FanDuel,Miami Heat,-1.5,1.91,2023-12-30T11:55:38Z
-864b43b398b818e59f51a556ee596044,Chicago Bulls,Philadelphia 76ers,2023-12-31T01:10:00Z,FanDuel,Chicago Bulls,-1.5,1.91,2023-12-30T11:55:38Z
-b0dc85ec5e468aca414d3ee313b88186,Golden State Warriors,Dallas Mavericks,2023-12-31T01:40:00Z,FanDuel,Dallas Mavericks,4.5,1.89,2023-12-30T11:55:38Z
-4869ddd191401fe115d3b2ab76465611,Washington Wizards,Atlanta Hawks,2023-12-31T20:00:00Z,FanDuel,Atlanta Hawks,-6.5,1.91,2023-12-30T23:55:38Z
-13329da1fbc39b449e6836142193640c,San Antonio Spurs,Boston Celtics,2024-01-01T00:00:00Z,FanDuel,Boston Celtics,-12.5,1.91,2023-12-30T23:55:38Z
-6091c5c29e4cb508bca51e72bb2f6c87,Oklahoma City Thunder,Brooklyn Nets,2024-01-01T00:00:00Z,FanDuel,Brooklyn Nets,8.0,1.91,2023-12-30T23:55:38Z
+5642e6bedfa5b46e68ee9ea9ebb7c39d,Minnesota Timberwolves,Los Angeles Lakers,2023-12-31T01:00:00Z,FanDuel,Minnesota Timberwolves,-4.0,1.89,2023-12-29T23:55:38Z
+c5557110bef1e8e4ad64ff9e9fa867e2,Utah Jazz,Miami Heat,2023-12-30T22:10:00Z,FanDuel,Utah Jazz,1.5,1.83,2023-12-30T23:55:38Z
+864b43b398b818e59f51a556ee596044,Chicago Bulls,Philadelphia 76ers,2023-12-31T01:10:00Z,FanDuel,Chicago Bulls,-1.0,1.91,2023-12-30T23:55:38Z
+b0dc85ec5e468aca414d3ee313b88186,Golden State Warriors,Dallas Mavericks,2023-12-31T01:40:00Z,FanDuel,Golden State Warriors,-4.0,1.89,2023-12-30T23:55:38Z
+4869ddd191401fe115d3b2ab76465611,Washington Wizards,Atlanta Hawks,2023-12-31T20:00:00Z,FanDuel,Washington Wizards,6.5,1.91,2023-12-30T23:55:38Z
+13329da1fbc39b449e6836142193640c,San Antonio Spurs,Boston Celtics,2024-01-01T00:00:00Z,FanDuel,San Antonio Spurs,12.5,1.91,2023-12-30T23:55:38Z
+6091c5c29e4cb508bca51e72bb2f6c87,Oklahoma City Thunder,Brooklyn Nets,2024-01-01T00:00:00Z,FanDuel,Oklahoma City Thunder,-8.0,1.91,2023-12-30T23:55:38Z
 eb434b59d540e88c93f543ec92975b7a,Memphis Grizzlies,Sacramento Kings,2024-01-01T01:00:00Z,FanDuel,Memphis Grizzlies,1.0,1.89,2023-12-30T23:55:38Z
-25348b429f9584571659f556664423a6,Phoenix Suns,Orlando Magic,2024-01-01T01:00:00Z,FanDuel,Orlando Magic,5.5,1.91,2023-12-30T23:55:38Z
-7498e9ec73fcacfcbdf85c985e7f1cab,New Orleans Pelicans,Los Angeles Lakers,2024-01-01T00:00:00Z,FanDuel,Los Angeles Lakers,6.0,1.93,2023-12-31T11:55:38Z
-659d130068c3d3aacfc543f6dc774710,New York Knicks,Minnesota Timberwolves,2024-01-01T20:00:00Z,FanDuel,Minnesota Timberwolves,-1.0,1.89,2023-12-31T23:55:38Z
-a08facebe173ad8024a3eabd83c27d1b,Toronto Raptors,Cleveland Cavaliers,2024-01-02T00:30:00Z,FanDuel,Cleveland Cavaliers,2.5,1.89,2023-12-31T23:55:38Z
-abc2e510f497929839f3f2b68ca7c958,Houston Rockets,Detroit Pistons,2024-01-02T01:00:00Z,FanDuel,Detroit Pistons,7.5,1.91,2023-12-31T23:55:38Z
-f87834276cce129ab33b7e49eb41e299,Milwaukee Bucks,Indiana Pacers,2024-01-02T01:00:00Z,FanDuel,Indiana Pacers,7.5,1.91,2023-12-31T23:55:38Z
-247f3063609ea28bffa82b0ff5c5e85e,Denver Nuggets,Charlotte Hornets,2024-01-02T02:10:00Z,FanDuel,Charlotte Hornets,14.5,1.91,2024-01-01T11:55:38Z
-adb2d384e2b7600cba88c429cc865c05,Utah Jazz,Dallas Mavericks,2024-01-02T02:10:00Z,FanDuel,Dallas Mavericks,-3.0,1.91,2024-01-01T11:55:38Z
-ed1407078249a1c878a2a25fb105ca37,Phoenix Suns,Portland Trail Blazers,2024-01-02T02:10:00Z,FanDuel,Phoenix Suns,-10.5,1.89,2024-01-01T11:55:38Z
-fccdbe4937c042841cd81c867c7c00d9,Los Angeles Clippers,Miami Heat,2024-01-02T03:30:00Z,FanDuel,Los Angeles Clippers,-7.0,1.91,2024-01-01T11:55:38Z
-d944070e615789cd5baf9c4f9461ca06,Philadelphia 76ers,Chicago Bulls,2024-01-03T00:00:00Z,FanDuel,Chicago Bulls,11.0,1.89,2024-01-01T23:55:38Z
-a52a1bb843ba6edbc47e5016b1d5acdb,Oklahoma City Thunder,Boston Celtics,2024-01-03T01:00:00Z,FanDuel,Boston Celtics,-3.0,1.93,2024-01-01T23:55:38Z
-7a5b59b84f5434d0eb2cb162c0996111,New Orleans Pelicans,Brooklyn Nets,2024-01-03T01:00:00Z,FanDuel,Brooklyn Nets,7.0,1.91,2024-01-01T23:55:38Z
+25348b429f9584571659f556664423a6,Phoenix Suns,Orlando Magic,2024-01-01T01:00:00Z,FanDuel,Phoenix Suns,-5.5,1.91,2023-12-30T23:55:38Z
+7498e9ec73fcacfcbdf85c985e7f1cab,New Orleans Pelicans,Los Angeles Lakers,2024-01-01T00:00:00Z,FanDuel,New Orleans Pelicans,-5.5,1.91,2023-12-31T23:55:38Z
+659d130068c3d3aacfc543f6dc774710,New York Knicks,Minnesota Timberwolves,2024-01-01T20:00:00Z,FanDuel,New York Knicks,1.0,1.93,2023-12-31T23:55:38Z
+a08facebe173ad8024a3eabd83c27d1b,Toronto Raptors,Cleveland Cavaliers,2024-01-02T00:30:00Z,FanDuel,Toronto Raptors,-2.5,1.93,2023-12-31T23:55:38Z
+abc2e510f497929839f3f2b68ca7c958,Houston Rockets,Detroit Pistons,2024-01-02T01:00:00Z,FanDuel,Houston Rockets,-7.5,1.91,2023-12-31T23:55:38Z
+f87834276cce129ab33b7e49eb41e299,Milwaukee Bucks,Indiana Pacers,2024-01-02T01:00:00Z,FanDuel,Milwaukee Bucks,-7.5,1.91,2023-12-31T23:55:38Z
+247f3063609ea28bffa82b0ff5c5e85e,Denver Nuggets,Charlotte Hornets,2024-01-02T02:10:00Z,FanDuel,Denver Nuggets,-16.0,1.91,2024-01-01T23:55:38Z
+adb2d384e2b7600cba88c429cc865c05,Utah Jazz,Dallas Mavericks,2024-01-02T02:10:00Z,FanDuel,Utah Jazz,3.5,1.91,2024-01-01T23:55:38Z
+ed1407078249a1c878a2a25fb105ca37,Phoenix Suns,Portland Trail Blazers,2024-01-02T02:10:00Z,FanDuel,Phoenix Suns,-9.5,1.91,2024-01-01T23:55:38Z
+fccdbe4937c042841cd81c867c7c00d9,Los Angeles Clippers,Miami Heat,2024-01-02T03:30:00Z,FanDuel,Los Angeles Clippers,-8.0,1.89,2024-01-01T23:55:38Z
+d944070e615789cd5baf9c4f9461ca06,Philadelphia 76ers,Chicago Bulls,2024-01-03T00:00:00Z,FanDuel,Philadelphia 76ers,-11.0,1.93,2024-01-01T23:55:38Z
+a52a1bb843ba6edbc47e5016b1d5acdb,Oklahoma City Thunder,Boston Celtics,2024-01-03T01:00:00Z,FanDuel,Oklahoma City Thunder,3.0,1.89,2024-01-01T23:55:38Z
+7a5b59b84f5434d0eb2cb162c0996111,New Orleans Pelicans,Brooklyn Nets,2024-01-03T01:00:00Z,FanDuel,New Orleans Pelicans,-7.0,1.91,2024-01-01T23:55:38Z
 2b871ecb2e2b0d4078b5525f7157bb0e,Memphis Grizzlies,San Antonio Spurs,2024-01-03T01:00:00Z,FanDuel,Memphis Grizzlies,-12.5,1.91,2024-01-01T23:55:38Z
 bf07b6c22bf9b5dbed6ce38218a3a7bc,Golden State Warriors,Orlando Magic,2024-01-03T03:00:00Z,FanDuel,Golden State Warriors,-3.5,1.91,2024-01-01T23:55:38Z
-e1ed979f59409ce7a6bd5c4c65d206b9,Sacramento Kings,Charlotte Hornets,2024-01-03T03:00:00Z,FanDuel,Charlotte Hornets,16.5,1.89,2024-01-02T11:55:38Z
+e1ed979f59409ce7a6bd5c4c65d206b9,Sacramento Kings,Charlotte Hornets,2024-01-03T03:00:00Z,FanDuel,Sacramento Kings,-15.0,1.89,2024-01-02T23:55:38Z
 841dfcf98e692ae4f26234e95c79de3d,Cleveland Cavaliers,Washington Wizards,2024-01-04T00:00:00Z,FanDuel,Cleveland Cavaliers,-9.0,1.91,2024-01-02T23:55:38Z
 a47b8f015ef0b099245e2051122f5088,Indiana Pacers,Milwaukee Bucks,2024-01-04T00:00:00Z,FanDuel,Indiana Pacers,3.5,1.93,2024-01-02T23:55:38Z
 72bf2f2d8a9c6c1e9843e46d1b5e24b7,Atlanta Hawks,Oklahoma City Thunder,2024-01-04T00:30:00Z,FanDuel,Atlanta Hawks,1.0,1.91,2024-01-02T23:55:38Z
-3067b110ab7954682325558a1dd1087f,Houston Rockets,Brooklyn Nets,2024-01-04T01:00:00Z,FanDuel,Brooklyn Nets,6.5,1.91,2024-01-02T23:55:38Z
+3067b110ab7954682325558a1dd1087f,Houston Rockets,Brooklyn Nets,2024-01-04T01:00:00Z,FanDuel,Houston Rockets,-6.5,1.91,2024-01-02T23:55:38Z
 c91b21dc2eab39da8a237b17c1c558b6,Memphis Grizzlies,Toronto Raptors,2024-01-04T01:00:00Z,FanDuel,Memphis Grizzlies,-2.0,1.91,2024-01-02T23:55:38Z
 8d7dd2dcb619ebf659135c8aebe36182,Minnesota Timberwolves,New Orleans Pelicans,2024-01-04T01:00:00Z,FanDuel,Minnesota Timberwolves,-6.0,1.91,2024-01-02T23:55:38Z
-995a6ae461543b68b19f724997164aea,New York Knicks,Chicago Bulls,2024-01-04T01:30:00Z,FanDuel,Chicago Bulls,8.0,1.93,2024-01-02T23:55:38Z
+995a6ae461543b68b19f724997164aea,New York Knicks,Chicago Bulls,2024-01-04T01:30:00Z,FanDuel,New York Knicks,-8.0,1.89,2024-01-02T23:55:38Z
 0c125e874a4a54986ad227950baa3d15,Dallas Mavericks,Portland Trail Blazers,2024-01-04T01:30:00Z,FanDuel,Dallas Mavericks,-11.0,1.91,2024-01-02T23:55:38Z
-292d7e3ca0f07fa6e22f6c26829d824c,Phoenix Suns,Los Angeles Clippers,2024-01-04T02:00:00Z,FanDuel,Los Angeles Clippers,1.0,1.91,2024-01-02T23:55:38Z
-9e748523e90787ee0d95cb98ff42704a,Utah Jazz,Detroit Pistons,2024-01-04T02:10:00Z,FanDuel,Detroit Pistons,6.5,1.91,2024-01-02T23:55:38Z
+292d7e3ca0f07fa6e22f6c26829d824c,Phoenix Suns,Los Angeles Clippers,2024-01-04T02:00:00Z,FanDuel,Phoenix Suns,-1.0,1.91,2024-01-02T23:55:38Z
+9e748523e90787ee0d95cb98ff42704a,Utah Jazz,Detroit Pistons,2024-01-04T02:10:00Z,FanDuel,Utah Jazz,-6.5,1.89,2024-01-02T23:55:38Z
 963326b353e68dc1c8c0d093070fafff,Los Angeles Lakers,Miami Heat,2024-01-04T03:00:00Z,FanDuel,Los Angeles Lakers,-5.0,1.91,2024-01-02T23:55:38Z
-cb71b7e1e6fc76086f82dcb62fddf840,Sacramento Kings,Orlando Magic,2024-01-04T03:00:00Z,FanDuel,Orlando Magic,4.0,1.93,2024-01-02T23:55:38Z
-6a742c9eec8705c3c5db6f3b2b4271ec,San Antonio Spurs,Milwaukee Bucks,2024-01-05T00:30:00Z,FanDuel,Milwaukee Bucks,-9.0,1.89,2024-01-03T23:55:38Z
-0870c85f22b7c9fca69b8a7937019b94,Golden State Warriors,Denver Nuggets,2024-01-05T03:00:00Z,FanDuel,Denver Nuggets,-3.0,1.93,2024-01-03T23:55:38Z
-5d2c1f9c53d34e33ac4381c733ab5e69,Indiana Pacers,Atlanta Hawks,2024-01-06T00:10:00Z,FanDuel,Atlanta Hawks,4.0,1.93,2024-01-04T23:55:38Z
+cb71b7e1e6fc76086f82dcb62fddf840,Sacramento Kings,Orlando Magic,2024-01-04T03:00:00Z,FanDuel,Sacramento Kings,-4.0,1.89,2024-01-02T23:55:38Z
+6a742c9eec8705c3c5db6f3b2b4271ec,San Antonio Spurs,Milwaukee Bucks,2024-01-05T00:30:00Z,FanDuel,San Antonio Spurs,9.0,1.93,2024-01-03T23:55:38Z
+0870c85f22b7c9fca69b8a7937019b94,Golden State Warriors,Denver Nuggets,2024-01-05T03:00:00Z,FanDuel,Golden State Warriors,3.0,1.89,2024-01-03T23:55:38Z
+5d2c1f9c53d34e33ac4381c733ab5e69,Indiana Pacers,Atlanta Hawks,2024-01-06T00:10:00Z,FanDuel,Indiana Pacers,-4.0,1.89,2024-01-04T23:55:38Z
 11a800bd63a00a4cb3c1e61ac5c4d8ac,Boston Celtics,Utah Jazz,2024-01-06T00:10:00Z,FanDuel,Boston Celtics,-14.5,1.91,2024-01-04T23:55:38Z
 3ebf6428fb949d85612eeba7ee8cfbfd,Brooklyn Nets,Oklahoma City Thunder,2024-01-06T00:40:00Z,FanDuel,Brooklyn Nets,5.5,1.91,2024-01-04T23:55:38Z
 4520583758a6ce47ccd83be78600d676,Cleveland Cavaliers,Washington Wizards,2024-01-06T00:40:00Z,FanDuel,Cleveland Cavaliers,-10.5,1.91,2024-01-04T23:55:38Z
-fd5f8b3bcebb7c37e2755764753f8f42,Philadelphia 76ers,New York Knicks,2024-01-06T00:40:00Z,FanDuel,New York Knicks,6.0,1.91,2024-01-04T23:55:38Z
-9a4d77990853eaed26e3224411179934,Chicago Bulls,Charlotte Hornets,2024-01-06T01:10:00Z,FanDuel,Charlotte Hornets,7.5,1.93,2024-01-04T23:55:38Z
+fd5f8b3bcebb7c37e2755764753f8f42,Philadelphia 76ers,New York Knicks,2024-01-06T00:40:00Z,FanDuel,Philadelphia 76ers,-6.0,1.91,2024-01-04T23:55:38Z
+9a4d77990853eaed26e3224411179934,Chicago Bulls,Charlotte Hornets,2024-01-06T01:10:00Z,FanDuel,Chicago Bulls,-7.5,1.89,2024-01-04T23:55:38Z
 367a8f7254b43135b3c4f7c5f4c366eb,Houston Rockets,Minnesota Timberwolves,2024-01-06T01:10:00Z,FanDuel,Houston Rockets,3.5,1.91,2024-01-04T23:55:38Z
-fbb0c0d69081b8ddb571a258d154a4d4,New Orleans Pelicans,Los Angeles Clippers,2024-01-06T01:10:00Z,FanDuel,Los Angeles Clippers,-1.0,1.93,2024-01-04T23:55:38Z
+fbb0c0d69081b8ddb571a258d154a4d4,New Orleans Pelicans,Los Angeles Clippers,2024-01-06T01:10:00Z,FanDuel,New Orleans Pelicans,1.0,1.89,2024-01-04T23:55:38Z
 b54c9f24a1e3858fee5a50d7c8de67f1,Dallas Mavericks,Portland Trail Blazers,2024-01-06T01:40:00Z,FanDuel,Dallas Mavericks,-11.0,1.91,2024-01-04T23:55:38Z
 3cc7ce119c6c058b2239046ea9026829,Los Angeles Lakers,Memphis Grizzlies,2024-01-06T03:10:00Z,FanDuel,Los Angeles Lakers,-5.0,1.91,2024-01-04T23:55:38Z
 dd21b6ee284a4931b2f052cc413f2a70,Sacramento Kings,Toronto Raptors,2024-01-06T03:10:00Z,FanDuel,Sacramento Kings,-5.0,1.91,2024-01-04T23:55:38Z
-cbd4709b5df7f1ee3ff6e287693f9d49,Denver Nuggets,Orlando Magic,2024-01-06T02:10:00Z,FanDuel,Denver Nuggets,-10.0,1.91,2024-01-05T11:55:38Z
-6204f69f2547e80da1725fa11d1c4f2b,Phoenix Suns,Miami Heat,2024-01-06T02:10:00Z,FanDuel,Miami Heat,3.5,1.91,2024-01-05T11:55:38Z
-2d8a2e24ec78be47754ac9648e6b11d3,Golden State Warriors,Detroit Pistons,2024-01-06T03:10:00Z,FanDuel,Detroit Pistons,9.5,1.91,2024-01-05T11:55:38Z
-2c6229d13c5bd7c6dc4f305279b9c213,Indiana Pacers,Boston Celtics,2024-01-07T00:10:00Z,FanDuel,Boston Celtics,-5.5,1.93,2024-01-06T11:55:38Z
-64de05ce61382ff896014b76fdbf6997,Washington Wizards,New York Knicks,2024-01-07T00:10:00Z,FanDuel,New York Knicks,-8.5,1.91,2024-01-06T11:55:38Z
-67d5b3cdd93d4899c35bb484c9fd9844,Philadelphia 76ers,Utah Jazz,2024-01-07T00:40:00Z,FanDuel,Philadelphia 76ers,-12.0,1.91,2024-01-06T11:55:38Z
-ad5227071a5a01dac5aae1a5ecfe866c,Houston Rockets,Milwaukee Bucks,2024-01-07T01:10:00Z,FanDuel,Houston Rockets,6.0,1.91,2024-01-06T11:55:38Z
+cbd4709b5df7f1ee3ff6e287693f9d49,Denver Nuggets,Orlando Magic,2024-01-06T02:10:00Z,FanDuel,Denver Nuggets,-9.5,1.94,2024-01-05T23:55:38Z
+6204f69f2547e80da1725fa11d1c4f2b,Phoenix Suns,Miami Heat,2024-01-06T02:10:00Z,FanDuel,Phoenix Suns,-2.5,1.88,2024-01-05T23:55:38Z
+2d8a2e24ec78be47754ac9648e6b11d3,Golden State Warriors,Detroit Pistons,2024-01-06T03:10:00Z,FanDuel,Golden State Warriors,-10.5,1.94,2024-01-05T23:55:38Z
+2c6229d13c5bd7c6dc4f305279b9c213,Indiana Pacers,Boston Celtics,2024-01-07T00:10:00Z,FanDuel,Indiana Pacers,7.0,1.94,2024-01-06T23:55:38Z
+64de05ce61382ff896014b76fdbf6997,Washington Wizards,New York Knicks,2024-01-07T00:10:00Z,FanDuel,Washington Wizards,9.5,1.91,2024-01-06T23:55:38Z
+67d5b3cdd93d4899c35bb484c9fd9844,Philadelphia 76ers,Utah Jazz,2024-01-07T00:40:00Z,FanDuel,Philadelphia 76ers,-8.5,1.94,2024-01-06T23:55:38Z
+ad5227071a5a01dac5aae1a5ecfe866c,Houston Rockets,Milwaukee Bucks,2024-01-07T01:10:00Z,FanDuel,Houston Rockets,7.0,1.94,2024-01-06T23:55:38Z
 f364d840523f4949317a530098ab5baf,Cleveland Cavaliers,San Antonio Spurs,2024-01-07T18:10:00Z,FanDuel,Cleveland Cavaliers,-10.0,1.91,2024-01-06T23:55:38Z
 eddbaed920097c723dba2467f2132e48,Brooklyn Nets,Portland Trail Blazers,2024-01-07T20:10:00Z,FanDuel,Brooklyn Nets,-7.5,1.91,2024-01-06T23:55:38Z
-0958da6a611bae4e69976d6b833f0592,Orlando Magic,Atlanta Hawks,2024-01-07T23:10:00Z,FanDuel,Atlanta Hawks,-2.0,1.91,2024-01-06T23:55:38Z
-92bea1bea71b6518895814b373701fd9,Sacramento Kings,New Orleans Pelicans,2024-01-07T23:10:00Z,FanDuel,New Orleans Pelicans,3.5,1.91,2024-01-06T23:55:38Z
+0958da6a611bae4e69976d6b833f0592,Orlando Magic,Atlanta Hawks,2024-01-07T23:10:00Z,FanDuel,Orlando Magic,2.0,1.91,2024-01-06T23:55:38Z
+92bea1bea71b6518895814b373701fd9,Sacramento Kings,New Orleans Pelicans,2024-01-07T23:10:00Z,FanDuel,Sacramento Kings,-3.5,1.91,2024-01-06T23:55:38Z
 981e915d1f8d0eeac38fc4b02eb102ec,Denver Nuggets,Detroit Pistons,2024-01-08T01:10:00Z,FanDuel,Denver Nuggets,-16.5,1.91,2024-01-06T23:55:38Z
 d70b160a9133b39e3d0be11b7da1bab4,Golden State Warriors,Toronto Raptors,2024-01-08T01:40:00Z,FanDuel,Golden State Warriors,-2.5,1.91,2024-01-06T23:55:38Z
-a86a125d847a82ba94031b1ebc5f9bcc,Los Angeles Lakers,Los Angeles Clippers,2024-01-08T02:40:00Z,FanDuel,Los Angeles Clippers,-3.0,1.89,2024-01-06T23:55:38Z
-ab1628b343ce7d255dfa61c3cf9790bb,Dallas Mavericks,Minnesota Timberwolves,2024-01-08T00:40:00Z,FanDuel,Dallas Mavericks,3.0,1.89,2024-01-07T11:55:38Z
-66026ec50bdf0540e380d0afee0ec689,Phoenix Suns,Memphis Grizzlies,2024-01-08T01:10:00Z,FanDuel,Memphis Grizzlies,4.0,1.91,2024-01-07T11:55:38Z
-65bb01f9e84586de83c517c4b4b98c83,Indiana Pacers,Boston Celtics,2024-01-09T00:10:00Z,FanDuel,Boston Celtics,-3.5,1.88,2024-01-08T11:55:38Z
-b41748d2a9c92ee2b6ca536bd8f84be0,Charlotte Hornets,Chicago Bulls,2024-01-09T00:10:00Z,FanDuel,Charlotte Hornets,6.5,1.91,2024-01-08T11:55:38Z
-0ec5be883025b650efcd5bd67fe23479,Washington Wizards,Oklahoma City Thunder,2024-01-09T00:10:00Z,FanDuel,Oklahoma City Thunder,-11.5,1.89,2024-01-08T11:55:38Z
-da8f399eb003df80b0484f8a71121b16,Miami Heat,Houston Rockets,2024-01-09T00:40:00Z,FanDuel,Houston Rockets,4.5,1.88,2024-01-08T11:55:38Z
-e60ec8bf6640c0de75259adf25488f48,Milwaukee Bucks,Utah Jazz,2024-01-09T01:10:00Z,FanDuel,Milwaukee Bucks,-9.5,1.91,2024-01-08T11:55:38Z
-757420d619afb9b6d322f9b2fc6abfc0,Los Angeles Clippers,Phoenix Suns,2024-01-09T03:40:00Z,FanDuel,Los Angeles Clippers,-6.0,1.89,2024-01-08T11:55:38Z
+a86a125d847a82ba94031b1ebc5f9bcc,Los Angeles Lakers,Los Angeles Clippers,2024-01-08T02:40:00Z,FanDuel,Los Angeles Lakers,3.0,1.93,2024-01-06T23:55:38Z
+ab1628b343ce7d255dfa61c3cf9790bb,Dallas Mavericks,Minnesota Timberwolves,2024-01-08T00:40:00Z,FanDuel,Dallas Mavericks,2.0,1.91,2024-01-07T23:55:38Z
+66026ec50bdf0540e380d0afee0ec689,Phoenix Suns,Memphis Grizzlies,2024-01-08T01:10:00Z,FanDuel,Phoenix Suns,-4.5,1.88,2024-01-07T23:55:38Z
+65bb01f9e84586de83c517c4b4b98c83,Indiana Pacers,Boston Celtics,2024-01-09T00:10:00Z,FanDuel,Indiana Pacers,3.5,1.89,2024-01-08T23:55:38Z
+b41748d2a9c92ee2b6ca536bd8f84be0,Charlotte Hornets,Chicago Bulls,2024-01-09T00:10:00Z,FanDuel,Charlotte Hornets,7.0,1.88,2024-01-08T23:55:38Z
+0ec5be883025b650efcd5bd67fe23479,Washington Wizards,Oklahoma City Thunder,2024-01-09T00:10:00Z,FanDuel,Washington Wizards,11.0,1.93,2024-01-08T23:55:38Z
+da8f399eb003df80b0484f8a71121b16,Miami Heat,Houston Rockets,2024-01-09T00:40:00Z,FanDuel,Miami Heat,-4.0,1.88,2024-01-08T23:55:38Z
+e60ec8bf6640c0de75259adf25488f48,Milwaukee Bucks,Utah Jazz,2024-01-09T01:10:00Z,FanDuel,Milwaukee Bucks,-8.0,1.89,2024-01-08T23:55:38Z
+757420d619afb9b6d322f9b2fc6abfc0,Los Angeles Clippers,Phoenix Suns,2024-01-09T03:40:00Z,FanDuel,Los Angeles Clippers,-5.5,1.91,2024-01-08T23:55:38Z
 2f73214b46643888affad9ddd9d903da,Detroit Pistons,Sacramento Kings,2024-01-09T23:10:00Z,FanDuel,Detroit Pistons,10.5,1.91,2024-01-08T23:55:38Z
 87080bb75a0ac57c28cfa7298d7c8ebd,New York Knicks,Portland Trail Blazers,2024-01-09T23:40:00Z,FanDuel,New York Knicks,-11.5,1.91,2024-01-08T23:55:38Z
-089a78a2e29bbcdfc79a62f3e663078b,Orlando Magic,Minnesota Timberwolves,2024-01-10T00:10:00Z,FanDuel,Minnesota Timberwolves,-4.5,1.91,2024-01-08T23:55:38Z
+089a78a2e29bbcdfc79a62f3e663078b,Orlando Magic,Minnesota Timberwolves,2024-01-10T00:10:00Z,FanDuel,Orlando Magic,4.5,1.91,2024-01-08T23:55:38Z
 e338711c115490c0d8b9d627a3a5d0d8,Dallas Mavericks,Memphis Grizzlies,2024-01-10T00:40:00Z,FanDuel,Dallas Mavericks,-4.5,1.91,2024-01-08T23:55:38Z
 7e4d0be1b43312db858ecb772530948b,Los Angeles Lakers,Toronto Raptors,2024-01-10T02:40:00Z,FanDuel,Los Angeles Lakers,-4.5,1.91,2024-01-08T23:55:38Z
 15a375dcf4fe437fa75c67b168a0477a,Detroit Pistons,San Antonio Spurs,2024-01-11T00:10:00Z,FanDuel,Detroit Pistons,3.5,1.91,2024-01-09T23:55:39Z
@@ -92,36 +329,676 @@ ad1acd1e45556473298640f659931688,Indiana Pacers,Washington Wizards,2024-01-11T00
 65c49d8dc1016b113338ff0c40d46254,Atlanta Hawks,Philadelphia 76ers,2024-01-11T00:40:00Z,FanDuel,Atlanta Hawks,-2.5,1.91,2024-01-09T23:55:39Z
 a2a3b8b1eb296e209955174e254e568b,Miami Heat,Oklahoma City Thunder,2024-01-11T00:40:00Z,FanDuel,Miami Heat,3.5,1.91,2024-01-09T23:55:39Z
 a94afdc1984969801a8e5840f4212098,Chicago Bulls,Houston Rockets,2024-01-11T01:10:00Z,FanDuel,Chicago Bulls,-3.5,1.88,2024-01-09T23:55:39Z
-935c2b7c94d7cafcf7a3f9ad368c2394,Utah Jazz,Denver Nuggets,2024-01-11T03:10:00Z,FanDuel,Denver Nuggets,-7.0,1.91,2024-01-09T23:55:39Z
+935c2b7c94d7cafcf7a3f9ad368c2394,Utah Jazz,Denver Nuggets,2024-01-11T03:10:00Z,FanDuel,Utah Jazz,7.0,1.91,2024-01-09T23:55:39Z
 ab6489d7c70c7da0172f63b516bce99a,Los Angeles Clippers,Toronto Raptors,2024-01-11T03:40:00Z,FanDuel,Los Angeles Clippers,-10.5,1.93,2024-01-09T23:55:39Z
-e01d74231676f2ad4d16aa942e0a4f34,Boston Celtics,Minnesota Timberwolves,2024-01-11T00:10:00Z,FanDuel,Boston Celtics,-7.0,1.93,2024-01-10T11:55:39Z
-24cb4b3fc9006668f25da7ebc037c1d4,Charlotte Hornets,Sacramento Kings,2024-01-11T00:10:00Z,FanDuel,Charlotte Hornets,7.0,1.91,2024-01-10T11:55:39Z
-c292bc55210bda21dcaa7116c379dbfc,Golden State Warriors,New Orleans Pelicans,2024-01-11T01:40:00Z,FanDuel,Golden State Warriors,1.0,1.89,2024-01-10T11:55:39Z
-531d08dcc62bd8ff8fdfa6e9fec5ff3b,Cleveland Cavaliers,Brooklyn Nets,2024-01-11T19:10:00Z,FanDuel,Brooklyn Nets,3.0,1.93,2024-01-10T23:55:39Z
+e01d74231676f2ad4d16aa942e0a4f34,Boston Celtics,Minnesota Timberwolves,2024-01-11T00:10:00Z,FanDuel,Boston Celtics,-10.5,1.89,2024-01-10T23:55:39Z
+24cb4b3fc9006668f25da7ebc037c1d4,Charlotte Hornets,Sacramento Kings,2024-01-11T00:10:00Z,FanDuel,Charlotte Hornets,8.5,1.89,2024-01-10T23:55:39Z
+c292bc55210bda21dcaa7116c379dbfc,Golden State Warriors,New Orleans Pelicans,2024-01-11T01:40:00Z,FanDuel,Golden State Warriors,2.0,1.93,2024-01-10T23:55:39Z
+531d08dcc62bd8ff8fdfa6e9fec5ff3b,Cleveland Cavaliers,Brooklyn Nets,2024-01-11T19:10:00Z,FanDuel,Cleveland Cavaliers,-3.0,1.89,2024-01-10T23:55:39Z
 b918615a8bf9ea1e1bb49217e1a9abc8,Oklahoma City Thunder,Portland Trail Blazers,2024-01-12T01:10:00Z,FanDuel,Oklahoma City Thunder,-13.5,1.91,2024-01-10T23:55:39Z
 597402cbd6925e47b157a09f3ca92188,Los Angeles Lakers,Phoenix Suns,2024-01-12T03:10:00Z,FanDuel,Los Angeles Lakers,-2.0,1.91,2024-01-10T23:55:39Z
-f0d5f42035ceac1cb59f85f8a328bfc4,Milwaukee Bucks,Boston Celtics,2024-01-12T00:40:00Z,FanDuel,Boston Celtics,6.0,1.89,2024-01-11T11:55:39Z
-b322ad4c29ce1526d4a4e107c550e10c,Dallas Mavericks,New York Knicks,2024-01-12T01:40:00Z,FanDuel,Dallas Mavericks,4.5,1.91,2024-01-11T11:55:39Z
+f0d5f42035ceac1cb59f85f8a328bfc4,Milwaukee Bucks,Boston Celtics,2024-01-12T00:40:00Z,FanDuel,Milwaukee Bucks,-2.5,1.93,2024-01-11T23:55:39Z
+b322ad4c29ce1526d4a4e107c550e10c,Dallas Mavericks,New York Knicks,2024-01-12T01:40:00Z,FanDuel,Dallas Mavericks,5.0,1.91,2024-01-11T23:55:39Z
 4fab380b9dd73c58f8c04955d5d50e0a,Atlanta Hawks,Indiana Pacers,2024-01-13T00:40:00Z,FanDuel,Atlanta Hawks,-6.0,1.94,2024-01-11T23:55:39Z
 ce0b77647dc843d0c6a6e26fb1e85310,Detroit Pistons,Houston Rockets,2024-01-13T00:40:00Z,FanDuel,Detroit Pistons,8.0,1.91,2024-01-11T23:55:39Z
 4bb33f9e087fe09ec3e761654d2a9c9b,Philadelphia 76ers,Sacramento Kings,2024-01-13T00:40:00Z,FanDuel,Philadelphia 76ers,-1.0,1.93,2024-01-11T23:55:39Z
 c3e42ca6fea8f85a0f7b85c60e992dcb,Chicago Bulls,Golden State Warriors,2024-01-13T01:10:00Z,FanDuel,Chicago Bulls,-3.0,1.91,2024-01-11T23:55:39Z
 eccf1cca8b563fda49cddb5f2eb60263,Miami Heat,Orlando Magic,2024-01-13T01:10:00Z,FanDuel,Miami Heat,-3.0,1.91,2024-01-11T23:55:39Z
-2fa856835cd06f3735716b1eaa3bcd74,San Antonio Spurs,Charlotte Hornets,2024-01-13T01:10:00Z,FanDuel,Charlotte Hornets,1.5,1.91,2024-01-12T11:55:39Z
-83613911db631a4b3785533973cd8f4c,Memphis Grizzlies,Los Angeles Clippers,2024-01-13T01:10:00Z,FanDuel,Los Angeles Clippers,-7.5,1.89,2024-01-12T11:55:39Z
-121ebd3a072821211dabd422a7d06ebe,Minnesota Timberwolves,Portland Trail Blazers,2024-01-13T01:10:00Z,FanDuel,Minnesota Timberwolves,-15.0,1.93,2024-01-12T11:55:39Z
-3f5db4bbf2bb60dbbe5b5740f8ae3de1,Utah Jazz,Toronto Raptors,2024-01-13T02:40:00Z,FanDuel,Toronto Raptors,2.5,1.91,2024-01-12T11:55:39Z
-a24d41baaf3c2b2278c3b32989925a91,Denver Nuggets,New Orleans Pelicans,2024-01-13T03:00:00Z,FanDuel,Denver Nuggets,-8.5,1.93,2024-01-12T11:55:39Z
+2fa856835cd06f3735716b1eaa3bcd74,San Antonio Spurs,Charlotte Hornets,2024-01-13T01:10:00Z,FanDuel,San Antonio Spurs,-2.5,1.93,2024-01-12T23:55:39Z
+83613911db631a4b3785533973cd8f4c,Memphis Grizzlies,Los Angeles Clippers,2024-01-13T01:10:00Z,FanDuel,Memphis Grizzlies,8.5,1.93,2024-01-12T23:55:39Z
+121ebd3a072821211dabd422a7d06ebe,Minnesota Timberwolves,Portland Trail Blazers,2024-01-13T01:10:00Z,FanDuel,Minnesota Timberwolves,-16.0,1.93,2024-01-12T23:55:39Z
+3f5db4bbf2bb60dbbe5b5740f8ae3de1,Utah Jazz,Toronto Raptors,2024-01-13T02:40:00Z,FanDuel,Utah Jazz,-2.5,1.91,2024-01-12T23:55:39Z
+a24d41baaf3c2b2278c3b32989925a91,Denver Nuggets,New Orleans Pelicans,2024-01-13T03:00:00Z,FanDuel,Denver Nuggets,-5.5,1.89,2024-01-12T23:55:39Z
 f4579f1385cb7e5b8b922a2212c35db9,Boston Celtics,Houston Rockets,2024-01-14T00:00:00Z,FanDuel,Boston Celtics,-15.0,1.93,2024-01-12T23:55:39Z
 89a696e249158eb8f3e1bca2c93fc23f,Atlanta Hawks,Washington Wizards,2024-01-14T00:30:00Z,FanDuel,Atlanta Hawks,-8.0,1.91,2024-01-12T23:55:39Z
-035a3b79c8fd09518208e5db87e931bd,Milwaukee Bucks,Golden State Warriors,2024-01-14T01:00:00Z,FanDuel,Golden State Warriors,11.0,1.93,2024-01-12T23:55:39Z
+035a3b79c8fd09518208e5db87e931bd,Milwaukee Bucks,Golden State Warriors,2024-01-14T01:00:00Z,FanDuel,Milwaukee Bucks,-11.0,1.89,2024-01-12T23:55:39Z
 0fbace228d4a69d6ca70feb4ce9ebb10,Memphis Grizzlies,New York Knicks,2024-01-14T01:00:00Z,FanDuel,Memphis Grizzlies,7.0,1.89,2024-01-12T23:55:39Z
 2b581f4145cc3bf8240f91a73b03c73d,Oklahoma City Thunder,Orlando Magic,2024-01-14T01:00:00Z,FanDuel,Oklahoma City Thunder,-11.5,1.91,2024-01-12T23:55:39Z
-5729cbe53aa7f3810d952cdaca54eae1,San Antonio Spurs,Chicago Bulls,2024-01-14T01:30:00Z,FanDuel,Chicago Bulls,-5.0,1.91,2024-01-12T23:55:39Z
-cfa02397ebf28d8d017ffd023373cc3b,Utah Jazz,Los Angeles Lakers,2024-01-14T02:30:00Z,FanDuel,Los Angeles Lakers,-2.5,1.93,2024-01-12T23:55:39Z
-df4517fdc70f0214d7fce0881f0be3fa,Dallas Mavericks,New Orleans Pelicans,2024-01-14T01:30:00Z,FanDuel,Dallas Mavericks,-2.5,1.93,2024-01-13T11:55:40Z
+5729cbe53aa7f3810d952cdaca54eae1,San Antonio Spurs,Chicago Bulls,2024-01-14T01:30:00Z,FanDuel,San Antonio Spurs,5.0,1.91,2024-01-12T23:55:39Z
+cfa02397ebf28d8d017ffd023373cc3b,Utah Jazz,Los Angeles Lakers,2024-01-14T02:30:00Z,FanDuel,Utah Jazz,2.5,1.89,2024-01-12T23:55:39Z
+df4517fdc70f0214d7fce0881f0be3fa,Dallas Mavericks,New Orleans Pelicans,2024-01-14T01:30:00Z,FanDuel,Dallas Mavericks,-4.0,1.91,2024-01-13T23:55:38Z
 6c95567e2d299dfca9a08c08813b255c,Denver Nuggets,Indiana Pacers,2024-01-14T20:40:00Z,FanDuel,Denver Nuggets,-11.0,1.93,2024-01-13T23:55:38Z
 841b4f18365557037930b4cf5adfcbc1,Milwaukee Bucks,Sacramento Kings,2024-01-15T00:10:00Z,FanDuel,Milwaukee Bucks,-5.5,1.94,2024-01-13T23:55:38Z
-e4ee8549119dc680e6385427b842b1dc,Portland Trail Blazers,Phoenix Suns,2024-01-15T02:10:00Z,FanDuel,Phoenix Suns,-10.5,1.91,2024-01-13T23:55:38Z
-8eb06f453a55f1335c573e0f91828d79,Miami Heat,Charlotte Hornets,2024-01-14T23:00:00Z,FanDuel,Charlotte Hornets,8.0,1.93,2024-01-14T11:55:38Z
-099cb6b9fc9683325034c5d2709eb940,Minnesota Timberwolves,Los Angeles Clippers,2024-01-15T00:10:00Z,FanDuel,Los Angeles Clippers,-1.5,1.89,2024-01-14T11:55:38Z
+e4ee8549119dc680e6385427b842b1dc,Portland Trail Blazers,Phoenix Suns,2024-01-15T02:10:00Z,FanDuel,Portland Trail Blazers,10.5,1.91,2024-01-13T23:55:38Z
+8eb06f453a55f1335c573e0f91828d79,Miami Heat,Charlotte Hornets,2024-01-14T23:13:33Z,FanDuel,Miami Heat,-17.5,1.85,2024-01-14T23:55:38Z
+099cb6b9fc9683325034c5d2709eb940,Minnesota Timberwolves,Los Angeles Clippers,2024-01-15T00:10:00Z,FanDuel,Minnesota Timberwolves,-1.0,1.91,2024-01-14T23:55:38Z
+93af4b300a4c0dded909234ea32e9abd,Philadelphia 76ers,Houston Rockets,2024-01-15T17:00:00Z,FanDuel,Philadelphia 76ers,-7.5,1.91,2024-01-14T23:55:38Z
+b15ce504a25bc1a46e14d486614bc1df,Dallas Mavericks,New Orleans Pelicans,2024-01-15T18:30:00Z,FanDuel,Dallas Mavericks,3.5,1.94,2024-01-14T23:55:38Z
+61a7cfa4f1a9ae8c34cc2b721aa74e76,Washington Wizards,Detroit Pistons,2024-01-15T19:00:00Z,FanDuel,Washington Wizards,-5.5,1.91,2024-01-14T23:55:38Z
+7c2d8070230578e04e11541272a70fd1,New York Knicks,Orlando Magic,2024-01-15T19:00:00Z,FanDuel,New York Knicks,-6.5,1.89,2024-01-14T23:55:38Z
+67bca0b36bc3e0ebfdf217d712cd60b6,Atlanta Hawks,San Antonio Spurs,2024-01-15T19:30:00Z,FanDuel,Atlanta Hawks,-8.0,1.89,2024-01-14T23:55:38Z
+76815e2233440eaa53f0565105823d0d,Memphis Grizzlies,Golden State Warriors,2024-01-15T22:00:00Z,FanDuel,Memphis Grizzlies,7.5,1.93,2024-01-14T23:55:38Z
+1a912694aef33d208f025892f35272e7,Cleveland Cavaliers,Chicago Bulls,2024-01-15T23:00:00Z,FanDuel,Cleveland Cavaliers,-4.0,1.91,2024-01-14T23:55:38Z
+b7b9c19dbda75e0bf14941bb53e3baf3,Toronto Raptors,Boston Celtics,2024-01-15T23:30:00Z,FanDuel,Toronto Raptors,7.5,1.91,2024-01-14T23:55:38Z
+90a4e08060d5bf7daf348bc0dc48f636,Utah Jazz,Indiana Pacers,2024-01-16T01:00:00Z,FanDuel,Utah Jazz,-7.0,1.91,2024-01-14T23:55:38Z
+88b173aa0eb780ba5617bcfd2dae9f78,Brooklyn Nets,Miami Heat,2024-01-16T00:40:00Z,FanDuel,Brooklyn Nets,1.0,1.93,2024-01-15T23:55:38Z
+23de53fa4ec1fddc1880355fb05706b4,Los Angeles Lakers,Oklahoma City Thunder,2024-01-16T03:40:00Z,FanDuel,Los Angeles Lakers,3.0,1.88,2024-01-15T23:55:38Z
+6a820ec7d38d636f04bca79e58755054,Phoenix Suns,Sacramento Kings,2024-01-17T02:00:00Z,FanDuel,Phoenix Suns,-4.0,1.91,2024-01-15T23:55:38Z
+45b17d96edd0edcd13e817abc9476041,Philadelphia 76ers,Denver Nuggets,2024-01-17T00:40:00Z,FanDuel,Philadelphia 76ers,-1.5,1.88,2024-01-16T23:55:39Z
+666b7193a26420eac24cc589dd27ec26,Los Angeles Clippers,Oklahoma City Thunder,2024-01-17T03:10:00Z,FanDuel,Los Angeles Clippers,-6.5,1.94,2024-01-16T23:55:39Z
+179265bb5908c9704c41763de6c4fff6,Detroit Pistons,Minnesota Timberwolves,2024-01-18T00:10:00Z,FanDuel,Detroit Pistons,12.0,1.88,2024-01-16T23:55:39Z
+62dcee435e3cb956f963c018cbf041ac,Atlanta Hawks,Orlando Magic,2024-01-18T00:40:00Z,FanDuel,Atlanta Hawks,-3.0,1.89,2024-01-16T23:55:39Z
+23bb80a23cd3dfb63ca5f8b105268095,Cleveland Cavaliers,Milwaukee Bucks,2024-01-18T00:40:00Z,FanDuel,Cleveland Cavaliers,4.5,1.88,2024-01-16T23:55:39Z
+ac88bd22b5257db0d217d03625165365,Toronto Raptors,Miami Heat,2024-01-18T00:40:00Z,FanDuel,Toronto Raptors,1.5,1.93,2024-01-16T23:55:39Z
+5b48478ad132bedc104652877d51110d,New Orleans Pelicans,Charlotte Hornets,2024-01-18T01:10:00Z,FanDuel,New Orleans Pelicans,-12.5,1.89,2024-01-16T23:55:39Z
+36e7461f05a993188963028c3eef01ec,Utah Jazz,Golden State Warriors,2024-01-18T02:10:00Z,FanDuel,Utah Jazz,-4.0,1.89,2024-01-16T23:55:39Z
+2e55003043b3875249a8a346e3e7e99c,Boston Celtics,San Antonio Spurs,2024-01-18T00:40:00Z,FanDuel,Boston Celtics,-15.0,1.91,2024-01-17T23:55:39Z
+3e034222cba6403461f2e8e06103392e,New York Knicks,Houston Rockets,2024-01-18T00:40:00Z,FanDuel,New York Knicks,-7.0,1.89,2024-01-17T23:55:39Z
+23e8b7a481a194633252eb720394b444,Los Angeles Lakers,Dallas Mavericks,2024-01-18T01:40:00Z,FanDuel,Los Angeles Lakers,-4.0,1.91,2024-01-17T23:55:39Z
+7a6b534950c88233cbdbcba75a1a4f7e,Portland Trail Blazers,Brooklyn Nets,2024-01-18T03:10:00Z,FanDuel,Portland Trail Blazers,6.5,1.91,2024-01-17T23:55:39Z
+d6d1ff3aae93d532de6a136dc80791b0,Toronto Raptors,Chicago Bulls,2024-01-19T00:40:00Z,FanDuel,Toronto Raptors,2.0,1.94,2024-01-17T23:55:39Z
+3b00ba61b438774f94a41f79cc9377d9,Utah Jazz,Oklahoma City Thunder,2024-01-19T02:10:00Z,FanDuel,Utah Jazz,3.5,1.91,2024-01-17T23:55:39Z
+e144d29b0086e8bc69fb278df88fe5d5,Sacramento Kings,Indiana Pacers,2024-01-19T03:10:00Z,FanDuel,Sacramento Kings,-8.0,1.89,2024-01-17T23:55:39Z
+965db612a7c9fabe3233d6e1828dedc9,New York Knicks,Washington Wizards,2024-01-19T00:40:00Z,FanDuel,New York Knicks,-12.0,1.93,2024-01-18T23:55:38Z
+46c93763c88354372eeb420106250902,Minnesota Timberwolves,Memphis Grizzlies,2024-01-19T03:10:00Z,FanDuel,Minnesota Timberwolves,-12.5,1.91,2024-01-18T23:55:38Z
+662333ef1b21fb129c4a216b3f3351a6,Charlotte Hornets,San Antonio Spurs,2024-01-20T00:10:00Z,FanDuel,Charlotte Hornets,-4.5,1.93,2024-01-18T23:55:38Z
+d82b4dc5be4b4a0652456d7a043cedd0,Orlando Magic,Philadelphia 76ers,2024-01-20T00:10:00Z,FanDuel,Orlando Magic,5.0,1.89,2024-01-18T23:55:38Z
+86e5bd4fe42e5758b286f9ad0ceb4dc6,Boston Celtics,Denver Nuggets,2024-01-20T00:40:00Z,FanDuel,Boston Celtics,-5.5,1.94,2024-01-18T23:55:38Z
+33339feb3e5d51a4ecf061ee07761da7,Miami Heat,Atlanta Hawks,2024-01-20T01:10:00Z,FanDuel,Miami Heat,-6.5,1.94,2024-01-18T23:55:38Z
+76aaa347738d67be5c2e3191cbe9d74a,New Orleans Pelicans,Phoenix Suns,2024-01-20T01:10:00Z,FanDuel,New Orleans Pelicans,-2.5,1.94,2024-01-18T23:55:38Z
+d59cfa18f63bcafbef2731b027efe5db,Los Angeles Lakers,Brooklyn Nets,2024-01-20T03:40:00Z,FanDuel,Los Angeles Lakers,-6.5,1.88,2024-01-18T23:55:38Z
+d14d7f036e3ec003c492c1eaac5aaa55,Portland Trail Blazers,Indiana Pacers,2024-01-20T03:00:00Z,FanDuel,Portland Trail Blazers,8.0,1.91,2024-01-19T23:55:38Z
+2ee612077bee346c9a706ea59ec1607e,Detroit Pistons,Milwaukee Bucks,2024-01-20T20:10:00Z,FanDuel,Detroit Pistons,12.5,1.91,2024-01-19T23:55:38Z
+4a14405cae15a98f318f8efa086f84f3,Charlotte Hornets,Philadelphia 76ers,2024-01-21T00:10:00Z,FanDuel,Charlotte Hornets,10.0,1.91,2024-01-19T23:55:38Z
+134c245699d6879078c414bf9cdcbbb7,Washington Wizards,San Antonio Spurs,2024-01-21T00:10:00Z,FanDuel,Washington Wizards,-2.0,1.91,2024-01-19T23:55:38Z
+108f447c636b30461810cdac861c0631,New York Knicks,Toronto Raptors,2024-01-21T00:40:00Z,FanDuel,New York Knicks,-7.5,1.88,2024-01-19T23:55:38Z
+068b6bf7864d9d6593b028f855d91ea8,Houston Rockets,Utah Jazz,2024-01-21T01:10:00Z,FanDuel,Houston Rockets,-2.5,1.91,2024-01-19T23:55:38Z
+2d00c2ce82c0aa20fccf536171da4da0,Minnesota Timberwolves,Oklahoma City Thunder,2024-01-21T01:10:00Z,FanDuel,Minnesota Timberwolves,-2.5,1.91,2024-01-19T23:55:38Z
+1544f6fa249d27b94b59d19318fb58ec,Atlanta Hawks,Cleveland Cavaliers,2024-01-21T00:30:00Z,FanDuel,Atlanta Hawks,1.5,1.93,2024-01-20T23:55:38Z
+673d1687d365d7a3dbd8ea052f6b1897,Chicago Bulls,Memphis Grizzlies,2024-01-21T01:00:00Z,FanDuel,Chicago Bulls,-7.5,1.88,2024-01-20T23:55:38Z
+49325bb03d20a117af7791689ae4f6c6,Los Angeles Clippers,Brooklyn Nets,2024-01-21T20:40:00Z,FanDuel,Los Angeles Clippers,-10.5,1.89,2024-01-20T23:55:38Z
+c5cbe87ba27c3810855831349167b363,Washington Wizards,Denver Nuggets,2024-01-21T23:10:00Z,FanDuel,Washington Wizards,13.5,1.89,2024-01-20T23:55:38Z
+5c153688eb5283894e76590ab264773d,Orlando Magic,Miami Heat,2024-01-21T23:10:00Z,FanDuel,Orlando Magic,1.0,1.91,2024-01-20T23:55:38Z
+66856247d60dbf6509de746cfa61e53a,Houston Rockets,Boston Celtics,2024-01-22T00:10:00Z,FanDuel,Houston Rockets,10.0,1.91,2024-01-20T23:55:38Z
+db0aefb3b86e534296dbcf247932c8d7,Phoenix Suns,Indiana Pacers,2024-01-22T01:10:00Z,FanDuel,Phoenix Suns,-4.5,1.89,2024-01-20T23:55:38Z
+34240f59835f190d1ff60364dc3971a9,Los Angeles Lakers,Portland Trail Blazers,2024-01-22T03:00:00Z,FanDuel,Los Angeles Lakers,-10.5,1.88,2024-01-21T23:55:38Z
+e0f0e4873572cba4283ce8eeb91b8c62,Orlando Magic,Cleveland Cavaliers,2024-01-23T00:10:00Z,FanDuel,Orlando Magic,1.0,1.91,2024-01-21T23:55:38Z
+1b7e8b8ba66965b9c9239835557f29a9,Detroit Pistons,Milwaukee Bucks,2024-01-23T00:10:00Z,FanDuel,Detroit Pistons,12.0,1.91,2024-01-21T23:55:38Z
+2d3e8168f621f021109443894d574900,Philadelphia 76ers,San Antonio Spurs,2024-01-23T00:10:00Z,FanDuel,Philadelphia 76ers,-14.0,1.91,2024-01-21T23:55:38Z
+b5d99174d49d5b901ac5ebbaf114cd8d,Toronto Raptors,Memphis Grizzlies,2024-01-23T00:40:00Z,FanDuel,Toronto Raptors,-7.0,1.91,2024-01-21T23:55:38Z
+61a2bfc755f758060c29f86800a4ee6c,Minnesota Timberwolves,Charlotte Hornets,2024-01-23T01:10:00Z,FanDuel,Minnesota Timberwolves,-15.5,1.89,2024-01-21T23:55:38Z
+af25ab1d02115c82509d6e64abf5041a,Dallas Mavericks,Boston Celtics,2024-01-23T01:40:00Z,FanDuel,Dallas Mavericks,3.5,1.91,2024-01-21T23:55:38Z
+df7adb412b7288d797716b62e7fd9c08,Phoenix Suns,Chicago Bulls,2024-01-23T02:10:00Z,FanDuel,Phoenix Suns,-6.0,1.91,2024-01-21T23:55:38Z
+8d10317ba9e722c46b6b5c70d01287fb,Sacramento Kings,Atlanta Hawks,2024-01-23T03:10:00Z,FanDuel,Sacramento Kings,-8.0,1.91,2024-01-21T23:55:38Z
+7f1a95acde0d60fb6ba81d868805fcb5,Indiana Pacers,Denver Nuggets,2024-01-24T00:10:00Z,FanDuel,Indiana Pacers,3.0,1.91,2024-01-22T23:55:38Z
+2f78a1b730c36ef02e0654c1ff76ecde,Brooklyn Nets,New York Knicks,2024-01-24T00:40:00Z,FanDuel,Brooklyn Nets,4.0,1.91,2024-01-22T23:55:38Z
+0249d46d392b1011c31be5e32684d006,New Orleans Pelicans,Utah Jazz,2024-01-24T01:10:00Z,FanDuel,New Orleans Pelicans,-6.5,1.91,2024-01-22T23:55:38Z
+a3aca2c10790938d38f9fa1ef6b073af,Oklahoma City Thunder,Portland Trail Blazers,2024-01-24T01:10:00Z,FanDuel,Oklahoma City Thunder,-14.5,1.91,2024-01-22T23:55:38Z
+71cdef74e2dda3636e0c7ff101b85427,Los Angeles Clippers,Los Angeles Lakers,2024-01-24T03:10:00Z,FanDuel,Los Angeles Clippers,-6.5,1.94,2024-01-22T23:55:38Z
+49968cc330c487e870cb40719b460aa0,Detroit Pistons,Charlotte Hornets,2024-01-25T00:10:00Z,FanDuel,Detroit Pistons,-3.0,1.91,2024-01-23T23:55:39Z
+0230c390bef6b389c8a6aeaeee97a657,Washington Wizards,Minnesota Timberwolves,2024-01-25T00:10:00Z,FanDuel,Washington Wizards,11.0,1.91,2024-01-23T23:55:39Z
+27719644acb13e72e59e2541fa2cedc6,Miami Heat,Memphis Grizzlies,2024-01-25T00:40:00Z,FanDuel,Miami Heat,-10.0,1.91,2024-01-23T23:55:39Z
+d17963a06bcc5ec6cd01a2412150ea9f,Milwaukee Bucks,Cleveland Cavaliers,2024-01-25T01:10:00Z,FanDuel,Milwaukee Bucks,-6.5,1.91,2024-01-23T23:55:39Z
+ec1e6d75cb21bf00827063cde37b5408,Houston Rockets,Portland Trail Blazers,2024-01-25T01:10:00Z,FanDuel,Houston Rockets,-10.0,1.91,2024-01-23T23:55:39Z
+071ee3e84d6e3ecce12d8c5e4ab4da0b,San Antonio Spurs,Oklahoma City Thunder,2024-01-25T02:40:00Z,FanDuel,San Antonio Spurs,8.0,1.91,2024-01-23T23:55:39Z
+f137689983933840bf2f2a91278eb03b,Dallas Mavericks,Phoenix Suns,2024-01-25T01:40:00Z,FanDuel,Dallas Mavericks,1.5,1.91,2024-01-24T23:55:38Z
+cd0bc7d0c238f4446ce1c03d0cea7ec4,Golden State Warriors,Atlanta Hawks,2024-01-25T03:10:00Z,FanDuel,Golden State Warriors,-6.0,1.89,2024-01-24T23:55:38Z
+b0884a7a89675d96158f7920d9509af5,Indiana Pacers,Philadelphia 76ers,2024-01-26T00:10:00Z,FanDuel,Indiana Pacers,4.5,1.91,2024-01-24T23:55:38Z
+d6d59edfb861a14e40e437c941d04467,Washington Wizards,Utah Jazz,2024-01-26T00:10:00Z,FanDuel,Washington Wizards,7.0,1.89,2024-01-24T23:55:38Z
+ef90c3973321840601afc866d39ccb03,Miami Heat,Boston Celtics,2024-01-26T00:40:00Z,FanDuel,Miami Heat,7.0,1.93,2024-01-24T23:55:38Z
+047b50c356e7de6f7797b4214055f668,Brooklyn Nets,Minnesota Timberwolves,2024-01-26T00:40:00Z,FanDuel,Brooklyn Nets,4.5,1.91,2024-01-24T23:55:38Z
+4ac9a73f9687400752e7df2e0a6d50cc,New York Knicks,Denver Nuggets,2024-01-26T00:40:00Z,FanDuel,New York Knicks,2.5,1.91,2024-01-24T23:55:38Z
+c718b0180074acc92ec22727eca92557,Golden State Warriors,Sacramento Kings,2024-01-26T03:10:00Z,FanDuel,Golden State Warriors,2.0,1.91,2024-01-25T23:55:40Z
+c730256e4e3a2e3ce90c5f7b6de2039c,Los Angeles Lakers,Chicago Bulls,2024-01-26T03:40:00Z,FanDuel,Los Angeles Lakers,-5.0,1.91,2024-01-25T23:55:40Z
+fd17cfe3b49111c5a8234c042aa0bd64,Atlanta Hawks,Dallas Mavericks,2024-01-27T00:10:00Z,FanDuel,Atlanta Hawks,2.0,1.89,2024-01-25T23:55:40Z
+a64fc78c05b915d1fc632c18c187bae4,Charlotte Hornets,Houston Rockets,2024-01-27T00:10:00Z,FanDuel,Charlotte Hornets,5.5,1.91,2024-01-25T23:55:40Z
+00fab86481c3742b15fb2d836d93354d,Indiana Pacers,Phoenix Suns,2024-01-27T00:10:00Z,FanDuel,Indiana Pacers,5.0,1.93,2024-01-25T23:55:40Z
+dec3609c0838c5b462f60d46bcfd5f70,Toronto Raptors,Los Angeles Clippers,2024-01-27T00:40:00Z,FanDuel,Toronto Raptors,7.5,1.91,2024-01-25T23:55:40Z
+eb17455bdc9168ae6e75f16b174f2cf0,Milwaukee Bucks,Cleveland Cavaliers,2024-01-27T01:10:00Z,FanDuel,Milwaukee Bucks,-6.0,1.91,2024-01-25T23:55:40Z
+c4c573a5e544098d5126cba6af4e28a3,Memphis Grizzlies,Orlando Magic,2024-01-27T01:10:00Z,FanDuel,Memphis Grizzlies,5.0,1.91,2024-01-25T23:55:40Z
+f30caa1687deb3c162c7eb3b790bf055,New Orleans Pelicans,Oklahoma City Thunder,2024-01-27T01:10:00Z,FanDuel,New Orleans Pelicans,-2.0,1.93,2024-01-25T23:55:40Z
+adfe3aba005634afacf20097194ffaa3,San Antonio Spurs,Portland Trail Blazers,2024-01-27T02:40:00Z,FanDuel,San Antonio Spurs,-1.5,1.91,2024-01-25T23:55:40Z
+8acab70b3a0cb4385f43cdb9be46f51e,Detroit Pistons,Washington Wizards,2024-01-27T17:10:00Z,FanDuel,Detroit Pistons,-2.0,1.91,2024-01-26T23:55:39Z
+a6723e3e807097d7f2c9ddc86ef9e328,New York Knicks,Miami Heat,2024-01-27T20:10:00Z,FanDuel,New York Knicks,-5.0,1.88,2024-01-26T23:55:39Z
+d3442aecd064199661a7688e945e9322,Denver Nuggets,Philadelphia 76ers,2024-01-27T22:40:00Z,FanDuel,Denver Nuggets,-5.0,1.91,2024-01-26T23:55:39Z
+301ad65f4673d1a2eae073f7efba9421,Brooklyn Nets,Houston Rockets,2024-01-27T23:10:00Z,FanDuel,Brooklyn Nets,-4.5,1.91,2024-01-26T23:55:39Z
+9a68fdf503d67f523f69281993509484,Boston Celtics,Los Angeles Clippers,2024-01-28T00:10:00Z,FanDuel,Boston Celtics,-7.0,1.91,2024-01-26T23:55:39Z
+12107384a91db8dcb5b994c25ec246cf,Charlotte Hornets,Utah Jazz,2024-01-28T00:10:00Z,FanDuel,Charlotte Hornets,8.5,1.91,2024-01-26T23:55:39Z
+0460d950cb29d58e59c88dad5a74b28a,Golden State Warriors,Los Angeles Lakers,2024-01-28T01:40:00Z,FanDuel,Golden State Warriors,-1.5,1.91,2024-01-26T23:55:39Z
+2c93e6ea3d2207c2a3b845c67fc7ac71,San Antonio Spurs,Minnesota Timberwolves,2024-01-28T01:40:00Z,FanDuel,San Antonio Spurs,11.0,1.91,2024-01-26T23:55:39Z
+ba6166ce4a6ee9e5429d7aaef0dccd8a,Milwaukee Bucks,New Orleans Pelicans,2024-01-28T01:10:00Z,FanDuel,Milwaukee Bucks,-5.0,1.88,2024-01-27T23:55:39Z
+7120c9dee5818a11c74240793dfe476e,Dallas Mavericks,Sacramento Kings,2024-01-28T02:10:00Z,FanDuel,Dallas Mavericks,4.5,1.91,2024-01-27T23:55:39Z
+06e1e6df721b1e5b7ad6c4b4082a4a1b,Orlando Magic,Phoenix Suns,2024-01-28T23:10:32Z,FanDuel,Orlando Magic,3.5,1.85,2024-01-28T23:55:38Z
+dd18b10bbf3b521e24246c9b8cd334f9,Atlanta Hawks,Toronto Raptors,2024-01-28T23:11:44Z,FanDuel,Atlanta Hawks,-2.5,1.83,2024-01-28T23:55:38Z
+625662ca867473f6929413f9501db9c7,Portland Trail Blazers,Chicago Bulls,2024-01-29T02:10:00Z,FanDuel,Portland Trail Blazers,7.5,1.91,2024-01-28T23:55:38Z
+338498e80b83b40a71a8007f35e7f75f,Cleveland Cavaliers,Los Angeles Clippers,2024-01-30T00:10:00Z,FanDuel,Cleveland Cavaliers,2.0,1.93,2024-01-28T23:55:38Z
+4a3052a695ff58a96c90b779b8cbf31c,Brooklyn Nets,Utah Jazz,2024-01-30T00:40:00Z,FanDuel,Brooklyn Nets,-1.0,1.91,2024-01-28T23:55:38Z
+ae283919c50eeb0ec3e4f3b448794a0c,Memphis Grizzlies,Sacramento Kings,2024-01-30T01:00:00Z,FanDuel,Memphis Grizzlies,8.0,1.91,2024-01-28T23:55:38Z
+2d2c82d8f6aca461b4eb04d25a7b2a0a,San Antonio Spurs,Washington Wizards,2024-01-30T01:10:00Z,FanDuel,San Antonio Spurs,-4.0,1.91,2024-01-28T23:55:38Z
+644252818ce49c9843ca6d5f3ad5a498,Denver Nuggets,Milwaukee Bucks,2024-01-30T02:00:00Z,FanDuel,Denver Nuggets,-4.5,1.93,2024-01-28T23:55:38Z
+306b0f963954132df822cb2221d988f9,Charlotte Hornets,New York Knicks,2024-01-30T00:10:00Z,FanDuel,Charlotte Hornets,10.0,1.89,2024-01-29T23:55:38Z
+27af33a357d0ce2f216ef54f140bd917,Boston Celtics,New Orleans Pelicans,2024-01-30T00:40:00Z,FanDuel,Boston Celtics,-8.0,1.94,2024-01-29T23:55:38Z
+3284c853bf3af56958e45327a90abea4,Miami Heat,Phoenix Suns,2024-01-30T00:40:00Z,FanDuel,Miami Heat,-3.0,1.91,2024-01-29T23:55:38Z
+357757b113c4a432b64e60a7844a80e0,Houston Rockets,Los Angeles Lakers,2024-01-30T01:10:00Z,FanDuel,Houston Rockets,1.0,1.89,2024-01-29T23:55:38Z
+5ed590ec4fc92535a6e41fdf7192895e,Oklahoma City Thunder,Minnesota Timberwolves,2024-01-30T01:10:00Z,FanDuel,Oklahoma City Thunder,-2.5,1.89,2024-01-29T23:55:38Z
+81cf7611e8d8c34278a3e41843656598,Dallas Mavericks,Orlando Magic,2024-01-30T01:40:00Z,FanDuel,Dallas Mavericks,-4.5,1.89,2024-01-29T23:55:38Z
+618f278f8511905c697d8a5f92890226,Portland Trail Blazers,Philadelphia 76ers,2024-01-30T03:10:00Z,FanDuel,Portland Trail Blazers,8.5,1.93,2024-01-29T23:55:38Z
+bdd9f81bd5b9358f9dd0480895196b45,Boston Celtics,Indiana Pacers,2024-01-31T00:30:00Z,FanDuel,Boston Celtics,-8.0,1.89,2024-01-30T23:55:38Z
+a1ce4e385dafe59342d13a82dff13f45,Atlanta Hawks,Los Angeles Lakers,2024-01-31T00:40:00Z,FanDuel,Atlanta Hawks,-5.5,1.89,2024-01-30T23:55:38Z
+00005f0bead0cd85b8134cf9bf78b328,New York Knicks,Utah Jazz,2024-01-31T00:40:00Z,FanDuel,New York Knicks,-3.0,1.93,2024-01-30T23:55:38Z
+699fc7a8402b5b86cfc4005c741b931b,Chicago Bulls,Toronto Raptors,2024-01-31T01:10:00Z,FanDuel,Chicago Bulls,-6.5,1.89,2024-01-30T23:55:38Z
+7420fec779838d002b5d114a61621b74,Golden State Warriors,Philadelphia 76ers,2024-01-31T03:00:00Z,FanDuel,Golden State Warriors,-3.5,1.91,2024-01-30T23:55:38Z
+6c5f62219d3b294c53a4128b8943e0c1,Washington Wizards,Los Angeles Clippers,2024-02-01T00:10:00Z,FanDuel,Washington Wizards,12.0,1.91,2024-01-30T23:55:38Z
+422f4049bc9b2515b4e7a72a14d85ebb,Miami Heat,Sacramento Kings,2024-02-01T00:40:00Z,FanDuel,Miami Heat,-1.0,1.93,2024-01-30T23:55:38Z
+a4de39670b744c62a0534f7677c21b81,Houston Rockets,New Orleans Pelicans,2024-02-01T01:10:00Z,FanDuel,Houston Rockets,2.5,1.91,2024-01-30T23:55:38Z
+b0ae442e06f7cf7af311b020155aeb16,San Antonio Spurs,Orlando Magic,2024-02-01T01:10:00Z,FanDuel,San Antonio Spurs,5.0,1.91,2024-01-30T23:55:38Z
+688d43f3208dc877dfd3bebdc601d206,Brooklyn Nets,Phoenix Suns,2024-02-01T01:40:00Z,FanDuel,Brooklyn Nets,3.5,1.91,2024-01-30T23:55:38Z
+9f09998d5eb5ae0a2a5aa1f4ec15e352,Portland Trail Blazers,Milwaukee Bucks,2024-02-01T03:10:00Z,FanDuel,Portland Trail Blazers,9.5,1.91,2024-01-30T23:55:38Z
+9c845bb3a21e53408e69f74ada6ec692,Charlotte Hornets,Chicago Bulls,2024-02-01T00:10:00Z,FanDuel,Charlotte Hornets,6.0,1.91,2024-01-31T23:55:39Z
+3809091fe28877eec16f619b98cb1cf1,Cleveland Cavaliers,Detroit Pistons,2024-02-01T00:10:00Z,FanDuel,Cleveland Cavaliers,-13.5,1.91,2024-01-31T23:55:39Z
+c9aabaa87b7f8ce7578a9a2d9cda5e01,Minnesota Timberwolves,Dallas Mavericks,2024-02-01T01:10:00Z,FanDuel,Minnesota Timberwolves,-13.0,1.91,2024-01-31T23:55:39Z
+fe13669f9ccdb19d81aa7674070572e2,Oklahoma City Thunder,Denver Nuggets,2024-02-01T01:10:00Z,FanDuel,Oklahoma City Thunder,-5.5,1.91,2024-01-31T23:55:39Z
+1f3e8f83c490472c9f17dbc2bc4b230d,Boston Celtics,Los Angeles Lakers,2024-02-02T00:30:00Z,FanDuel,Boston Celtics,-11.0,1.91,2024-01-31T23:55:39Z
+8509e7402eb40d7191efd082714cbb00,New York Knicks,Indiana Pacers,2024-02-02T00:30:00Z,FanDuel,New York Knicks,-4.0,1.94,2024-01-31T23:55:39Z
+424daaffedd61e8ae4b632fd82e2001f,Memphis Grizzlies,Cleveland Cavaliers,2024-02-02T01:10:00Z,FanDuel,Memphis Grizzlies,8.5,1.89,2024-02-01T23:55:39Z
+730f1a225a18cad675e4ad784d84ddd2,Utah Jazz,Philadelphia 76ers,2024-02-02T03:00:00Z,FanDuel,Utah Jazz,-5.0,1.91,2024-02-01T23:55:39Z
+edcad241d6bcc087fa882d1c51dca158,Detroit Pistons,Los Angeles Clippers,2024-02-03T00:10:00Z,FanDuel,Detroit Pistons,10.5,1.91,2024-02-01T23:55:39Z
+440c3a9a15c4720c9489149b43084fcf,Washington Wizards,Miami Heat,2024-02-03T00:10:00Z,FanDuel,Washington Wizards,8.5,1.89,2024-02-01T23:55:39Z
+6d56c1b66223554febbbc29adbff7030,Atlanta Hawks,Phoenix Suns,2024-02-03T00:40:00Z,FanDuel,Atlanta Hawks,3.5,1.91,2024-02-01T23:55:39Z
+5a2c54ea1152ad98a0cffbc384498fe6,Oklahoma City Thunder,Charlotte Hornets,2024-02-03T01:10:00Z,FanDuel,Oklahoma City Thunder,-17.0,1.91,2024-02-01T23:55:39Z
+e7271eaea720f9eb5464233ae9179c07,Memphis Grizzlies,Golden State Warriors,2024-02-03T01:10:00Z,FanDuel,Memphis Grizzlies,5.5,1.94,2024-02-01T23:55:39Z
+00d402c5ac5c2f2c7cc4c6399d5506a8,Houston Rockets,Toronto Raptors,2024-02-03T01:10:00Z,FanDuel,Houston Rockets,-4.5,1.88,2024-02-01T23:55:39Z
+522175be153068393b064500385b6726,Minnesota Timberwolves,Orlando Magic,2024-02-03T01:10:00Z,FanDuel,Minnesota Timberwolves,-7.5,1.91,2024-02-01T23:55:39Z
+bc01747e843aee505047fcdff91509af,San Antonio Spurs,New Orleans Pelicans,2024-02-03T01:10:00Z,FanDuel,San Antonio Spurs,7.0,1.91,2024-02-01T23:55:39Z
+7da703168fd1eee7df69d7be611bb4f6,Denver Nuggets,Portland Trail Blazers,2024-02-03T02:10:00Z,FanDuel,Denver Nuggets,-12.0,1.91,2024-02-01T23:55:39Z
+f415f24887946e00199a4602d509b098,Indiana Pacers,Sacramento Kings,2024-02-03T00:40:00Z,FanDuel,Indiana Pacers,3.5,1.91,2024-02-02T23:55:38Z
+c10eb70fa8dbc3fedacc89358c634473,Philadelphia 76ers,Brooklyn Nets,2024-02-03T23:10:00Z,FanDuel,Philadelphia 76ers,-4.5,1.93,2024-02-02T23:55:38Z
+f032a8fd9de1d7a761d800cd30684b0a,Atlanta Hawks,Golden State Warriors,2024-02-04T00:40:00Z,FanDuel,Atlanta Hawks,-2.5,1.91,2024-02-02T23:55:38Z
+4d81df8ee5814d5ee8c7cf3876e05e47,Chicago Bulls,Sacramento Kings,2024-02-04T01:10:00Z,FanDuel,Chicago Bulls,-1.5,1.93,2024-02-02T23:55:38Z
+0e17601f0ff918d775b447d04dd0633c,San Antonio Spurs,Cleveland Cavaliers,2024-02-04T01:40:00Z,FanDuel,San Antonio Spurs,10.0,1.91,2024-02-02T23:55:38Z
+50dff868885ed053013372d606077f10,Dallas Mavericks,Milwaukee Bucks,2024-02-04T01:40:00Z,FanDuel,Dallas Mavericks,3.5,1.91,2024-02-02T23:55:38Z
+9f46f4bb825feb9f3b494e1a50d305ff,New York Knicks,Los Angeles Lakers,2024-02-04T01:40:00Z,FanDuel,New York Knicks,-6.0,1.91,2024-02-02T23:55:38Z
+997fd5a267287ce3f9993c107aa447f9,Detroit Pistons,Orlando Magic,2024-02-04T20:10:00Z,FanDuel,Detroit Pistons,6.5,1.93,2024-02-03T23:55:38Z
+3c428dfed0b7391a6138f77e1b971a8e,Washington Wizards,Phoenix Suns,2024-02-04T20:40:00Z,FanDuel,Washington Wizards,11.5,1.91,2024-02-03T23:55:38Z
+17ba8515ddc861d56c660eb90d00d317,Boston Celtics,Memphis Grizzlies,2024-02-04T23:10:00Z,FanDuel,Boston Celtics,-16.0,1.89,2024-02-03T23:55:38Z
+916e37accc708c4e76fd2f4e14a02d42,Charlotte Hornets,Indiana Pacers,2024-02-04T23:10:00Z,FanDuel,Charlotte Hornets,9.0,1.91,2024-02-03T23:55:38Z
+6405ed37b375739beca42069272d8e2a,Miami Heat,Los Angeles Clippers,2024-02-04T23:10:00Z,FanDuel,Miami Heat,3.5,1.93,2024-02-03T23:55:38Z
+2eaf2bc151d58288cfed10dcda63d9fd,Minnesota Timberwolves,Houston Rockets,2024-02-05T00:10:00Z,FanDuel,Minnesota Timberwolves,-7.0,1.91,2024-02-03T23:55:38Z
+f660b1395a23d754eae81194c1712a2f,Oklahoma City Thunder,Toronto Raptors,2024-02-05T00:10:00Z,FanDuel,Oklahoma City Thunder,-10.0,1.91,2024-02-03T23:55:38Z
+964828ad63abbe09a1ce39b33e183ac0,Utah Jazz,Milwaukee Bucks,2024-02-05T01:10:00Z,FanDuel,Utah Jazz,-1.0,1.91,2024-02-03T23:55:38Z
+baf4676539c18a08af7b65c01d7a4c68,Denver Nuggets,Portland Trail Blazers,2024-02-05T01:40:00Z,FanDuel,Denver Nuggets,-13.0,1.91,2024-02-03T23:55:38Z
+c57c67cfb539cf4c05362a523bddb5c6,Charlotte Hornets,Los Angeles Lakers,2024-02-06T00:10:00Z,FanDuel,Charlotte Hornets,10.5,1.91,2024-02-04T23:55:38Z
+8186cd1bf9532be759bb8eb7bde84e4b,Cleveland Cavaliers,Sacramento Kings,2024-02-06T00:10:00Z,FanDuel,Cleveland Cavaliers,-6.0,1.93,2024-02-04T23:55:38Z
+32f291b23ce6df0f9fe15c0a58c99b42,Philadelphia 76ers,Dallas Mavericks,2024-02-06T00:00:00Z,FanDuel,Philadelphia 76ers,2.5,1.89,2024-02-05T23:55:38Z
+3bcf1d078ea54ebd637faf85b1c467dd,Atlanta Hawks,Los Angeles Clippers,2024-02-06T00:40:00Z,FanDuel,Atlanta Hawks,4.0,1.91,2024-02-05T23:55:38Z
+9595e1c59a8f2b7aadf50e7b4aa7e484,Brooklyn Nets,Golden State Warriors,2024-02-06T00:40:00Z,FanDuel,Brooklyn Nets,1.0,1.89,2024-02-05T23:55:38Z
+350bcbad8fb66860839837b45ed2ccc6,New Orleans Pelicans,Toronto Raptors,2024-02-06T01:10:00Z,FanDuel,New Orleans Pelicans,-11.5,1.91,2024-02-05T23:55:38Z
+f3c91b1eb87a2f197f105428b59d55db,Indiana Pacers,Houston Rockets,2024-02-07T00:00:00Z,FanDuel,Indiana Pacers,-7.0,1.93,2024-02-05T23:55:38Z
+0c5b93580f2fbad574aff85fd3272a47,New York Knicks,Memphis Grizzlies,2024-02-07T00:30:00Z,FanDuel,New York Knicks,-13.5,1.89,2024-02-05T23:55:38Z
+433ccafea8b23768fdc3ccbcf0f6c571,Miami Heat,Orlando Magic,2024-02-07T00:30:00Z,FanDuel,Miami Heat,-3.0,1.91,2024-02-05T23:55:38Z
+ae485779df689c94304a10e3023e24fd,Chicago Bulls,Minnesota Timberwolves,2024-02-07T01:00:00Z,FanDuel,Chicago Bulls,5.0,1.91,2024-02-05T23:55:38Z
+00d7a33dba9660ac75482514645c2d2c,Utah Jazz,Oklahoma City Thunder,2024-02-07T02:00:00Z,FanDuel,Utah Jazz,3.5,1.91,2024-02-05T23:55:38Z
+d8b6f6392f3d377532e264db1e4e636e,Phoenix Suns,Milwaukee Bucks,2024-02-07T03:00:00Z,FanDuel,Phoenix Suns,-3.5,1.88,2024-02-05T23:55:38Z
+3e9c92f54bc73d5d105277c1376c0183,Brooklyn Nets,Dallas Mavericks,2024-02-07T00:30:00Z,FanDuel,Brooklyn Nets,3.5,1.93,2024-02-06T23:55:39Z
+fecccef94e335d50a7c150026d3d6150,Charlotte Hornets,Toronto Raptors,2024-02-08T00:00:00Z,FanDuel,Charlotte Hornets,6.5,1.91,2024-02-06T23:55:39Z
+bc41e5c970b0b5a66e6959c1ab4f433f,Washington Wizards,Cleveland Cavaliers,2024-02-08T00:00:00Z,FanDuel,Washington Wizards,11.0,1.91,2024-02-06T23:55:39Z
+7e1cd7897ccdc48532ab0c9d39211830,Boston Celtics,Atlanta Hawks,2024-02-08T00:30:00Z,FanDuel,Boston Celtics,-11.5,1.91,2024-02-06T23:55:39Z
+614bb1c0a928f9d1dd65d884b0ceaaf4,Philadelphia 76ers,Golden State Warriors,2024-02-08T00:30:00Z,FanDuel,Philadelphia 76ers,1.5,1.91,2024-02-06T23:55:39Z
+5d454adda35c995f39ba89069d88ede5,Miami Heat,San Antonio Spurs,2024-02-08T00:30:00Z,FanDuel,Miami Heat,-8.0,1.91,2024-02-06T23:55:39Z
+8f8c33b45e79f288ba9a51a1be3bbeb6,Sacramento Kings,Detroit Pistons,2024-02-08T03:00:00Z,FanDuel,Sacramento Kings,-12.0,1.91,2024-02-06T23:55:39Z
+6d757ff91a025600064da2508492afbe,Los Angeles Clippers,New Orleans Pelicans,2024-02-08T03:00:00Z,FanDuel,Los Angeles Clippers,-6.0,1.91,2024-02-06T23:55:39Z
+ae9143d3d61f794083511b58ffeaba91,Indiana Pacers,Golden State Warriors,2024-02-09T00:10:00Z,FanDuel,Indiana Pacers,-6.0,1.91,2024-02-07T23:55:39Z
+8ed76f5375b6eeecfa1022a31689d227,Orlando Magic,San Antonio Spurs,2024-02-09T00:10:00Z,FanDuel,Orlando Magic,-10.5,1.91,2024-02-07T23:55:39Z
+3895ca89124a7838e6e3e337d73a606a,Brooklyn Nets,Cleveland Cavaliers,2024-02-09T00:40:00Z,FanDuel,Brooklyn Nets,6.0,1.89,2024-02-07T23:55:39Z
+58d15c0d33a0dcc20d14822a19f9489f,New York Knicks,Dallas Mavericks,2024-02-09T00:40:00Z,FanDuel,New York Knicks,2.5,1.91,2024-02-07T23:55:39Z
+307878bc3aafb5d6102ad1039d012496,Memphis Grizzlies,Chicago Bulls,2024-02-09T01:10:00Z,FanDuel,Memphis Grizzlies,5.5,1.91,2024-02-07T23:55:39Z
+6c16bf51f29d3cf3d374f82791238e45,Milwaukee Bucks,Minnesota Timberwolves,2024-02-09T01:10:00Z,FanDuel,Milwaukee Bucks,-1.0,1.93,2024-02-07T23:55:39Z
+46b41ed9e2e3b4226c9eb1bf6c5608d1,Portland Trail Blazers,Detroit Pistons,2024-02-09T02:00:00Z,FanDuel,Portland Trail Blazers,-5.0,1.91,2024-02-07T23:55:39Z
+e411c38de8cfe11e4f64b6a08c541029,Phoenix Suns,Utah Jazz,2024-02-09T02:10:00Z,FanDuel,Phoenix Suns,-7.0,1.91,2024-02-07T23:55:39Z
+18d729f14bcb31570a422975935bf830,Los Angeles Lakers,Denver Nuggets,2024-02-09T03:10:00Z,FanDuel,Los Angeles Lakers,3.5,1.91,2024-02-07T23:55:39Z
+337b074585f9073cf575e5ab8f81f612,Philadelphia 76ers,Atlanta Hawks,2024-02-10T00:00:00Z,FanDuel,Philadelphia 76ers,4.0,1.91,2024-02-08T23:55:39Z
+c7a433e553903b4c55f4fd62cea71b2b,Boston Celtics,Washington Wizards,2024-02-10T00:30:00Z,FanDuel,Boston Celtics,-17.0,1.91,2024-02-08T23:55:39Z
+894b559d2a2d1860781f7e3b0438b80f,Toronto Raptors,Houston Rockets,2024-02-10T00:30:00Z,FanDuel,Toronto Raptors,-2.0,1.89,2024-02-08T23:55:39Z
+4373f0ed09ec6eb8c3425aa9d506fd14,Sacramento Kings,Denver Nuggets,2024-02-10T03:00:00Z,FanDuel,Sacramento Kings,-1.0,1.89,2024-02-08T23:55:39Z
+9e36797265e61247f6ccb006cd498eda,Los Angeles Lakers,New Orleans Pelicans,2024-02-10T03:30:00Z,FanDuel,Los Angeles Lakers,1.0,1.91,2024-02-08T23:55:39Z
+4ac50825698c26e24936115fe01f58bd,Milwaukee Bucks,Charlotte Hornets,2024-02-10T01:10:00Z,FanDuel,Milwaukee Bucks,-16.0,1.93,2024-02-09T23:55:39Z
+c341b77097c5b155e243c62644ad11a9,Dallas Mavericks,Oklahoma City Thunder,2024-02-10T20:10:00Z,FanDuel,Dallas Mavericks,2.0,1.91,2024-02-09T23:55:39Z
+9a831a86a0fcf34661c9dc20928fab35,Los Angeles Clippers,Detroit Pistons,2024-02-10T20:40:00Z,FanDuel,Los Angeles Clippers,-15.5,1.91,2024-02-09T23:55:39Z
+9e4e8786de8bf2ef8dc3a6c09223fd41,Brooklyn Nets,San Antonio Spurs,2024-02-10T23:10:00Z,FanDuel,Brooklyn Nets,-6.0,1.93,2024-02-09T23:55:39Z
+6bcfb4aba1828fd24e58bafc3baf1a4d,Orlando Magic,Chicago Bulls,2024-02-11T00:10:00Z,FanDuel,Orlando Magic,-5.0,1.91,2024-02-09T23:55:39Z
+7a2965e051a04f0631ca2113d8bf0319,Charlotte Hornets,Memphis Grizzlies,2024-02-11T00:10:00Z,FanDuel,Charlotte Hornets,5.0,1.91,2024-02-10T23:55:38Z
+289e054e8f605a623985408466bb9afb,Washington Wizards,Philadelphia 76ers,2024-02-11T00:10:00Z,FanDuel,Washington Wizards,5.5,1.93,2024-02-10T23:55:38Z
+aaadace6e33b63cd1bcce402c9c2524b,Atlanta Hawks,Houston Rockets,2024-02-11T00:40:00Z,FanDuel,Atlanta Hawks,-7.0,1.89,2024-02-10T23:55:38Z
+082c7f84d354f62e39be231b90c132a3,Toronto Raptors,Cleveland Cavaliers,2024-02-11T00:40:00Z,FanDuel,Toronto Raptors,9.0,1.89,2024-02-10T23:55:38Z
+a4b24780011bb32ba1b179f1349195f9,New York Knicks,Indiana Pacers,2024-02-11T00:40:00Z,FanDuel,New York Knicks,5.0,1.93,2024-02-10T23:55:38Z
+7af19ca3002ca091059417a1002f4a8d,Golden State Warriors,Phoenix Suns,2024-02-11T01:40:00Z,FanDuel,Golden State Warriors,1.5,1.91,2024-02-10T23:55:38Z
+9f02a6b2524aa64f8db121b4105e816e,Portland Trail Blazers,New Orleans Pelicans,2024-02-11T03:10:00Z,FanDuel,Portland Trail Blazers,8.0,1.89,2024-02-10T23:55:38Z
+04a4ea52daa7aa07eb08e449ed7f3e92,Miami Heat,Boston Celtics,2024-02-11T19:10:00Z,FanDuel,Miami Heat,5.5,1.91,2024-02-10T23:55:38Z
+a6f1760e3161a37be5747185f731a971,Oklahoma City Thunder,Sacramento Kings,2024-02-11T20:10:00Z,FanDuel,Oklahoma City Thunder,-3.5,1.88,2024-02-10T23:55:38Z
+e7197eceb5146bd746348f3c861f4154,Charlotte Hornets,Indiana Pacers,2024-02-13T00:00:00Z,FanDuel,Charlotte Hornets,11.5,1.91,2024-02-11T23:55:38Z
+c691aedfb0a90fd73aaa2d55250c9f37,Cleveland Cavaliers,Philadelphia 76ers,2024-02-13T00:00:00Z,FanDuel,Cleveland Cavaliers,-10.0,1.93,2024-02-11T23:55:38Z
+75f0f4d00db4c873855b43a66ffe445b,Atlanta Hawks,Chicago Bulls,2024-02-13T00:30:00Z,FanDuel,Atlanta Hawks,-3.5,1.91,2024-02-11T23:55:38Z
+ad797648e48448192d820989a6491b2d,Toronto Raptors,San Antonio Spurs,2024-02-13T00:30:00Z,FanDuel,Toronto Raptors,-7.0,1.89,2024-02-11T23:55:38Z
+b2ebcd864851e4639083eb0ac2811570,Milwaukee Bucks,Denver Nuggets,2024-02-13T01:00:00Z,FanDuel,Milwaukee Bucks,1.5,1.89,2024-02-11T23:55:38Z
+012e20c17218326a3007a7d1facffde9,Houston Rockets,New York Knicks,2024-02-13T01:00:00Z,FanDuel,Houston Rockets,4.5,1.93,2024-02-11T23:55:38Z
+4f33d4c797ea181ff7cefaeab6deee88,Memphis Grizzlies,New Orleans Pelicans,2024-02-13T01:00:00Z,FanDuel,Memphis Grizzlies,9.0,1.91,2024-02-11T23:55:38Z
+ff0242dbe4506d6e482a1f8caaea919b,Dallas Mavericks,Washington Wizards,2024-02-13T01:30:00Z,FanDuel,Dallas Mavericks,-14.0,1.91,2024-02-11T23:55:38Z
+d61441305c75133662d3b3f5276250b8,Utah Jazz,Golden State Warriors,2024-02-13T02:00:00Z,FanDuel,Utah Jazz,-1.0,1.93,2024-02-11T23:55:38Z
+41dbd0a861479c1c7f490c9d9eaec92a,Los Angeles Clippers,Minnesota Timberwolves,2024-02-13T03:30:00Z,FanDuel,Los Angeles Clippers,-3.5,1.89,2024-02-11T23:55:38Z
+f4ccb1bb2f3adba910406bacc11253de,Brooklyn Nets,Boston Celtics,2024-02-14T00:30:00Z,FanDuel,Brooklyn Nets,8.5,1.93,2024-02-12T23:55:39Z
+cbb23b2b4f43ea809f57da9fb27f494d,Orlando Magic,Oklahoma City Thunder,2024-02-14T00:30:00Z,FanDuel,Orlando Magic,2.5,1.91,2024-02-12T23:55:39Z
+3f1386b3ad85825164751576357ba783,Phoenix Suns,Sacramento Kings,2024-02-14T03:00:00Z,FanDuel,Phoenix Suns,-4.5,1.91,2024-02-12T23:55:39Z
+519175190965d6827f08d26fecd478dc,Los Angeles Lakers,Detroit Pistons,2024-02-14T03:40:00Z,FanDuel,Los Angeles Lakers,-12.0,1.91,2024-02-12T23:55:39Z
+5bf8dec6633cea758ec0e4840c028f46,Milwaukee Bucks,Miami Heat,2024-02-14T01:00:00Z,FanDuel,Milwaukee Bucks,-8.0,1.89,2024-02-13T23:55:39Z
+21066865fc6af65c52029ba42975c02a,Portland Trail Blazers,Minnesota Timberwolves,2024-02-14T03:10:00Z,FanDuel,Portland Trail Blazers,7.5,1.94,2024-02-13T23:55:39Z
+3873201e0f40ce422145c71be5e1a61f,Charlotte Hornets,Atlanta Hawks,2024-02-15T00:10:00Z,FanDuel,Charlotte Hornets,7.5,1.91,2024-02-13T23:55:39Z
+e77f5314a1a805736fd7247d871e3c59,Philadelphia 76ers,Miami Heat,2024-02-15T00:10:00Z,FanDuel,Philadelphia 76ers,-3.0,1.89,2024-02-13T23:55:39Z
+93b5425c6c4f1b6703cb9119eaeb8abe,Orlando Magic,New York Knicks,2024-02-15T00:10:00Z,FanDuel,Orlando Magic,-2.5,1.91,2024-02-13T23:55:39Z
+086bdadf2294ca0d8eba86e1d8f951d8,Cleveland Cavaliers,Chicago Bulls,2024-02-15T00:40:00Z,FanDuel,Cleveland Cavaliers,-9.0,1.91,2024-02-13T23:55:39Z
+b2247224ce2b85d0b92bc742b5c2be94,Toronto Raptors,Indiana Pacers,2024-02-15T00:40:00Z,FanDuel,Toronto Raptors,3.5,1.94,2024-02-13T23:55:39Z
+a219e8a170388085b42533c4f9098a75,Memphis Grizzlies,Houston Rockets,2024-02-15T01:10:00Z,FanDuel,Memphis Grizzlies,4.0,1.91,2024-02-13T23:55:39Z
+5c13792dff5b758592c8f11a96e66cfd,New Orleans Pelicans,Washington Wizards,2024-02-15T01:10:00Z,FanDuel,New Orleans Pelicans,-12.5,1.91,2024-02-13T23:55:39Z
+66c8edc37c95ce7dc6b3f5059903b586,Dallas Mavericks,San Antonio Spurs,2024-02-15T01:40:00Z,FanDuel,Dallas Mavericks,-12.0,1.91,2024-02-13T23:55:39Z
+83fa94fe55795402814cc80e29fdefd2,Denver Nuggets,Sacramento Kings,2024-02-15T02:10:00Z,FanDuel,Denver Nuggets,-5.5,1.91,2024-02-13T23:55:39Z
+844a860e1ed76a82f1495bc9b4525f97,Phoenix Suns,Detroit Pistons,2024-02-15T02:10:00Z,FanDuel,Phoenix Suns,-14.0,1.91,2024-02-13T23:55:39Z
+95af522328ff23fc4f1975a21648e84d,Golden State Warriors,Los Angeles Clippers,2024-02-15T03:10:00Z,FanDuel,Golden State Warriors,2.0,1.91,2024-02-13T23:55:39Z
+9ea896d4f598255427899a99e5774f04,Boston Celtics,Brooklyn Nets,2024-02-15T00:40:00Z,FanDuel,Boston Celtics,-11.5,1.91,2024-02-14T23:55:39Z
+98be3134084b48da3103a57d8929d934,Utah Jazz,Los Angeles Lakers,2024-02-15T02:10:00Z,FanDuel,Utah Jazz,-5.5,1.91,2024-02-14T23:55:39Z
+3e1948cee1deb3cdf094bbb3c7b5a46a,Memphis Grizzlies,Milwaukee Bucks,2024-02-16T01:30:00Z,FanDuel,Memphis Grizzlies,10.0,1.91,2024-02-14T23:55:39Z
+0640a56cbd34ef6217b8c864bd01579a,Utah Jazz,Golden State Warriors,2024-02-16T02:00:00Z,FanDuel,Utah Jazz,-1.0,1.93,2024-02-14T23:55:39Z
+dd8cf5abfd32e6f0b2b4e527e82e6c87,Portland Trail Blazers,Minnesota Timberwolves,2024-02-16T03:00:00Z,FanDuel,Portland Trail Blazers,10.0,1.91,2024-02-14T23:55:39Z
+f9f3f99b5124a4ecf984003f0af23d2e,Toronto Raptors,Brooklyn Nets,2024-02-23T00:10:00Z,FanDuel,Toronto Raptors,-1.5,1.91,2024-02-16T23:55:39Z
+f54c4a22568ce9dc33fb410d1b0e75e9,Cleveland Cavaliers,Orlando Magic,2024-02-23T00:10:00Z,FanDuel,Cleveland Cavaliers,-8.0,1.91,2024-02-16T23:55:39Z
+bbd989c38fb4fc92248cdabcf72ab9e6,Indiana Pacers,Detroit Pistons,2024-02-23T00:10:00Z,FanDuel,Indiana Pacers,-12.0,1.91,2024-02-16T23:55:39Z
+238b7c427608c3507f9b7e5bdad8b907,Philadelphia 76ers,New York Knicks,2024-02-23T00:10:00Z,FanDuel,Philadelphia 76ers,-1.5,1.93,2024-02-16T23:55:39Z
+c5b55944a81be036f764be503c0ddd36,Dallas Mavericks,Phoenix Suns,2024-02-23T00:30:00Z,FanDuel,Dallas Mavericks,-2.0,1.91,2024-02-16T23:55:39Z
+8ac6e6d1660ca15b05a9fd0c0954fcfd,Chicago Bulls,Boston Celtics,2024-02-23T01:10:00Z,FanDuel,Chicago Bulls,7.5,1.91,2024-02-16T23:55:39Z
+806bf8db6e8cafa62ddb55e7df58b06e,New Orleans Pelicans,Houston Rockets,2024-02-23T01:10:00Z,FanDuel,New Orleans Pelicans,-7.0,1.91,2024-02-16T23:55:39Z
+438de9f441f237bbd739df3936c24494,Oklahoma City Thunder,Los Angeles Clippers,2024-02-23T01:10:00Z,FanDuel,Oklahoma City Thunder,-2.5,1.93,2024-02-16T23:55:39Z
+7ff47422d6625afda9544e899462ff06,Utah Jazz,Charlotte Hornets,2024-02-23T02:10:00Z,FanDuel,Utah Jazz,-9.0,1.91,2024-02-16T23:55:39Z
+56595ed6f5bc3a306a831775053f21eb,Denver Nuggets,Washington Wizards,2024-02-23T02:10:00Z,FanDuel,Denver Nuggets,-16.0,1.91,2024-02-16T23:55:39Z
+0c47a6377ec36746b784609fafa4e25e,Golden State Warriors,Los Angeles Lakers,2024-02-23T03:00:00Z,FanDuel,Golden State Warriors,-3.0,1.89,2024-02-16T23:55:39Z
+2a8c97bf2b28cdaf22c43a433f77a9c8,Sacramento Kings,San Antonio Spurs,2024-02-23T03:10:00Z,FanDuel,Sacramento Kings,-11.0,1.91,2024-02-16T23:55:39Z
+4ca2f33559d32db74f8e8894a71312b5,Atlanta Hawks,Toronto Raptors,2024-02-24T00:30:00Z,FanDuel,Atlanta Hawks,-6.5,1.91,2024-02-22T23:55:39Z
+f695fc5d725bc275343391fb87ed861e,Philadelphia 76ers,Cleveland Cavaliers,2024-02-24T00:30:00Z,FanDuel,Philadelphia 76ers,4.5,1.88,2024-02-22T23:55:39Z
+59df473d0ef251265245d62b7adeb30e,Houston Rockets,Phoenix Suns,2024-02-24T01:00:00Z,FanDuel,Houston Rockets,3.0,1.88,2024-02-22T23:55:39Z
+2ead771e75ea1ded364c0e9e42ab1404,Memphis Grizzlies,Los Angeles Clippers,2024-02-24T01:00:00Z,FanDuel,Memphis Grizzlies,10.0,1.89,2024-02-22T23:55:39Z
+98d566947c547e8bb26052248aa9886a,New Orleans Pelicans,Miami Heat,2024-02-24T01:00:00Z,FanDuel,New Orleans Pelicans,-3.0,1.93,2024-02-22T23:55:39Z
+703e78f878fd29658600d9a1ca392817,Oklahoma City Thunder,Washington Wizards,2024-02-24T01:00:00Z,FanDuel,Oklahoma City Thunder,-15.0,1.91,2024-02-22T23:55:39Z
+8665e61d2754ea047780ecda1705cf09,Golden State Warriors,Charlotte Hornets,2024-02-24T03:00:00Z,FanDuel,Golden State Warriors,-14.0,1.91,2024-02-22T23:55:39Z
+f2b4edb503dc693b7031c1230fa906c1,Portland Trail Blazers,Denver Nuggets,2024-02-24T03:00:00Z,FanDuel,Portland Trail Blazers,9.0,1.93,2024-02-22T23:55:39Z
+87b4d03c3dbdd99d2dad6c8ef097247f,Minnesota Timberwolves,Milwaukee Bucks,2024-02-24T03:00:00Z,FanDuel,Minnesota Timberwolves,-4.5,1.89,2024-02-22T23:55:39Z
+3b42391ffda56180c1c35a2b9d327fa4,Los Angeles Lakers,San Antonio Spurs,2024-02-24T03:40:00Z,FanDuel,Los Angeles Lakers,-10.0,1.91,2024-02-23T23:55:40Z
+6be2d4e6cd4c9d02dae4abb28c7e2589,Detroit Pistons,Orlando Magic,2024-02-25T01:00:00Z,FanDuel,Detroit Pistons,7.0,1.91,2024-02-23T23:55:40Z
+bdbc6edbeffa9fb7e3eed1f2a45ebdd9,New York Knicks,Boston Celtics,2024-02-25T01:30:00Z,FanDuel,New York Knicks,7.0,1.91,2024-02-23T23:55:40Z
+09552a2817720d3ee87c72dc3bb6da42,Minnesota Timberwolves,Brooklyn Nets,2024-02-25T02:00:00Z,FanDuel,Minnesota Timberwolves,-8.0,1.91,2024-02-23T23:55:40Z
+0aa1a4bc756f98f413730370eb84c77c,Philadelphia 76ers,Milwaukee Bucks,2024-02-25T18:10:00Z,FanDuel,Philadelphia 76ers,4.5,1.93,2024-02-24T23:55:38Z
+2b78d5e64c903115fe8e81dcc1a25b86,Phoenix Suns,Los Angeles Lakers,2024-02-25T20:40:00Z,FanDuel,Phoenix Suns,-4.5,1.91,2024-02-24T23:55:38Z
+fb3103a4e0cd4a43d71ea54171617bba,Indiana Pacers,Dallas Mavericks,2024-02-25T22:10:00Z,FanDuel,Indiana Pacers,1.0,1.88,2024-02-24T23:55:38Z
+48cec047dfdba7291e10f62fb0a06af9,Washington Wizards,Cleveland Cavaliers,2024-02-25T23:10:00Z,FanDuel,Washington Wizards,11.0,1.91,2024-02-24T23:55:38Z
+df17436457a25957afc408878a54294b,Atlanta Hawks,Orlando Magic,2024-02-26T00:10:00Z,FanDuel,Atlanta Hawks,-1.5,1.91,2024-02-24T23:55:38Z
+ea1a2082b9b1e7df00100c646e47273a,Golden State Warriors,Denver Nuggets,2024-02-26T00:10:00Z,FanDuel,Golden State Warriors,1.5,1.91,2024-02-24T23:55:38Z
+5a5791fa09caec430929800a1443d8ff,Houston Rockets,Oklahoma City Thunder,2024-02-26T00:10:00Z,FanDuel,Houston Rockets,5.5,1.91,2024-02-24T23:55:38Z
+c2591397a41ad58b1d8db1b380a3376a,Utah Jazz,San Antonio Spurs,2024-02-26T01:10:00Z,FanDuel,Utah Jazz,-7.0,1.91,2024-02-24T23:55:38Z
+f43e568394c6589a02f80d2859b81637,Los Angeles Clippers,Sacramento Kings,2024-02-26T02:40:00Z,FanDuel,Los Angeles Clippers,-6.5,1.91,2024-02-24T23:55:38Z
+3b0efc0d6f87bdf4fa650d8421d54f30,New Orleans Pelicans,Chicago Bulls,2024-02-26T00:10:00Z,FanDuel,New Orleans Pelicans,-5.0,1.91,2024-02-25T23:55:38Z
+812ab71afb0f50ea32e4afdd03b28414,Portland Trail Blazers,Charlotte Hornets,2024-02-26T02:10:00Z,FanDuel,Portland Trail Blazers,-3.5,1.88,2024-02-25T23:55:38Z
+9768de636bd9b326cee827df527c6b0f,Indiana Pacers,Toronto Raptors,2024-02-27T00:10:00Z,FanDuel,Indiana Pacers,-6.5,1.91,2024-02-25T23:55:38Z
+dada6a3a3971143c47a4386c2562db81,New York Knicks,Detroit Pistons,2024-02-27T00:40:00Z,FanDuel,New York Knicks,-11.5,1.91,2024-02-25T23:55:38Z
+66a9cfa921a31e1a9e58fdb41894bba8,Memphis Grizzlies,Brooklyn Nets,2024-02-27T01:10:00Z,FanDuel,Memphis Grizzlies,1.0,1.91,2024-02-25T23:55:38Z
+410e8f25287ad1c8d96be214730b1a17,Sacramento Kings,Miami Heat,2024-02-27T03:10:00Z,FanDuel,Sacramento Kings,-7.5,1.89,2024-02-25T23:55:38Z
+709971c24dfc3bea07590c093fd5abc4,Cleveland Cavaliers,Dallas Mavericks,2024-02-28T00:10:00Z,FanDuel,Cleveland Cavaliers,-3.5,1.91,2024-02-26T23:55:39Z
+cd600b0fa6f0d8f444d99a256c1c90df,Washington Wizards,Golden State Warriors,2024-02-28T00:10:00Z,FanDuel,Washington Wizards,11.0,1.93,2024-02-26T23:55:39Z
+7de4cab428eddcfaae70a444cf5078af,Atlanta Hawks,Utah Jazz,2024-02-28T00:40:00Z,FanDuel,Atlanta Hawks,-3.0,1.91,2024-02-26T23:55:39Z
+267d4f859eaa93c3434c08995d107738,Boston Celtics,Philadelphia 76ers,2024-02-28T00:40:00Z,FanDuel,Boston Celtics,-12.5,1.91,2024-02-26T23:55:39Z
+06191ff441d3c91a4a67ee91d8187f0f,Milwaukee Bucks,Charlotte Hornets,2024-02-28T01:10:00Z,FanDuel,Milwaukee Bucks,-15.0,1.91,2024-02-26T23:55:39Z
+d2983c968ea2b3d17cc560eb7f54c722,Minnesota Timberwolves,San Antonio Spurs,2024-02-28T01:10:00Z,FanDuel,Minnesota Timberwolves,-13.5,1.91,2024-02-26T23:55:39Z
+878135cdd9513bfb5cc9a03476e02676,Oklahoma City Thunder,Houston Rockets,2024-02-28T03:10:00Z,FanDuel,Oklahoma City Thunder,-10.5,1.93,2024-02-26T23:55:39Z
+9e81dc7c9051597061ef37e54ffeaf31,Orlando Magic,Brooklyn Nets,2024-02-28T00:10:00Z,FanDuel,Orlando Magic,-6.5,1.91,2024-02-27T23:55:39Z
+efa6d8d81e13bba0a94e8ea31fba90f5,New York Knicks,New Orleans Pelicans,2024-02-28T00:40:00Z,FanDuel,New York Knicks,6.5,1.91,2024-02-27T23:55:39Z
+8873e2fed7a0f51b1274c77d5c104ca0,Chicago Bulls,Detroit Pistons,2024-02-28T01:00:00Z,FanDuel,Chicago Bulls,-10.5,1.89,2024-02-27T23:55:39Z
+1c152b158bdbb51837c24cff45d08f4a,Portland Trail Blazers,Miami Heat,2024-02-28T03:00:00Z,FanDuel,Portland Trail Blazers,7.0,1.94,2024-02-27T23:55:39Z
+03ce640a1e88abcec22c784d2da84276,Toronto Raptors,Dallas Mavericks,2024-02-29T00:40:00Z,FanDuel,Toronto Raptors,2.5,1.91,2024-02-27T23:55:39Z
+96b3392988cf7f67e4d4ade73adc390e,Chicago Bulls,Cleveland Cavaliers,2024-02-29T01:10:00Z,FanDuel,Chicago Bulls,4.0,1.88,2024-02-27T23:55:39Z
+07d0e5712f774667d860648b1afa0d41,Minnesota Timberwolves,Memphis Grizzlies,2024-02-29T01:10:00Z,FanDuel,Minnesota Timberwolves,-13.0,1.88,2024-02-27T23:55:39Z
+39aa21368b38eb0ee94c8eacf5f99466,Denver Nuggets,Sacramento Kings,2024-02-29T02:10:00Z,FanDuel,Denver Nuggets,-6.5,1.91,2024-02-27T23:55:39Z
+32895edf6e71e20c674415d1a4898b12,Los Angeles Clippers,Los Angeles Lakers,2024-02-29T03:10:00Z,FanDuel,Los Angeles Clippers,-5.5,1.91,2024-02-27T23:55:39Z
+c84775905377e3f364847417061500ac,Indiana Pacers,New Orleans Pelicans,2024-02-29T00:30:00Z,FanDuel,Indiana Pacers,-4.0,1.89,2024-02-28T23:55:38Z
+fcda06bc2a83a0217ab849d1bb4d3948,Charlotte Hornets,Milwaukee Bucks,2024-03-01T00:10:00Z,FanDuel,Charlotte Hornets,11.5,1.91,2024-02-28T23:55:38Z
+7f08fc48ef523faffd8887735e0569e5,Orlando Magic,Utah Jazz,2024-03-01T00:10:00Z,FanDuel,Orlando Magic,-5.5,1.91,2024-02-28T23:55:38Z
+554fa5d7a8c0bc1dc6d530da8bcae897,Brooklyn Nets,Atlanta Hawks,2024-03-01T00:40:00Z,FanDuel,Brooklyn Nets,-2.0,1.91,2024-02-28T23:55:38Z
+970b569f0856f6b15aec17fa03f5d06d,New York Knicks,Golden State Warriors,2024-03-01T00:40:00Z,FanDuel,New York Knicks,3.0,1.93,2024-02-28T23:55:38Z
+ab53164c0ecff645afc12ff93ec8cb7c,San Antonio Spurs,Oklahoma City Thunder,2024-03-01T01:40:00Z,FanDuel,San Antonio Spurs,11.5,1.91,2024-02-28T23:55:38Z
+ccd2aca52cf2857294c757be6af23bae,Phoenix Suns,Houston Rockets,2024-03-01T02:10:00Z,FanDuel,Phoenix Suns,-8.5,1.91,2024-02-28T23:55:38Z
+a7185a3b4d40f2ad73c1f497670f3991,Denver Nuggets,Miami Heat,2024-03-01T03:10:00Z,FanDuel,Denver Nuggets,-6.0,1.91,2024-02-29T23:55:39Z
+48c5ac221cd2d1d5302aac47eea58849,Los Angeles Lakers,Washington Wizards,2024-03-01T03:40:00Z,FanDuel,Los Angeles Lakers,-11.0,1.93,2024-02-29T23:55:39Z
+cff2cc43041474a11b5fadff9125ae16,Detroit Pistons,Cleveland Cavaliers,2024-03-02T00:10:00Z,FanDuel,Detroit Pistons,9.0,1.91,2024-02-29T23:55:39Z
+d9b1f16402c3cf1593bdbe0e2c96856e,Boston Celtics,Dallas Mavericks,2024-03-02T00:40:00Z,FanDuel,Boston Celtics,-9.5,1.89,2024-02-29T23:55:39Z
+fcf9bb4582534ce916c0234df50efa77,Toronto Raptors,Golden State Warriors,2024-03-02T00:40:00Z,FanDuel,Toronto Raptors,2.5,1.91,2024-02-29T23:55:39Z
+97ae7d83bcd2de002c74e686d683fcb5,New Orleans Pelicans,Indiana Pacers,2024-03-02T01:10:00Z,FanDuel,New Orleans Pelicans,-4.5,1.91,2024-02-29T23:55:39Z
+aebeaa614376fabab43b7d573edfd858,Memphis Grizzlies,Portland Trail Blazers,2024-03-02T01:10:00Z,FanDuel,Memphis Grizzlies,-3.0,1.94,2024-02-29T23:55:39Z
+9699052d7344505c6d8b49f368be8fda,Chicago Bulls,Milwaukee Bucks,2024-03-02T03:10:00Z,FanDuel,Chicago Bulls,4.0,1.91,2024-02-29T23:55:39Z
+3c6f663a318c5b8b977586ad331f3f76,Philadelphia 76ers,Charlotte Hornets,2024-03-02T00:10:00Z,FanDuel,Philadelphia 76ers,-12.0,1.91,2024-03-01T23:55:38Z
+cb95afde3593061d6c155b4aacb13468,Minnesota Timberwolves,Sacramento Kings,2024-03-02T01:10:00Z,FanDuel,Minnesota Timberwolves,-6.5,1.89,2024-03-01T23:55:38Z
+9b035bd905e2c2ec742c0fdc7bb8cf92,Los Angeles Clippers,Washington Wizards,2024-03-02T03:40:00Z,FanDuel,Los Angeles Clippers,-16.5,1.91,2024-03-01T23:55:38Z
+c364863d5a2d7f6e0a8628fcff868fa2,Brooklyn Nets,Atlanta Hawks,2024-03-02T20:10:00Z,FanDuel,Brooklyn Nets,-2.0,1.91,2024-03-01T23:55:38Z
+83d583d598f6cc1ce5fc01bb94485a8a,Miami Heat,Utah Jazz,2024-03-02T22:10:00Z,FanDuel,Miami Heat,-7.5,1.91,2024-03-01T23:55:38Z
+0fb83b1ef41912af1127cb2928230b7b,Los Angeles Lakers,Denver Nuggets,2024-03-03T01:40:00Z,FanDuel,Los Angeles Lakers,-1.0,1.91,2024-03-01T23:55:38Z
+64226e5c3fc6970071dcd746d2d8567b,Phoenix Suns,Houston Rockets,2024-03-03T02:10:00Z,FanDuel,Phoenix Suns,-9.5,1.91,2024-03-01T23:55:38Z
+decd0fe6876afcb4654c1a2ed5840766,Memphis Grizzlies,Portland Trail Blazers,2024-03-03T01:10:00Z,FanDuel,Memphis Grizzlies,-2.0,1.91,2024-03-02T23:55:38Z
+1f7ae6020e65eb00222172e357174a6f,Dallas Mavericks,Philadelphia 76ers,2024-03-03T18:10:00Z,FanDuel,Dallas Mavericks,-8.5,1.91,2024-03-02T23:55:38Z
+d1fb1c0f6c3c6827fb89a7922ccd329e,Boston Celtics,Golden State Warriors,2024-03-03T20:40:00Z,FanDuel,Boston Celtics,-10.5,1.89,2024-03-02T23:55:38Z
+f3fd661c62d4f15cb0ee4d34a8521126,Minnesota Timberwolves,Los Angeles Clippers,2024-03-03T20:40:00Z,FanDuel,Minnesota Timberwolves,1.5,1.89,2024-03-02T23:55:38Z
+62cf128e7260feb40a101698fa81e541,Toronto Raptors,Charlotte Hornets,2024-03-03T23:10:00Z,FanDuel,Toronto Raptors,-9.0,1.91,2024-03-02T23:55:38Z
+9b2e6c62177369633289741cda05eb65,Orlando Magic,Detroit Pistons,2024-03-03T23:10:00Z,FanDuel,Orlando Magic,-11.0,1.91,2024-03-02T23:55:38Z
+d4c29ab697ff3b2c6909380d0c1b32e6,Cleveland Cavaliers,New York Knicks,2024-03-04T00:10:00Z,FanDuel,Cleveland Cavaliers,-5.0,1.93,2024-03-02T23:55:38Z
+6a712068035cc6059e222231a86c561c,San Antonio Spurs,Indiana Pacers,2024-03-04T00:10:00Z,FanDuel,San Antonio Spurs,6.5,1.88,2024-03-02T23:55:38Z
+182ef2a6c7c696cddb01e8ddcbadfa46,Phoenix Suns,Oklahoma City Thunder,2024-03-04T02:40:00Z,FanDuel,Phoenix Suns,2.0,1.91,2024-03-02T23:55:38Z
+6a9dc355525a5d6954499c06e62a8660,Brooklyn Nets,Memphis Grizzlies,2024-03-05T00:30:00Z,FanDuel,Brooklyn Nets,-8.5,1.91,2024-03-03T23:55:38Z
+a22f4ddff079e2c828c9426160e5fed0,Milwaukee Bucks,Los Angeles Clippers,2024-03-05T01:00:00Z,FanDuel,Milwaukee Bucks,-4.5,1.93,2024-03-03T23:55:38Z
+4767c3bc60c9fb8ed06d9b883d319388,Minnesota Timberwolves,Portland Trail Blazers,2024-03-05T01:00:00Z,FanDuel,Minnesota Timberwolves,-14.5,1.93,2024-03-03T23:55:38Z
+fd0f155090cb722aaa46eaa782a22356,Utah Jazz,Washington Wizards,2024-03-05T02:00:00Z,FanDuel,Utah Jazz,-10.0,1.91,2024-03-03T23:55:38Z
+2eeb447e797fdfc35dedbc7b84a69d1d,Sacramento Kings,Chicago Bulls,2024-03-05T03:00:00Z,FanDuel,Sacramento Kings,-7.0,1.91,2024-03-03T23:55:38Z
+bdb13183d844de3f7b08278c26039c92,Los Angeles Lakers,Oklahoma City Thunder,2024-03-05T03:30:00Z,FanDuel,Los Angeles Lakers,-1.0,1.93,2024-03-03T23:55:38Z
+3c91c57984b8465f9a93a38d3ebf9e11,Charlotte Hornets,Orlando Magic,2024-03-06T00:10:00Z,FanDuel,Charlotte Hornets,8.5,1.91,2024-03-04T23:55:39Z
+d4bbe49fdd17a16f5333b1ec407a4f6c,Brooklyn Nets,Philadelphia 76ers,2024-03-06T00:40:00Z,FanDuel,Brooklyn Nets,1.0,1.91,2024-03-04T23:55:39Z
+053626ca1b919a6721879172d51f6714,Miami Heat,Detroit Pistons,2024-03-06T00:40:00Z,FanDuel,Miami Heat,-11.5,1.91,2024-03-04T23:55:39Z
+3258e5234b2caf31ab940e6eb8f6c613,Toronto Raptors,New Orleans Pelicans,2024-03-06T00:40:00Z,FanDuel,Toronto Raptors,8.0,1.89,2024-03-04T23:55:39Z
+66bc5c23e9e8ab9737e74f5cf37d0410,Houston Rockets,San Antonio Spurs,2024-03-06T01:10:00Z,FanDuel,Houston Rockets,-6.5,1.91,2024-03-04T23:55:39Z
+b2b80d981ff4426f188472bf545a5325,Denver Nuggets,Phoenix Suns,2024-03-06T03:10:00Z,FanDuel,Denver Nuggets,-9.0,1.94,2024-03-04T23:55:39Z
+6fa157d2f3a9fcb3bad1b45d7b4af820,New York Knicks,Atlanta Hawks,2024-03-06T00:30:00Z,FanDuel,New York Knicks,-1.5,1.88,2024-03-05T23:55:39Z
+5b17d3e602b3035c81fefe4f53e29dde,Cleveland Cavaliers,Boston Celtics,2024-03-06T00:30:00Z,FanDuel,Cleveland Cavaliers,8.0,1.93,2024-03-05T23:55:39Z
+379f9bea7f53a4d658e9183d5db461cc,Dallas Mavericks,Indiana Pacers,2024-03-06T01:30:00Z,FanDuel,Dallas Mavericks,-5.5,1.91,2024-03-05T23:55:39Z
+fdd137330111c44ff0e65e014723480d,Washington Wizards,Orlando Magic,2024-03-07T00:10:00Z,FanDuel,Washington Wizards,7.0,1.89,2024-03-05T23:55:39Z
+c3dee32711c68f93c75549836115f334,Atlanta Hawks,Cleveland Cavaliers,2024-03-07T00:40:00Z,FanDuel,Atlanta Hawks,2.0,1.91,2024-03-05T23:55:39Z
+827bed6b078ff6ffad3e5cb5ff75c01e,Houston Rockets,Los Angeles Clippers,2024-03-07T00:40:00Z,FanDuel,Houston Rockets,6.5,1.91,2024-03-05T23:55:39Z
+939bc5ec699ebad1d13a780e8a339e7d,Philadelphia 76ers,Memphis Grizzlies,2024-03-07T00:40:00Z,FanDuel,Philadelphia 76ers,-5.0,1.91,2024-03-05T23:55:39Z
+78b5b9c45d27d06e0be2ab258b2ec102,Utah Jazz,Chicago Bulls,2024-03-07T02:10:00Z,FanDuel,Utah Jazz,-1.0,1.91,2024-03-05T23:55:39Z
+7f43dbe5080b44ae90836bbcbc659677,Portland Trail Blazers,Oklahoma City Thunder,2024-03-07T03:10:00Z,FanDuel,Portland Trail Blazers,11.5,1.91,2024-03-05T23:55:39Z
+589eed81cc5543b6147d9b6b1c973c08,Los Angeles Lakers,Sacramento Kings,2024-03-07T03:40:00Z,FanDuel,Los Angeles Lakers,-2.5,1.91,2024-03-05T23:55:39Z
+ad573989eea644c71f5ba1585e8317d4,Golden State Warriors,Milwaukee Bucks,2024-03-07T03:00:00Z,FanDuel,Golden State Warriors,-3.0,1.89,2024-03-06T23:55:39Z
+1badbcddd1109879662d15eae3b3de7c,Detroit Pistons,Brooklyn Nets,2024-03-08T00:00:00Z,FanDuel,Detroit Pistons,2.0,1.91,2024-03-06T23:55:39Z
+856279f2276cfae3cf3b69b1053a5c61,Indiana Pacers,Minnesota Timberwolves,2024-03-08T00:00:00Z,FanDuel,Indiana Pacers,-1.5,1.91,2024-03-06T23:55:39Z
+1cc0f474eb7d82c784a02b30be1fabec,Dallas Mavericks,Miami Heat,2024-03-08T00:30:00Z,FanDuel,Dallas Mavericks,-5.0,1.91,2024-03-06T23:55:39Z
+6cd47e801b25f7afd5e773c4011f0108,Phoenix Suns,Toronto Raptors,2024-03-08T02:00:00Z,FanDuel,Phoenix Suns,-10.5,1.91,2024-03-06T23:55:39Z
+4f59f2a3bc5df87516fd102fdb0bd9b3,Denver Nuggets,Boston Celtics,2024-03-08T03:00:00Z,FanDuel,Denver Nuggets,1.0,1.93,2024-03-06T23:55:39Z
+de22fdfdb4c59c222cbfd9816ea3bee4,Golden State Warriors,Chicago Bulls,2024-03-08T03:00:00Z,FanDuel,Golden State Warriors,-7.0,1.91,2024-03-06T23:55:39Z
+7f21059acdc7290eb443b3cd9cfaa4d7,Sacramento Kings,San Antonio Spurs,2024-03-08T03:00:00Z,FanDuel,Sacramento Kings,-9.0,1.89,2024-03-06T23:55:39Z
+7b03dccf66f579b842cb94a5029e296c,Washington Wizards,Charlotte Hornets,2024-03-09T00:10:00Z,FanDuel,Washington Wizards,-2.5,1.91,2024-03-07T23:55:39Z
+6f560ca46f31c84a803e4be9bc1828fb,Philadelphia 76ers,New Orleans Pelicans,2024-03-09T00:10:00Z,FanDuel,Philadelphia 76ers,6.5,1.91,2024-03-07T23:55:39Z
+b16c2a65b88931f33f06c7fa045147d0,Cleveland Cavaliers,Minnesota Timberwolves,2024-03-09T00:40:00Z,FanDuel,Cleveland Cavaliers,1.0,1.89,2024-03-07T23:55:39Z
+c80c1735bd37c745dfdc32342ab8e7c4,New York Knicks,Orlando Magic,2024-03-09T00:40:00Z,FanDuel,New York Knicks,-1.0,1.91,2024-03-07T23:55:39Z
+1a04fb92230403b16d412d570486be01,Memphis Grizzlies,Atlanta Hawks,2024-03-09T01:10:00Z,FanDuel,Memphis Grizzlies,2.5,1.91,2024-03-07T23:55:39Z
+1a504b58f4f7aebbc6e085b2db5b019d,Oklahoma City Thunder,Miami Heat,2024-03-09T01:10:00Z,FanDuel,Oklahoma City Thunder,-8.5,1.91,2024-03-07T23:55:39Z
+178876a0ebfad6c9b9791e4dd333f50e,Portland Trail Blazers,Houston Rockets,2024-03-09T03:10:00Z,FanDuel,Portland Trail Blazers,4.5,1.94,2024-03-07T23:55:39Z
+d7f1db41e018501cc7c3c4e53d37a256,Los Angeles Lakers,Milwaukee Bucks,2024-03-09T03:10:00Z,FanDuel,Los Angeles Lakers,1.0,1.91,2024-03-07T23:55:39Z
+35c97a35680150e49b5bfb57de875ca6,Los Angeles Clippers,Chicago Bulls,2024-03-09T21:10:00Z,FanDuel,Los Angeles Clippers,-9.0,1.88,2024-03-08T23:55:39Z
+cbb39c84c1a475a9a726b99c5f41812c,Charlotte Hornets,Brooklyn Nets,2024-03-10T00:10:00Z,FanDuel,Charlotte Hornets,5.0,1.91,2024-03-08T23:55:39Z
+9b0056efce797ca7724c82a2dede15fc,Detroit Pistons,Dallas Mavericks,2024-03-10T00:10:00Z,FanDuel,Detroit Pistons,6.5,1.91,2024-03-08T23:55:39Z
+93a7f29824d90ce454147de24c2785c7,Phoenix Suns,Boston Celtics,2024-03-10T01:40:00Z,FanDuel,Phoenix Suns,6.0,1.91,2024-03-08T23:55:39Z
+fa24bd077a265df97bfc6579f1d4c924,Golden State Warriors,San Antonio Spurs,2024-03-10T01:40:00Z,FanDuel,Golden State Warriors,-9.0,1.91,2024-03-08T23:55:39Z
+c7459db77d25feffd478ae5ed85a8e7c,Denver Nuggets,Utah Jazz,2024-03-10T02:10:00Z,FanDuel,Denver Nuggets,-12.0,1.93,2024-03-08T23:55:39Z
+1f8e45324e9947b65209b3e60fe5d28b,Portland Trail Blazers,Toronto Raptors,2024-03-10T03:10:00Z,FanDuel,Portland Trail Blazers,1.5,1.91,2024-03-08T23:55:39Z
+b897de99eed5e829d52d93a078ce4db4,Los Angeles Clippers,Milwaukee Bucks,2024-03-10T19:10:00Z,FanDuel,Los Angeles Clippers,2.0,1.93,2024-03-09T23:55:38Z
+9b86cb1a8d38f0936d026ae56302c23a,Atlanta Hawks,New Orleans Pelicans,2024-03-10T22:10:00Z,FanDuel,Atlanta Hawks,6.0,1.89,2024-03-09T23:55:38Z
+6ff4f8186dd54a7f950df1e8b183e2ae,Sacramento Kings,Houston Rockets,2024-03-10T22:10:00Z,FanDuel,Sacramento Kings,-6.5,1.91,2024-03-09T23:55:38Z
+3f74e7082ee8fca0930ad4fecf65277f,Orlando Magic,Indiana Pacers,2024-03-10T22:10:00Z,FanDuel,Orlando Magic,-1.5,1.89,2024-03-09T23:55:38Z
+62d13e36f53715eae0015098a071a8c4,Miami Heat,Washington Wizards,2024-03-10T22:10:00Z,FanDuel,Miami Heat,-10.0,1.91,2024-03-09T23:55:38Z
+04d7b004a1adc8dce6e33dc3b540a5dd,Cleveland Cavaliers,Brooklyn Nets,2024-03-10T23:10:00Z,FanDuel,Cleveland Cavaliers,-7.5,1.91,2024-03-09T23:55:38Z
+2a693a62cff00ac71c029d22a75f13c5,Oklahoma City Thunder,Memphis Grizzlies,2024-03-10T23:10:00Z,FanDuel,Oklahoma City Thunder,-14.5,1.91,2024-03-09T23:55:38Z
+34272a3d3ff1d2afc8e968e2537b7b38,New York Knicks,Philadelphia 76ers,2024-03-10T23:10:00Z,FanDuel,New York Knicks,-7.0,1.91,2024-03-09T23:55:38Z
+aca24cd0644b7afb7edf2de46f01c241,Los Angeles Lakers,Minnesota Timberwolves,2024-03-11T01:40:00Z,FanDuel,Los Angeles Lakers,-3.0,1.91,2024-03-10T23:55:38Z
+a58faa4e75b965d50446c73bbeef1d82,Detroit Pistons,Charlotte Hornets,2024-03-11T23:10:00Z,FanDuel,Detroit Pistons,-7.5,1.94,2024-03-11T23:55:38Z
+39fe52ee8c209de2fc87fc0f692e6094,Cleveland Cavaliers,Phoenix Suns,2024-03-11T23:40:41Z,FanDuel,Cleveland Cavaliers,1.5,1.91,2024-03-11T23:55:38Z
+7a2d642b0bf16141b137c7c2c5ddb91a,Chicago Bulls,Dallas Mavericks,2024-03-12T00:10:00Z,FanDuel,Chicago Bulls,3.5,1.93,2024-03-11T23:55:38Z
+c515623cb85091cec268d3e52c60b004,San Antonio Spurs,Golden State Warriors,2024-03-12T00:10:00Z,FanDuel,San Antonio Spurs,5.0,1.91,2024-03-11T23:55:38Z
+b06f5eae6ab6e068feeacf195b0bd9e7,Denver Nuggets,Toronto Raptors,2024-03-12T01:10:00Z,FanDuel,Denver Nuggets,-15.5,1.89,2024-03-11T23:55:38Z
+93b68a3761ffdb54b0c0947a98c43846,Portland Trail Blazers,Boston Celtics,2024-03-12T02:40:00Z,FanDuel,Portland Trail Blazers,12.0,1.93,2024-03-11T23:55:38Z
+f025d81278f745fff0f460df130963ed,New York Knicks,Philadelphia 76ers,2024-03-12T23:40:00Z,FanDuel,New York Knicks,-5.5,1.93,2024-03-11T23:55:38Z
+48360e31990f0ab57fcec0eaf9474746,Oklahoma City Thunder,Indiana Pacers,2024-03-13T00:10:00Z,FanDuel,Oklahoma City Thunder,-6.5,1.91,2024-03-11T23:55:38Z
+f63809dd141abd45fc3751b16e515a65,Memphis Grizzlies,Washington Wizards,2024-03-13T00:10:00Z,FanDuel,Memphis Grizzlies,1.0,1.91,2024-03-11T23:55:38Z
+05fd2e32fb4d6f73de9be9104184dcb7,San Antonio Spurs,Houston Rockets,2024-03-13T00:40:00Z,FanDuel,San Antonio Spurs,3.5,1.91,2024-03-11T23:55:38Z
+c1b8a8cef47054416d909a7528ccaae4,Sacramento Kings,Milwaukee Bucks,2024-03-13T02:10:00Z,FanDuel,Sacramento Kings,-1.0,1.91,2024-03-11T23:55:38Z
+4b630c300f91a6d0d83f2544ddf00939,Utah Jazz,Boston Celtics,2024-03-13T01:10:00Z,FanDuel,Utah Jazz,6.5,1.91,2024-03-12T23:55:38Z
+911864cf7d248d3c0699658abe321cb9,Los Angeles Clippers,Minnesota Timberwolves,2024-03-13T02:00:00Z,FanDuel,Los Angeles Clippers,-6.5,1.93,2024-03-12T23:55:38Z
+9df8eb9f397a4da83853b43b01d2181c,Orlando Magic,Brooklyn Nets,2024-03-13T23:10:00Z,FanDuel,Orlando Magic,-7.0,1.91,2024-03-12T23:55:38Z
+2fb6906aff3273e0a11ba56847336ac8,Detroit Pistons,Toronto Raptors,2024-03-13T23:10:00Z,FanDuel,Detroit Pistons,-2.5,1.91,2024-03-12T23:55:38Z
+0915842fc929d6f203466dc8f14f4fce,Indiana Pacers,Chicago Bulls,2024-03-13T23:40:00Z,FanDuel,Indiana Pacers,-4.0,1.89,2024-03-12T23:55:38Z
+b3d6983085866169bd49bf4de6a76443,Miami Heat,Denver Nuggets,2024-03-13T23:40:00Z,FanDuel,Miami Heat,3.0,1.94,2024-03-12T23:55:38Z
+5b052d3f26b5858b74504e85b4b98512,New Orleans Pelicans,Cleveland Cavaliers,2024-03-14T00:10:00Z,FanDuel,New Orleans Pelicans,-6.5,1.89,2024-03-12T23:55:38Z
+bb5ba1088cbdae0b11b07505760d5314,Dallas Mavericks,Golden State Warriors,2024-03-14T00:40:00Z,FanDuel,Dallas Mavericks,-7.5,1.91,2024-03-12T23:55:38Z
+3f4e08b8a22495d7b2188e25b1548d42,Sacramento Kings,Los Angeles Lakers,2024-03-14T02:10:00Z,FanDuel,Sacramento Kings,1.5,1.91,2024-03-12T23:55:38Z
+96a72e80ac25d09383f99d40300b72a0,Memphis Grizzlies,Charlotte Hornets,2024-03-14T00:10:00Z,FanDuel,Memphis Grizzlies,2.5,1.93,2024-03-13T23:55:39Z
+85c976527d5b2b7e12925de7842f9a0a,Portland Trail Blazers,Atlanta Hawks,2024-03-14T02:10:00Z,FanDuel,Portland Trail Blazers,3.5,1.93,2024-03-13T23:55:39Z
+78a3a48434085cfbb5f7983d42dc179c,Boston Celtics,Phoenix Suns,2024-03-14T23:30:00Z,FanDuel,Boston Celtics,-4.5,1.88,2024-03-13T23:55:39Z
+d117baaccf00e2edea89c26f4c601970,Houston Rockets,Washington Wizards,2024-03-15T00:00:00Z,FanDuel,Houston Rockets,-8.5,1.91,2024-03-13T23:55:39Z
+bfea34ef8e7f43f99339ea64b3839edc,Milwaukee Bucks,Philadelphia 76ers,2024-03-15T00:00:00Z,FanDuel,Milwaukee Bucks,-8.5,1.88,2024-03-13T23:55:39Z
+2a046e868d0d19e025226a23072fb883,Oklahoma City Thunder,Dallas Mavericks,2024-03-15T02:00:00Z,FanDuel,Oklahoma City Thunder,-7.0,1.88,2024-03-13T23:55:39Z
+7afe77d7815ae0e81f928a83681d2d4d,Portland Trail Blazers,New York Knicks,2024-03-15T02:00:00Z,FanDuel,Portland Trail Blazers,8.5,1.91,2024-03-13T23:55:39Z
+7cbfb7873ff913f858faa45de8542292,Chicago Bulls,Los Angeles Clippers,2024-03-15T00:10:00Z,FanDuel,Chicago Bulls,6.0,1.94,2024-03-14T23:55:39Z
+bc91ce5febe426de3464ecdcaf1813d9,Charlotte Hornets,Phoenix Suns,2024-03-15T23:10:37Z,FanDuel,Charlotte Hornets,16.5,1.83,2024-03-15T23:55:38Z
+d8ce345995eb0e5466c7d34a767ccdd3,Detroit Pistons,Miami Heat,2024-03-15T23:11:14Z,FanDuel,Detroit Pistons,10.5,1.74,2024-03-15T23:55:38Z
+65d63bbddc47f6d10467acc23b074a80,Toronto Raptors,Orlando Magic,2024-03-15T23:40:57Z,FanDuel,Toronto Raptors,7.5,1.91,2024-03-15T23:55:38Z
+a52919a0ef34266a94bcfeaa8e666f48,New Orleans Pelicans,Los Angeles Clippers,2024-03-16T00:00:00Z,FanDuel,New Orleans Pelicans,-7.0,1.93,2024-03-15T23:55:38Z
+0a840ca0614cfb004596394791967651,San Antonio Spurs,Denver Nuggets,2024-03-16T00:30:00Z,FanDuel,San Antonio Spurs,10.5,1.88,2024-03-15T23:55:38Z
+f52776984900f03bf4bfc4be8f2e8ada,Utah Jazz,Atlanta Hawks,2024-03-16T01:30:00Z,FanDuel,Utah Jazz,2.0,1.94,2024-03-15T23:55:38Z
+8bc73824a98bc9704b7e5f3f7ec8d16c,New Orleans Pelicans,Portland Trail Blazers,2024-03-16T23:10:12Z,FanDuel,New Orleans Pelicans,-10.5,1.94,2024-03-16T23:55:37Z
+d204f827ccc38048e99a00b617dc1eba,Philadelphia 76ers,Charlotte Hornets,2024-03-16T23:10:28Z,FanDuel,Philadelphia 76ers,-9.5,2.12,2024-03-16T23:55:37Z
+9f99bc7faf1acebf8ed00053af75f1c3,Indiana Pacers,Brooklyn Nets,2024-03-16T23:11:10Z,FanDuel,Indiana Pacers,-3.5,1.94,2024-03-16T23:55:37Z
+bfd3e42ca47d6618b65b2862d67f15d9,Chicago Bulls,Washington Wizards,2024-03-17T00:00:00Z,FanDuel,Chicago Bulls,-9.5,1.94,2024-03-16T23:55:37Z
+0ef97b5c836ab37e500275b23764c7f8,Memphis Grizzlies,Oklahoma City Thunder,2024-03-17T00:00:00Z,FanDuel,Memphis Grizzlies,10.5,1.93,2024-03-16T23:55:37Z
+c4cd5511c36dba32d3ebab18b17f1ca2,Los Angeles Lakers,Golden State Warriors,2024-03-17T00:30:00Z,FanDuel,Los Angeles Lakers,-1.5,1.93,2024-03-16T23:55:37Z
+bf220ffa99a258a9be2ce277dfb18bf3,Utah Jazz,Minnesota Timberwolves,2024-03-17T01:30:00Z,FanDuel,Utah Jazz,8.5,1.91,2024-03-16T23:55:37Z
+97d0fe400e2d3b78975cd514cb0c6549,Sacramento Kings,New York Knicks,2024-03-17T02:10:00Z,FanDuel,Sacramento Kings,-4.0,1.91,2024-03-16T23:55:37Z
+1d94d6d2735bab50962c587499844cce,Milwaukee Bucks,Phoenix Suns,2024-03-17T17:10:00Z,FanDuel,Milwaukee Bucks,-2.0,1.91,2024-03-16T23:55:37Z
+715cf1e7a7ede64f89f706ff40a2399a,Detroit Pistons,Miami Heat,2024-03-17T19:10:00Z,FanDuel,Detroit Pistons,7.0,1.89,2024-03-16T23:55:37Z
+9fff647f6ad74b97d977aa9bb71cd5e9,Dallas Mavericks,Denver Nuggets,2024-03-17T19:40:00Z,FanDuel,Dallas Mavericks,3.5,1.89,2024-03-16T23:55:37Z
+0f4bceaab947dce5398cdbac9e422f46,Washington Wizards,Boston Celtics,2024-03-17T22:10:00Z,FanDuel,Washington Wizards,10.0,1.93,2024-03-16T23:55:37Z
+542d363a3823a2b657a4e06c4d83cf67,Orlando Magic,Toronto Raptors,2024-03-17T22:10:00Z,FanDuel,Orlando Magic,-11.5,1.91,2024-03-16T23:55:37Z
+ac1a8dfeaa1b6e7c89715f9faf1083e8,San Antonio Spurs,Brooklyn Nets,2024-03-17T23:10:00Z,FanDuel,San Antonio Spurs,-1.0,1.91,2024-03-16T23:55:37Z
+f505e24b3b22abda33dad4749e58eee6,Los Angeles Clippers,Atlanta Hawks,2024-03-18T01:10:00Z,FanDuel,Los Angeles Clippers,-10.0,1.89,2024-03-16T23:55:37Z
+c9f240f3a68303424fc5156020170ebf,Indiana Pacers,Cleveland Cavaliers,2024-03-18T23:10:00Z,FanDuel,Indiana Pacers,-7.5,1.88,2024-03-17T23:55:37Z
+1d19023d6c0e6a2ca967ba95a02699f6,Boston Celtics,Detroit Pistons,2024-03-18T23:40:00Z,FanDuel,Boston Celtics,-15.5,1.91,2024-03-17T23:55:37Z
+47398ea9dfda1a3f2bd6c77961c88489,Philadelphia 76ers,Miami Heat,2024-03-18T23:40:00Z,FanDuel,Philadelphia 76ers,-3.5,1.91,2024-03-17T23:55:37Z
+28fde3e358355060a4d9c5a74da098b3,Chicago Bulls,Portland Trail Blazers,2024-03-19T00:10:00Z,FanDuel,Chicago Bulls,-7.0,1.91,2024-03-17T23:55:37Z
+f4f8debb9bf2420b2a92158386902b60,Utah Jazz,Minnesota Timberwolves,2024-03-19T01:10:00Z,FanDuel,Utah Jazz,7.5,1.91,2024-03-17T23:55:37Z
+15233b3724916993c585a5613e980ee5,Golden State Warriors,New York Knicks,2024-03-19T02:10:00Z,FanDuel,Golden State Warriors,-4.0,1.91,2024-03-17T23:55:37Z
+cda9e4bf3ed54c2a7670feb16b2983d4,Sacramento Kings,Memphis Grizzlies,2024-03-19T02:10:00Z,FanDuel,Sacramento Kings,-9.5,1.91,2024-03-17T23:55:37Z
+b3cfe8e7ffaa3a5f8e24261352fb8343,Los Angeles Lakers,Atlanta Hawks,2024-03-19T02:40:00Z,FanDuel,Los Angeles Lakers,-9.5,1.91,2024-03-18T23:55:38Z
+902f333cd3d25777474fd0e0f8920bb0,Orlando Magic,Charlotte Hornets,2024-03-19T23:00:00Z,FanDuel,Orlando Magic,-13.0,1.91,2024-03-18T23:55:38Z
+5dfabfa4dc9a149dc86097c203a45969,Washington Wizards,Houston Rockets,2024-03-19T23:00:00Z,FanDuel,Washington Wizards,6.5,1.91,2024-03-18T23:55:38Z
+50b1a5881f285a0ad49390826218eda7,Brooklyn Nets,New Orleans Pelicans,2024-03-19T23:30:00Z,FanDuel,Brooklyn Nets,7.0,1.91,2024-03-18T23:55:38Z
+7d9a233a01a68855e39d1ca9abad8377,San Antonio Spurs,Dallas Mavericks,2024-03-20T00:00:00Z,FanDuel,San Antonio Spurs,8.0,1.91,2024-03-18T23:55:38Z
+ef59af2c20a0117e3b260573d6fdd3b1,Minnesota Timberwolves,Denver Nuggets,2024-03-20T01:00:00Z,FanDuel,Minnesota Timberwolves,4.0,1.91,2024-03-18T23:55:38Z
+a49dbe5a2e4182a821d05f0a1fd43422,Cleveland Cavaliers,Miami Heat,2024-03-20T23:10:00Z,FanDuel,Cleveland Cavaliers,-3.0,1.89,2024-03-19T23:55:39Z
+78618603e977843dc1c7bc606e2ba479,Detroit Pistons,Indiana Pacers,2024-03-20T23:10:00Z,FanDuel,Detroit Pistons,9.5,1.91,2024-03-19T23:55:39Z
+def47031598222435edee8a26a792e3f,Boston Celtics,Milwaukee Bucks,2024-03-20T23:40:00Z,FanDuel,Boston Celtics,-6.5,1.91,2024-03-19T23:55:39Z
+54ea91772461bba4c4e2eee9ca0f5f0f,Toronto Raptors,Sacramento Kings,2024-03-20T23:40:00Z,FanDuel,Toronto Raptors,9.5,1.94,2024-03-19T23:55:39Z
+5ad1eddf32d48c32cfdbfc11a4867dd3,Oklahoma City Thunder,Utah Jazz,2024-03-21T00:10:00Z,FanDuel,Oklahoma City Thunder,-14.0,1.91,2024-03-19T23:55:39Z
+25d3b79c5b0d127ab9852b23aa8c22a2,Golden State Warriors,Memphis Grizzlies,2024-03-21T02:10:00Z,FanDuel,Golden State Warriors,-10.0,1.91,2024-03-19T23:55:39Z
+8b31f09947b160f18b7c369a519f86ba,Portland Trail Blazers,Los Angeles Clippers,2024-03-21T02:10:00Z,FanDuel,Portland Trail Blazers,11.5,1.91,2024-03-19T23:55:39Z
+4dfb112e9e0e6acfba6b41f77d5bad4b,Phoenix Suns,Philadelphia 76ers,2024-03-21T02:10:00Z,FanDuel,Phoenix Suns,-9.0,1.91,2024-03-19T23:55:39Z
+0590e0cbe00651aa777225e3f881db47,Orlando Magic,New Orleans Pelicans,2024-03-21T23:10:00Z,FanDuel,Orlando Magic,1.5,1.93,2024-03-20T23:55:38Z
+a2c7e680c491eb80826ff4aa3672f04c,Washington Wizards,Sacramento Kings,2024-03-21T23:10:00Z,FanDuel,Washington Wizards,10.5,1.94,2024-03-20T23:55:38Z
+0e7edbdb5eb8123612ce58957c723d0e,Houston Rockets,Chicago Bulls,2024-03-22T00:10:00Z,FanDuel,Houston Rockets,-3.0,1.89,2024-03-20T23:55:38Z
+8f89958d33d50e72c19c2a024095e6cc,Denver Nuggets,New York Knicks,2024-03-22T01:10:00Z,FanDuel,Denver Nuggets,-9.0,1.91,2024-03-20T23:55:38Z
+2746b82d75725cb205f743bb6c34c9d2,Milwaukee Bucks,Brooklyn Nets,2024-03-22T00:00:00Z,FanDuel,Milwaukee Bucks,-10.5,1.89,2024-03-21T23:55:38Z
+2702a45621ba4b82ae9a6d469c691d53,Dallas Mavericks,Utah Jazz,2024-03-22T00:30:00Z,FanDuel,Dallas Mavericks,-14.5,1.94,2024-03-21T23:55:38Z
+3751727f51d1575908a7372d94bea14a,Phoenix Suns,Atlanta Hawks,2024-03-22T02:40:00Z,FanDuel,Phoenix Suns,-9.0,1.88,2024-03-21T23:55:38Z
+e8801d647d2e0c1c91cc49d3b001c139,Detroit Pistons,Boston Celtics,2024-03-22T23:00:00Z,FanDuel,Detroit Pistons,13.0,1.91,2024-03-21T23:55:38Z
+88e2a70002d119b2469b16acda958503,Toronto Raptors,Oklahoma City Thunder,2024-03-22T23:00:00Z,FanDuel,Toronto Raptors,15.0,1.88,2024-03-21T23:55:38Z
+416d33ec1ed22fe87b0888e1f0a65493,San Antonio Spurs,Memphis Grizzlies,2024-03-23T00:00:00Z,FanDuel,San Antonio Spurs,-6.0,1.89,2024-03-21T23:55:38Z
+55d7b490bce5c029dd27428140d27224,Golden State Warriors,Indiana Pacers,2024-03-23T02:00:00Z,FanDuel,Golden State Warriors,-4.0,1.89,2024-03-21T23:55:38Z
+2b70cea22d040e4c41a9dcd5e54d5b11,Minnesota Timberwolves,Cleveland Cavaliers,2024-03-23T00:00:00Z,FanDuel,Minnesota Timberwolves,-7.5,1.91,2024-03-22T23:55:38Z
+c59da2c78570308c5cf0bf77b67b6e9d,Miami Heat,New Orleans Pelicans,2024-03-23T00:10:00Z,FanDuel,Miami Heat,-3.0,1.93,2024-03-22T23:55:38Z
+f6931db2f142550b4b9c838b7157b99d,Portland Trail Blazers,Los Angeles Clippers,2024-03-23T02:10:00Z,FanDuel,Portland Trail Blazers,14.0,1.89,2024-03-22T23:55:38Z
+1896b7afeebec44e1371344068eda569,Los Angeles Lakers,Philadelphia 76ers,2024-03-23T02:40:00Z,FanDuel,Los Angeles Lakers,-8.0,1.93,2024-03-22T23:55:38Z
+16eb396a044d9dec5d240604df0c13bf,New York Knicks,Brooklyn Nets,2024-03-23T17:10:00Z,FanDuel,New York Knicks,-7.5,1.91,2024-03-22T23:55:38Z
+9a1f5e509563cccc4840e86b0df8e639,Orlando Magic,Sacramento Kings,2024-03-23T23:10:00Z,FanDuel,Orlando Magic,-4.5,1.91,2024-03-22T23:55:38Z
+0c8f081dd40ab9463ecf78410e799a51,Atlanta Hawks,Charlotte Hornets,2024-03-23T23:40:00Z,FanDuel,Atlanta Hawks,-9.5,1.93,2024-03-22T23:55:38Z
+945312197cfbdd87d251bc4f76a78b99,San Antonio Spurs,Phoenix Suns,2024-03-24T00:10:00Z,FanDuel,San Antonio Spurs,9.0,1.93,2024-03-22T23:55:38Z
+234f4241820c53262fd86cee8b8748a3,Washington Wizards,Toronto Raptors,2024-03-24T00:10:00Z,FanDuel,Washington Wizards,-5.5,1.91,2024-03-22T23:55:38Z
+fec1f6e2d2f71182d491f4310335e106,Chicago Bulls,Boston Celtics,2024-03-24T00:00:00Z,FanDuel,Chicago Bulls,5.0,1.93,2024-03-23T23:55:38Z
+d5d233f619b7d1aa32f571a77d8f610d,Houston Rockets,Utah Jazz,2024-03-24T00:00:00Z,FanDuel,Houston Rockets,-10.5,1.88,2024-03-23T23:55:38Z
+7590d6dacb1ce8619e20ac1aa3793c67,Portland Trail Blazers,Denver Nuggets,2024-03-24T02:00:00Z,FanDuel,Portland Trail Blazers,10.0,1.91,2024-03-23T23:55:38Z
+0bef0c17516e00a260d74771bf62df44,Detroit Pistons,New Orleans Pelicans,2024-03-24T19:00:00Z,FanDuel,Detroit Pistons,11.5,1.93,2024-03-23T23:55:38Z
+d488785af3b48141a4e44a92abdc7dd2,Los Angeles Clippers,Philadelphia 76ers,2024-03-24T19:30:00Z,FanDuel,Los Angeles Clippers,-9.5,1.89,2024-03-23T23:55:38Z
+7145ffc8126292c8f43a0ee62e9cdd8c,Miami Heat,Cleveland Cavaliers,2024-03-24T22:00:00Z,FanDuel,Miami Heat,-3.5,1.91,2024-03-23T23:55:38Z
+8240cdf8795d2dd10e6f71cf924ed2f6,Minnesota Timberwolves,Golden State Warriors,2024-03-24T23:00:00Z,FanDuel,Minnesota Timberwolves,-3.5,1.91,2024-03-23T23:55:38Z
+03530de298c4ea3e6dce8444124730f2,Milwaukee Bucks,Oklahoma City Thunder,2024-03-24T23:00:00Z,FanDuel,Milwaukee Bucks,-2.0,1.88,2024-03-23T23:55:38Z
+0426f92e09ee5fd9d28309e2a2a549c1,Los Angeles Lakers,Indiana Pacers,2024-03-25T02:00:00Z,FanDuel,Los Angeles Lakers,-3.0,1.94,2024-03-24T23:55:38Z
+fb671f3e60942f8bc5804ebca360d3f5,Cleveland Cavaliers,Charlotte Hornets,2024-03-25T23:10:00Z,FanDuel,Cleveland Cavaliers,-12.5,1.91,2024-03-24T23:55:38Z
+18088909b866688736db23add0be290b,Atlanta Hawks,Boston Celtics,2024-03-25T23:40:00Z,FanDuel,Atlanta Hawks,11.0,1.94,2024-03-24T23:55:38Z
+e0378755e4c379f5a295755dae6cfcb5,Toronto Raptors,Brooklyn Nets,2024-03-25T23:40:00Z,FanDuel,Toronto Raptors,5.0,1.91,2024-03-24T23:55:38Z
+2bcf14b26bfaf50a4f42b2c6b360dece,New York Knicks,Detroit Pistons,2024-03-25T23:40:00Z,FanDuel,New York Knicks,-16.5,1.91,2024-03-24T23:55:38Z
+95f81cb825f4546abe08d715ef874e08,Chicago Bulls,Washington Wizards,2024-03-26T00:10:00Z,FanDuel,Chicago Bulls,-10.5,1.89,2024-03-24T23:55:38Z
+94d6c58e5eb7079bbee4cd0cbecfb2c8,Houston Rockets,Portland Trail Blazers,2024-03-26T00:10:00Z,FanDuel,Houston Rockets,-9.5,1.89,2024-03-24T23:55:38Z
+714e9c8085cabffc4b25c3dd85cf911c,San Antonio Spurs,Phoenix Suns,2024-03-26T00:10:00Z,FanDuel,San Antonio Spurs,12.0,1.91,2024-03-24T23:55:38Z
+5a55753eeee7368fdca14f4842055be3,Utah Jazz,Dallas Mavericks,2024-03-26T01:10:00Z,FanDuel,Utah Jazz,8.0,1.91,2024-03-24T23:55:38Z
+4e829f5696559d23eefa417720f5a75f,Denver Nuggets,Memphis Grizzlies,2024-03-26T01:10:00Z,FanDuel,Denver Nuggets,-14.5,1.91,2024-03-24T23:55:38Z
+19fce4dac9be770b83d7f8046ac23783,Sacramento Kings,Philadelphia 76ers,2024-03-26T02:10:00Z,FanDuel,Sacramento Kings,-9.0,1.91,2024-03-24T23:55:38Z
+b30fc941bca9dd2e67f3e2eed5f30cfb,Los Angeles Clippers,Indiana Pacers,2024-03-26T02:40:00Z,FanDuel,Los Angeles Clippers,-6.0,1.94,2024-03-25T23:55:39Z
+2e87431523192387ff81ff8d741a0be0,Miami Heat,Golden State Warriors,2024-03-26T23:30:00Z,FanDuel,Miami Heat,2.0,1.89,2024-03-25T23:55:39Z
+886bd38845e7ea6f4e176309e542c6be,Milwaukee Bucks,Los Angeles Lakers,2024-03-26T23:30:00Z,FanDuel,Milwaukee Bucks,-8.0,1.91,2024-03-25T23:55:39Z
+2e3bc94ea7d71c731889bad9d61519da,New Orleans Pelicans,Oklahoma City Thunder,2024-03-27T00:00:00Z,FanDuel,New Orleans Pelicans,1.0,1.89,2024-03-25T23:55:39Z
+87fb380f7aa6e45faabc77b765e9be26,Sacramento Kings,Dallas Mavericks,2024-03-27T02:00:00Z,FanDuel,Sacramento Kings,-1.5,1.91,2024-03-25T23:55:39Z
+629f8bf195b67539b5477a9b5e237273,Washington Wizards,Brooklyn Nets,2024-03-27T23:10:00Z,FanDuel,Washington Wizards,2.5,1.91,2024-03-26T23:55:39Z
+d1ae2d268665753f911d94ea212e9324,Charlotte Hornets,Cleveland Cavaliers,2024-03-27T23:10:00Z,FanDuel,Charlotte Hornets,10.5,1.91,2024-03-26T23:55:39Z
+b5043757cd9ee289df782c1d0a764fad,Orlando Magic,Golden State Warriors,2024-03-27T23:10:00Z,FanDuel,Orlando Magic,-4.5,1.93,2024-03-26T23:55:39Z
+10fa10080886dec4b34a901a680a18e0,Atlanta Hawks,Portland Trail Blazers,2024-03-27T23:40:00Z,FanDuel,Atlanta Hawks,-11.0,1.88,2024-03-26T23:55:39Z
+2d8382d6ec149add511155c1efbb1627,Philadelphia 76ers,Los Angeles Clippers,2024-03-27T23:40:00Z,FanDuel,Philadelphia 76ers,6.0,1.94,2024-03-26T23:55:39Z
+220f7c99dc9bf3653490e8d0e9cd067a,Toronto Raptors,New York Knicks,2024-03-27T23:40:00Z,FanDuel,Toronto Raptors,12.5,1.91,2024-03-26T23:55:39Z
+5d6b233c6210923a87cbc5e8db0b75ab,Chicago Bulls,Indiana Pacers,2024-03-28T00:10:00Z,FanDuel,Chicago Bulls,3.0,1.91,2024-03-26T23:55:39Z
+0a217cdc8aeaf32f20a8246c950d26bd,Oklahoma City Thunder,Houston Rockets,2024-03-28T00:10:00Z,FanDuel,Oklahoma City Thunder,-6.5,1.94,2024-03-26T23:55:39Z
+a921cabb3f530691acc8ff0c868a8663,Denver Nuggets,Phoenix Suns,2024-03-28T02:10:00Z,FanDuel,Denver Nuggets,-7.0,1.91,2024-03-26T23:55:39Z
+44f09e2af12be30818bfe0dc7625788b,Minnesota Timberwolves,Detroit Pistons,2024-03-28T00:10:00Z,FanDuel,Minnesota Timberwolves,-16.5,1.89,2024-03-27T23:55:40Z
+b15662dd8223949339a15565ab8f3fcf,Memphis Grizzlies,Los Angeles Lakers,2024-03-28T00:10:00Z,FanDuel,Memphis Grizzlies,4.5,1.89,2024-03-27T23:55:40Z
+81d1ddfee8061d611012cda285e3ac6f,Utah Jazz,San Antonio Spurs,2024-03-28T01:10:00Z,FanDuel,Utah Jazz,-4.0,1.89,2024-03-27T23:55:40Z
+10c80191d15083974a1bd1bdb73afe97,Atlanta Hawks,Boston Celtics,2024-03-28T23:40:00Z,FanDuel,Atlanta Hawks,12.5,1.91,2024-03-27T23:55:40Z
+8ac20ed02f951167bdc199360ad7a305,New Orleans Pelicans,Milwaukee Bucks,2024-03-29T00:10:00Z,FanDuel,New Orleans Pelicans,1.5,1.91,2024-03-27T23:55:40Z
+ee8cfaef963aea9276e133873f77c26a,Charlotte Hornets,Golden State Warriors,2024-03-29T23:00:00Z,FanDuel,Charlotte Hornets,11.5,1.93,2024-03-28T23:55:39Z
+b81d413841ffac45808a7e24e3e02cef,Washington Wizards,Detroit Pistons,2024-03-29T23:00:00Z,FanDuel,Washington Wizards,-3.0,1.91,2024-03-28T23:55:39Z
+bddad96d870aed454bb03961db14866b,Indiana Pacers,Los Angeles Lakers,2024-03-29T23:00:00Z,FanDuel,Indiana Pacers,-2.0,1.91,2024-03-28T23:55:39Z
+b65624162b3b2cf0d5345cdb77f1aa27,Orlando Magic,Los Angeles Clippers,2024-03-29T23:00:00Z,FanDuel,Orlando Magic,1.0,1.91,2024-03-28T23:55:39Z
+593ab66c7ff01d4a766d6202b2eff211,Brooklyn Nets,Chicago Bulls,2024-03-29T23:30:00Z,FanDuel,Brooklyn Nets,5.5,1.94,2024-03-28T23:55:39Z
+0bb679c461328f59d2f53ca2aa26fc7c,Cleveland Cavaliers,Philadelphia 76ers,2024-03-29T23:30:00Z,FanDuel,Cleveland Cavaliers,-7.5,1.91,2024-03-28T23:55:39Z
+976ce193b934298c92052bfaf8ccc32f,Miami Heat,Portland Trail Blazers,2024-03-30T00:00:00Z,FanDuel,Miami Heat,-15.5,1.91,2024-03-28T23:55:39Z
+1802db8341d86dcefa3f030d122dbe95,San Antonio Spurs,New York Knicks,2024-03-30T00:00:00Z,FanDuel,San Antonio Spurs,10.0,1.91,2024-03-28T23:55:39Z
+d3887fa72deb7a38fa37a8d79bb85111,Oklahoma City Thunder,Phoenix Suns,2024-03-30T00:00:00Z,FanDuel,Oklahoma City Thunder,1.0,1.91,2024-03-28T23:55:39Z
+850c0f5082395ae77745a429965e7e67,Denver Nuggets,Minnesota Timberwolves,2024-03-30T01:00:00Z,FanDuel,Denver Nuggets,-6.5,1.89,2024-03-28T23:55:39Z
+0c27cbb0f7633e73a59fbb14d412dbf7,Utah Jazz,Houston Rockets,2024-03-30T01:30:00Z,FanDuel,Utah Jazz,5.5,1.95,2024-03-28T23:55:39Z
+701513819f33287e254984b4398e4d4c,Sacramento Kings,Dallas Mavericks,2024-03-30T02:00:00Z,FanDuel,Sacramento Kings,-1.0,1.91,2024-03-28T23:55:39Z
+52b7b645bd76de3c1698caec332b55ce,Orlando Magic,Memphis Grizzlies,2024-03-30T23:10:51Z,FanDuel,Orlando Magic,-22.5,1.69,2024-03-30T23:55:39Z
+81119a9f8b4299aa826e09460ea76ef2,Atlanta Hawks,Milwaukee Bucks,2024-03-30T23:41:59Z,FanDuel,Atlanta Hawks,5.5,1.78,2024-03-30T23:55:39Z
+9af70b97cfe27c5174fa88c13942a1e8,Denver Nuggets,Cleveland Cavaliers,2024-03-31T19:40:00Z,FanDuel,Denver Nuggets,-5.0,1.91,2024-03-30T23:55:39Z
+10ec472040ee7d1cf9124a6da48efec5,Brooklyn Nets,Los Angeles Lakers,2024-03-31T22:10:00Z,FanDuel,Brooklyn Nets,5.5,1.91,2024-03-30T23:55:39Z
+9a0fb240f3f4db66d5ef34a3f5eb1c5f,Charlotte Hornets,Los Angeles Clippers,2024-03-31T22:10:00Z,FanDuel,Charlotte Hornets,16.0,1.91,2024-03-30T23:55:39Z
+a64e07a473570af03a3607c518584ab3,Washington Wizards,Miami Heat,2024-03-31T22:10:00Z,FanDuel,Washington Wizards,10.5,1.89,2024-03-30T23:55:39Z
+61e8c9aef77b250a0f8570b40355442e,Toronto Raptors,Philadelphia 76ers,2024-03-31T22:10:00Z,FanDuel,Toronto Raptors,11.5,1.91,2024-03-30T23:55:39Z
+ff88f778f1aca4397116db8ee499957e,Minnesota Timberwolves,Chicago Bulls,2024-03-31T23:10:00Z,FanDuel,Minnesota Timberwolves,-8.5,1.91,2024-03-30T23:55:39Z
+334977eee0d00129b598bc762211ebf7,Houston Rockets,Dallas Mavericks,2024-03-31T23:10:00Z,FanDuel,Houston Rockets,-1.0,1.93,2024-03-30T23:55:39Z
+ba1db52470fcf89f37df032a905cecce,San Antonio Spurs,Golden State Warriors,2024-03-31T23:10:00Z,FanDuel,San Antonio Spurs,8.5,1.94,2024-03-30T23:55:39Z
+037397a79667854289dfd06671aad824,New York Knicks,Oklahoma City Thunder,2024-03-31T23:10:00Z,FanDuel,New York Knicks,-3.0,1.93,2024-03-30T23:55:39Z
+701550171abbecc509088af8e73168c5,Sacramento Kings,Utah Jazz,2024-04-01T01:10:00Z,FanDuel,Sacramento Kings,-11.5,1.91,2024-03-30T23:55:39Z
+216590fe70aabd1630ad884fa996b7d9,Charlotte Hornets,Boston Celtics,2024-04-01T23:10:00Z,FanDuel,Charlotte Hornets,17.0,1.91,2024-03-31T23:55:38Z
+67577af1e344d542b8a36393414b79c6,Indiana Pacers,Brooklyn Nets,2024-04-01T23:10:00Z,FanDuel,Indiana Pacers,-10.0,1.91,2024-03-31T23:55:38Z
+26f534a196f1345519e841b2e8122763,Detroit Pistons,Memphis Grizzlies,2024-04-01T23:10:00Z,FanDuel,Detroit Pistons,-2.5,1.91,2024-03-31T23:55:38Z
+71a374d3f594281f46d022ecb9875370,Orlando Magic,Portland Trail Blazers,2024-04-01T23:10:00Z,FanDuel,Orlando Magic,-16.0,1.91,2024-03-31T23:55:38Z
+7dfdba59b13fe0dcece92eaa81e602b0,Chicago Bulls,Atlanta Hawks,2024-04-02T00:10:00Z,FanDuel,Chicago Bulls,-2.5,1.91,2024-03-31T23:55:38Z
+fb7e73589036339e3276d32ada2dc133,New Orleans Pelicans,Phoenix Suns,2024-04-02T00:10:00Z,FanDuel,New Orleans Pelicans,-1.0,1.93,2024-03-31T23:55:38Z
+0d31988221feb992519b909a81ac259b,Toronto Raptors,Los Angeles Lakers,2024-04-02T23:00:00Z,FanDuel,Toronto Raptors,13.0,1.91,2024-04-01T23:55:38Z
+91d1a54cf01ac5c4c83c595755fceef2,Washington Wizards,Milwaukee Bucks,2024-04-02T23:00:00Z,FanDuel,Washington Wizards,13.5,1.91,2024-04-01T23:55:38Z
+576c9042bddd7b11d4fcc9e3ad720a9c,Miami Heat,New York Knicks,2024-04-02T23:30:00Z,FanDuel,Miami Heat,-2.5,1.88,2024-04-01T23:55:38Z
+a94e0d9ca46095ea4b8250778a78d029,Philadelphia 76ers,Oklahoma City Thunder,2024-04-02T23:30:00Z,FanDuel,Philadelphia 76ers,5.0,1.91,2024-04-01T23:55:38Z
+a56050559b435160a12ea2368feebfa4,Minnesota Timberwolves,Houston Rockets,2024-04-03T00:00:00Z,FanDuel,Minnesota Timberwolves,-8.0,1.91,2024-04-01T23:55:38Z
+f6711a4bb0fb8415631489a8a568f818,Denver Nuggets,San Antonio Spurs,2024-04-03T01:00:00Z,FanDuel,Denver Nuggets,-16.5,1.89,2024-04-01T23:55:38Z
+62818b63427bce60861afc5b1187d3af,Golden State Warriors,Dallas Mavericks,2024-04-03T02:00:00Z,FanDuel,Golden State Warriors,-1.0,1.91,2024-04-01T23:55:38Z
+3d41daf5b30be266bf64bf38ca1da2bb,Sacramento Kings,Los Angeles Clippers,2024-04-03T02:00:00Z,FanDuel,Sacramento Kings,1.5,1.91,2024-04-01T23:55:38Z
+3aca6dc00b18af59774261ef0875a054,Utah Jazz,Cleveland Cavaliers,2024-04-03T01:10:00Z,FanDuel,Utah Jazz,9.5,1.94,2024-04-02T23:55:39Z
+3c16ebcbe0ac4662cf9a5541e4eb70f6,Charlotte Hornets,Portland Trail Blazers,2024-04-03T23:10:00Z,FanDuel,Charlotte Hornets,-1.5,1.91,2024-04-02T23:55:39Z
+5f06c4f96229ea8e68a171aee4daa33f,Washington Wizards,Los Angeles Lakers,2024-04-03T23:10:00Z,FanDuel,Washington Wizards,12.5,1.91,2024-04-02T23:55:39Z
+dd66afb0dccda72dfcc784c724e445a0,Atlanta Hawks,Detroit Pistons,2024-04-03T23:40:00Z,FanDuel,Atlanta Hawks,-13.0,1.93,2024-04-02T23:55:39Z
+03423fed6caa227704c0fc9ce4354639,Boston Celtics,Oklahoma City Thunder,2024-04-03T23:40:00Z,FanDuel,Boston Celtics,-8.5,1.91,2024-04-02T23:55:39Z
+0dd1d879701db64a597906a6b08466ca,Milwaukee Bucks,Memphis Grizzlies,2024-04-03T23:40:00Z,FanDuel,Milwaukee Bucks,-14.0,1.91,2024-04-02T23:55:39Z
+608394397d989f87c11706d23d9fcde0,Minnesota Timberwolves,Toronto Raptors,2024-04-04T00:10:00Z,FanDuel,Minnesota Timberwolves,-15.5,1.91,2024-04-02T23:55:39Z
+dd1b3370a523e102e82c5c181d1c68ec,New Orleans Pelicans,Orlando Magic,2024-04-04T00:10:00Z,FanDuel,New Orleans Pelicans,-4.0,1.91,2024-04-02T23:55:39Z
+e142f1d935ecab70b3e1676a73f130ca,Phoenix Suns,Cleveland Cavaliers,2024-04-04T02:10:00Z,FanDuel,Phoenix Suns,-6.0,1.91,2024-04-02T23:55:39Z
+bc06adc40aa55962e79a38909b4bd0ad,Brooklyn Nets,Indiana Pacers,2024-04-03T23:41:07Z,FanDuel,Brooklyn Nets,7.5,1.88,2024-04-03T23:55:39Z
+4fa62836feeb88c78b9d54c8274d6add,Dallas Mavericks,Atlanta Hawks,2024-04-04T23:30:00Z,FanDuel,Dallas Mavericks,-11.0,1.91,2024-04-03T23:55:39Z
+e3ca97338d3a63129be2cf0f6111edb9,Miami Heat,Philadelphia 76ers,2024-04-04T23:30:00Z,FanDuel,Miami Heat,-2.5,1.89,2024-04-03T23:55:39Z
+b53120dd47ca42354c097193dc3082eb,New York Knicks,Sacramento Kings,2024-04-04T23:30:00Z,FanDuel,New York Knicks,-3.5,1.91,2024-04-03T23:55:39Z
+54e9789714fd7f45e04c1a7b3dececd5,Houston Rockets,Golden State Warriors,2024-04-05T00:00:00Z,FanDuel,Houston Rockets,3.5,1.91,2024-04-03T23:55:39Z
+aa460d955f272f3464cf52d4327874ca,Los Angeles Clippers,Denver Nuggets,2024-04-05T02:10:00Z,FanDuel,Los Angeles Clippers,3.5,1.94,2024-04-04T23:55:39Z
+763d66b5c0bcee2bc43f90edc1155138,Charlotte Hornets,Orlando Magic,2024-04-05T23:00:00Z,FanDuel,Charlotte Hornets,11.5,1.91,2024-04-04T23:55:39Z
+91557fab9d6121bffef8491f13d084a9,Indiana Pacers,Oklahoma City Thunder,2024-04-05T23:00:00Z,FanDuel,Indiana Pacers,-4.5,1.91,2024-04-04T23:55:39Z
+a7cdd52a96685d25c480019525b560d4,Washington Wizards,Portland Trail Blazers,2024-04-05T23:00:00Z,FanDuel,Washington Wizards,-2.0,1.91,2024-04-04T23:55:39Z
+be7ff9d4fde6b8adbbcdb50b9fbd7498,Boston Celtics,Sacramento Kings,2024-04-05T23:30:00Z,FanDuel,Boston Celtics,-8.5,1.91,2024-04-04T23:55:39Z
+fdb70e18e33666006d5f99ae0f78be05,Chicago Bulls,New York Knicks,2024-04-06T00:00:00Z,FanDuel,Chicago Bulls,-1.0,1.93,2024-04-04T23:55:39Z
+ba2453a00013c87ecdbc4aa64d7b9953,Houston Rockets,Miami Heat,2024-04-06T00:00:00Z,FanDuel,Houston Rockets,-1.0,1.93,2024-04-04T23:55:39Z
+549cb43863d83987dac2acd5bed16a33,Dallas Mavericks,Golden State Warriors,2024-04-06T00:30:00Z,FanDuel,Dallas Mavericks,-5.0,1.91,2024-04-04T23:55:39Z
+1439dd82b2ac2434f097380dfa7c39aa,Phoenix Suns,Minnesota Timberwolves,2024-04-06T02:00:00Z,FanDuel,Phoenix Suns,-3.5,1.91,2024-04-04T23:55:39Z
+06d0be459ad524173cb82a9f227323ef,Los Angeles Lakers,Cleveland Cavaliers,2024-04-06T19:30:00Z,FanDuel,Los Angeles Lakers,-4.5,1.93,2024-04-05T23:55:38Z
+aaf4c40667de66fe6104d44af9459327,Brooklyn Nets,Detroit Pistons,2024-04-06T23:00:00Z,FanDuel,Brooklyn Nets,-8.0,1.91,2024-04-05T23:55:38Z
+f7ee13050aa1d8103c5ed8fa4662bcc4,Memphis Grizzlies,Philadelphia 76ers,2024-04-07T00:00:00Z,FanDuel,Memphis Grizzlies,12.0,1.91,2024-04-05T23:55:38Z
+7f1d5bb19c3e00b8198a9f75cf0aa3b6,Denver Nuggets,Atlanta Hawks,2024-04-07T01:00:00Z,FanDuel,Denver Nuggets,-12.0,1.91,2024-04-05T23:55:38Z
+85a837d69d683f938e2de8bf20623b2c,Los Angeles Clippers,Cleveland Cavaliers,2024-04-07T19:30:00Z,FanDuel,Los Angeles Clippers,-4.0,1.91,2024-04-06T23:55:38Z
+d257ef9200525ae1a09743eeb8a2f90c,Dallas Mavericks,Houston Rockets,2024-04-07T19:30:00Z,FanDuel,Dallas Mavericks,-7.5,1.91,2024-04-06T23:55:38Z
+c42ec787f2f26bbbd665aefd40337733,Indiana Pacers,Miami Heat,2024-04-07T21:00:00Z,FanDuel,Indiana Pacers,-1.0,1.91,2024-04-06T23:55:38Z
+a3cf562e526613a4c0c3604b68da457c,Boston Celtics,Portland Trail Blazers,2024-04-07T22:00:00Z,FanDuel,Boston Celtics,-16.5,1.89,2024-04-06T23:55:38Z
+827de5fba5998e542dd701dd0bd5c916,Charlotte Hornets,Oklahoma City Thunder,2024-04-07T22:00:00Z,FanDuel,Charlotte Hornets,9.0,1.91,2024-04-06T23:55:38Z
+6e41e3b197f4ed18b9be5aed40f6e0fb,Orlando Magic,Chicago Bulls,2024-04-07T22:00:00Z,FanDuel,Orlando Magic,-7.5,1.91,2024-04-06T23:55:38Z
+a136272382c2e96cf5fa9a1646ff69b3,Phoenix Suns,New Orleans Pelicans,2024-04-07T22:00:00Z,FanDuel,Phoenix Suns,-5.5,1.91,2024-04-06T23:55:38Z
+cffac5febd5250fe6a12ebcc55af50a8,Toronto Raptors,Washington Wizards,2024-04-07T22:00:00Z,FanDuel,Toronto Raptors,-4.5,1.91,2024-04-06T23:55:38Z
+08d21ecc524683bf973f71d3b9264023,Milwaukee Bucks,New York Knicks,2024-04-07T23:00:00Z,FanDuel,Milwaukee Bucks,-1.5,1.91,2024-04-06T23:55:38Z
+3098c246e193f7b9dc6468b660dd6e47,Brooklyn Nets,Sacramento Kings,2024-04-07T23:30:00Z,FanDuel,Brooklyn Nets,6.5,1.91,2024-04-06T23:55:38Z
+f5479aa49814ef32b369fdd161610e3e,Golden State Warriors,Utah Jazz,2024-04-08T00:30:00Z,FanDuel,Golden State Warriors,-10.0,1.89,2024-04-06T23:55:38Z
+ad24e33d6da51ae673f54502c2dd8a23,Los Angeles Lakers,Minnesota Timberwolves,2024-04-08T02:00:00Z,FanDuel,Los Angeles Lakers,-3.5,1.89,2024-04-06T23:55:38Z
+ffff0c072d3db65180224daa6e216ca9,San Antonio Spurs,Philadelphia 76ers,2024-04-07T23:10:27Z,FanDuel,San Antonio Spurs,4.5,1.94,2024-04-07T23:55:38Z
+c5e653a024326e1ae72231bb1c005328,Charlotte Hornets,Dallas Mavericks,2024-04-09T23:10:00Z,FanDuel,Charlotte Hornets,10.5,1.94,2024-04-08T23:55:39Z
+b8d921cfa2bc48e6723fc88ecfb9e3d9,Philadelphia 76ers,Detroit Pistons,2024-04-09T23:10:00Z,FanDuel,Philadelphia 76ers,-15.0,1.91,2024-04-08T23:55:39Z
+5d7cdf50577604b937905c59727d59a0,Toronto Raptors,Indiana Pacers,2024-04-09T23:10:00Z,FanDuel,Toronto Raptors,10.0,1.89,2024-04-08T23:55:39Z
+7b6a78b2d6c9c0921485eb13f49183dd,Milwaukee Bucks,Boston Celtics,2024-04-09T23:30:00Z,FanDuel,Milwaukee Bucks,2.0,1.89,2024-04-08T23:55:39Z
+fc2b2e5314b82a5eb6649ae47427d50f,Atlanta Hawks,Miami Heat,2024-04-09T23:40:00Z,FanDuel,Atlanta Hawks,3.5,1.91,2024-04-08T23:55:39Z
+2825335c52a118da515ee62b19b92c52,Memphis Grizzlies,San Antonio Spurs,2024-04-10T00:00:00Z,FanDuel,Memphis Grizzlies,3.5,1.89,2024-04-08T23:55:39Z
+fb863e988f05d0f676905bbd9770768e,Chicago Bulls,New York Knicks,2024-04-10T00:10:00Z,FanDuel,Chicago Bulls,4.0,1.91,2024-04-08T23:55:39Z
+c08f91306f62063eeeb6ba34bff31cf3,Houston Rockets,Orlando Magic,2024-04-10T00:10:00Z,FanDuel,Houston Rockets,2.5,1.89,2024-04-08T23:55:39Z
+e6e57624cc7f03da5107bc87da76522d,Minnesota Timberwolves,Washington Wizards,2024-04-10T00:10:00Z,FanDuel,Minnesota Timberwolves,-16.5,1.91,2024-04-08T23:55:39Z
+ecb2f216e68bd638f41b133b2d648034,Oklahoma City Thunder,Sacramento Kings,2024-04-10T00:10:00Z,FanDuel,Oklahoma City Thunder,-4.0,1.91,2024-04-08T23:55:39Z
+304031f6b188427f7cdafb35025935a1,Utah Jazz,Denver Nuggets,2024-04-10T01:10:00Z,FanDuel,Utah Jazz,14.0,1.91,2024-04-08T23:55:39Z
+a61f4d7de90ae5f39ab4aa31f2ab85dc,Los Angeles Lakers,Golden State Warriors,2024-04-10T02:10:00Z,FanDuel,Los Angeles Lakers,-2.0,1.91,2024-04-08T23:55:39Z
+34576212f0cc575d1af52089c3db0a27,Phoenix Suns,Los Angeles Clippers,2024-04-10T02:10:00Z,FanDuel,Phoenix Suns,-3.5,1.87,2024-04-08T23:55:39Z
+248a29b056382602f9cb6e629407acca,Portland Trail Blazers,New Orleans Pelicans,2024-04-10T02:10:00Z,FanDuel,Portland Trail Blazers,10.5,1.94,2024-04-08T23:55:39Z
+3bdb24f1cef3bfe0cbbebd42c723dade,Atlanta Hawks,Charlotte Hornets,2024-04-10T23:40:00Z,FanDuel,Atlanta Hawks,-12.5,1.89,2024-04-09T23:55:39Z
+7f12f126cd8d2b554b709ade5d43c5cd,Denver Nuggets,Minnesota Timberwolves,2024-04-11T02:10:00Z,FanDuel,Denver Nuggets,-6.0,1.91,2024-04-09T23:55:39Z
+eef78bee2f630d615486f953ca851264,Cleveland Cavaliers,Memphis Grizzlies,2024-04-10T23:11:01Z,FanDuel,Cleveland Cavaliers,-11.5,2.0,2024-04-10T23:55:39Z
+56c600606969850bed474189ec9fb86e,Brooklyn Nets,Toronto Raptors,2024-04-10T23:40:00Z,FanDuel,Brooklyn Nets,-10.5,2.0,2024-04-10T23:55:39Z
+812108414079da95bac7102479a69df1,Miami Heat,Dallas Mavericks,2024-04-10T23:40:00Z,FanDuel,Miami Heat,-0.5,1.87,2024-04-10T23:55:39Z
+a00f81ba5c58d9646d7cfc95a3ce3904,Milwaukee Bucks,Orlando Magic,2024-04-11T00:10:00Z,FanDuel,Milwaukee Bucks,1.5,1.93,2024-04-10T23:55:39Z
+304b81b74762027a3798c88910179e11,Oklahoma City Thunder,San Antonio Spurs,2024-04-11T00:10:00Z,FanDuel,Oklahoma City Thunder,-17.0,1.91,2024-04-10T23:55:39Z
+34506e7cab6e157af8028b83278af200,Los Angeles Clippers,Phoenix Suns,2024-04-11T02:40:00Z,FanDuel,Los Angeles Clippers,11.0,1.93,2024-04-10T23:55:39Z
+f625ab54cc12cdf1cbe6be1c1dc59d6f,Sacramento Kings,New Orleans Pelicans,2024-04-12T02:10:00Z,FanDuel,Sacramento Kings,-1.0,1.91,2024-04-10T23:55:39Z
+4260b108c5282aa454a55a2eb571dcf9,Detroit Pistons,Chicago Bulls,2024-04-11T23:11:12Z,FanDuel,Detroit Pistons,12.5,1.72,2024-04-11T23:55:40Z
+3868a62e54a585e28d055249faf91054,Boston Celtics,New York Knicks,2024-04-11T23:35:36Z,FanDuel,Boston Celtics,1.5,1.69,2024-04-11T23:55:40Z
+217bc5c1cb46eab620d5123a1b255a59,Utah Jazz,Houston Rockets,2024-04-12T01:10:00Z,FanDuel,Utah Jazz,11.0,1.91,2024-04-11T23:55:40Z
+9e4cafe9b46e733ae4e24922599c17dc,Portland Trail Blazers,Golden State Warriors,2024-04-12T02:10:00Z,FanDuel,Portland Trail Blazers,13.0,1.88,2024-04-11T23:55:40Z
+028729e70213694ada0c6fbc3bc8d791,Philadelphia 76ers,Orlando Magic,2024-04-12T23:10:00Z,FanDuel,Philadelphia 76ers,-6.5,1.91,2024-04-11T23:55:40Z
+c4a881b2acb9953049e206f15b6d9a20,New York Knicks,Brooklyn Nets,2024-04-12T23:40:00Z,FanDuel,New York Knicks,-10.5,1.91,2024-04-11T23:55:40Z
+0d6f773e5e1cb6f28ca3721377e64457,Cleveland Cavaliers,Indiana Pacers,2024-04-12T23:40:00Z,FanDuel,Cleveland Cavaliers,-3.0,1.94,2024-04-11T23:55:40Z
+10c136788578ef1beb8d1b4fc028510e,Oklahoma City Thunder,Milwaukee Bucks,2024-04-13T00:10:00Z,FanDuel,Oklahoma City Thunder,-11.0,1.91,2024-04-11T23:55:40Z
+fec641223eba799abf9c9b6100d0ce04,Sacramento Kings,Phoenix Suns,2024-04-13T02:40:00Z,FanDuel,Sacramento Kings,3.0,1.89,2024-04-11T23:55:40Z
+04690cf49d6417ab9eb5c0e76bc89e9a,Washington Wizards,Chicago Bulls,2024-04-12T23:14:47Z,FanDuel,Washington Wizards,-4.5,1.94,2024-04-12T23:55:39Z
+e09f576aae6c230c376d42e02227f32a,Boston Celtics,Charlotte Hornets,2024-04-12T23:40:45Z,FanDuel,Boston Celtics,-6.5,1.76,2024-04-12T23:55:39Z
+0763aaf0f0a677dcde7194ae6a5aa13c,Minnesota Timberwolves,Atlanta Hawks,2024-04-13T00:00:00Z,FanDuel,Minnesota Timberwolves,-12.5,1.91,2024-04-12T23:55:39Z
+1df6c9c2bf47e9bbff43dc2f9692d602,San Antonio Spurs,Denver Nuggets,2024-04-13T00:00:00Z,FanDuel,San Antonio Spurs,11.5,1.89,2024-04-12T23:55:39Z
+89e9e43c68e8a2637aa888815f7a41a7,Memphis Grizzlies,Los Angeles Lakers,2024-04-13T00:00:00Z,FanDuel,Memphis Grizzlies,16.0,1.91,2024-04-12T23:55:39Z
+063b4eedda65ce1216c92319ea8fda6f,Miami Heat,Toronto Raptors,2024-04-13T00:00:00Z,FanDuel,Miami Heat,-14.0,1.91,2024-04-12T23:55:39Z
+5f4ca6df4470544a58d255fcf8647a5d,Dallas Mavericks,Detroit Pistons,2024-04-13T00:30:00Z,FanDuel,Dallas Mavericks,-11.0,1.91,2024-04-12T23:55:39Z
+cc36c39fd94846a30921c80f9f4b0951,Golden State Warriors,New Orleans Pelicans,2024-04-13T02:00:00Z,FanDuel,Golden State Warriors,-4.0,1.89,2024-04-12T23:55:39Z
+35b9958b97aab83df5dc9fd5d328ac0e,Portland Trail Blazers,Houston Rockets,2024-04-13T02:00:00Z,FanDuel,Portland Trail Blazers,6.0,1.91,2024-04-12T23:55:39Z
+b3c11aa6eaf9f256b6e2b5927c4a8cd1,Los Angeles Clippers,Utah Jazz,2024-04-13T02:30:00Z,FanDuel,Los Angeles Clippers,-15.5,1.89,2024-04-12T23:55:39Z
+c87df77d60f9110b769f8e3f4fcc83c6,Chicago Bulls,Atlanta Hawks,2024-04-17T23:10:00Z,FanDuel,Chicago Bulls,-3.5,1.89,2024-04-12T23:55:39Z
+7bfcffc01e243389c316a31c31f7d69d,Indiana Pacers,Atlanta Hawks,2024-04-14T17:10:00Z,FanDuel,Indiana Pacers,-14.0,1.93,2024-04-13T23:55:38Z
+79e787694fe62ef689c8c411d66532ae,Boston Celtics,Washington Wizards,2024-04-14T17:10:00Z,FanDuel,Boston Celtics,-9.5,1.91,2024-04-13T23:55:38Z
+5b7acbdd6effa02631607e96f229736d,Philadelphia 76ers,Brooklyn Nets,2024-04-14T17:10:00Z,FanDuel,Philadelphia 76ers,-14.5,1.91,2024-04-13T23:55:38Z
+bd546c94f0a090cf395cd54b200a0100,Cleveland Cavaliers,Charlotte Hornets,2024-04-14T17:10:00Z,FanDuel,Cleveland Cavaliers,-13.5,1.91,2024-04-13T23:55:38Z
+d4ad4414fcfca542a6017ad4310a8563,New York Knicks,Chicago Bulls,2024-04-14T17:10:00Z,FanDuel,New York Knicks,-14.5,1.89,2024-04-13T23:55:38Z
+292672f8101776d527ebad5318461b26,Miami Heat,Toronto Raptors,2024-04-14T17:10:00Z,FanDuel,Miami Heat,-15.5,1.91,2024-04-13T23:55:38Z
+407740e03749e1cf1c1c78f0e3248898,Orlando Magic,Milwaukee Bucks,2024-04-14T17:10:00Z,FanDuel,Orlando Magic,-5.0,1.93,2024-04-13T23:55:38Z
+9b0397797b87a5a02627e54fea3678b7,Oklahoma City Thunder,Dallas Mavericks,2024-04-14T19:40:00Z,FanDuel,Oklahoma City Thunder,-19.5,1.93,2024-04-13T23:55:38Z
+9d326b305d989db5cac8597bbe3eac28,Memphis Grizzlies,Denver Nuggets,2024-04-14T19:40:00Z,FanDuel,Memphis Grizzlies,14.5,1.91,2024-04-13T23:55:38Z
+b94652450e239d8dd1a52daecdb3e1c8,San Antonio Spurs,Detroit Pistons,2024-04-14T19:40:00Z,FanDuel,San Antonio Spurs,-6.0,1.91,2024-04-13T23:55:38Z
+f49318ca2a6e61d91aa79e7b5e043798,Golden State Warriors,Utah Jazz,2024-04-14T19:40:00Z,FanDuel,Golden State Warriors,-8.0,1.88,2024-04-13T23:55:38Z
+1b14ab976a04ed84acbed402bbaebcac,Los Angeles Clippers,Houston Rockets,2024-04-14T19:40:00Z,FanDuel,Los Angeles Clippers,2.5,1.91,2024-04-13T23:55:38Z
+9002136b1230baba93f6c57134e214d6,New Orleans Pelicans,Los Angeles Lakers,2024-04-14T19:40:00Z,FanDuel,New Orleans Pelicans,-4.0,1.89,2024-04-13T23:55:38Z
+866d2f5245ad5ad4ba3293827607df0e,Minnesota Timberwolves,Phoenix Suns,2024-04-14T19:40:00Z,FanDuel,Minnesota Timberwolves,-2.0,1.91,2024-04-13T23:55:38Z
+92ce6851144aa55ed075904a3ba33eaf,Sacramento Kings,Portland Trail Blazers,2024-04-14T19:40:00Z,FanDuel,Sacramento Kings,-16.5,1.91,2024-04-13T23:55:38Z
