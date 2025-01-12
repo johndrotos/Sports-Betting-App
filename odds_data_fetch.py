@@ -1,78 +1,85 @@
 import requests
 import pandas as pd
 import json
+from datetime import datetime, timedelta
 
-# An api key is emailed to you when you sign up to a plan
-# Get a free API key at https://api.the-odds-api.com/
+
+
 API_KEY = '65ffba3835e1b2356bf206e108225b50'
-
-SPORT = 'basketball_nba' # use the sport_key from the /sports endpoint below, or use 'upcoming' to see the next 8 games across all sports
-
-REGIONS = 'us' # uk | us | eu | au. Multiple can be specified if comma delimited
-
-MARKETS = 'spreads' # h2h | spreads | totals. Multiple can be specified if comma delimited
-
-BOOKMAKERS = 'draftkings, fanduel, betmgm'
-
-ODDS_FORMAT = 'decimal' # decimal | american
-
+SPORT = 'basketball_nba'
+REGIONS = 'us' 
+MARKETS = 'spreads'
+BOOKMAKERS = 'fanduel'
+ODDS_FORMAT = 'decimal' 
 DATE_FORMAT = 'iso'
 
-DATE = '2021-01-23T12:00:00Z'
+# DATE = '2024-01-01T12:00:00Z'
 
 
-odds_response = requests.get(
-    f'https://api.the-odds-api.com/v4/historical/sports/{SPORT}/odds',
-    params={
-        'api_key': API_KEY,
-        'regions': REGIONS,
-        'markets': MARKETS,
-        #'bookmakers': BOOKMAKERS,
-        'oddsFormat': ODDS_FORMAT,
-        'dateFormat': DATE_FORMAT,
-        'date': DATE
-    }
-)
+start_date = datetime(2023, 12, 30)  
+end_date = datetime(2024, 1, 15) 
+date_increment = timedelta(hours=12)  
 
-if odds_response.status_code != 200:
-    print(f'Failed to get odds: status_code {odds_response.status_code}, response body {odds_response.text}')
+all_data = []
 
-else:
-    odds_json = odds_response.json()
-    print(odds_json)
+current_date = start_date
+while current_date < end_date:
+    date_str = current_date.isoformat() + "Z"  # Convert to ISO 8601 format with 'Z' for UTC
+    print(f"Fetching data for: {date_str}")
 
-    with open("data.json", "w") as f:
-        json.dump(odds_json, f, indent=4)
+    # API Request
+    odds_response = requests.get(
+        f'https://api.the-odds-api.com/v4/historical/sports/{SPORT}/odds',
+        params={
+            'api_key': API_KEY,
+            'regions': REGIONS,
+            'markets': MARKETS,
+            'oddsFormat': ODDS_FORMAT,
+            'dateFormat': DATE_FORMAT,
+            'date': date_str,
+            'bookmakers': BOOKMAKERS,
+        }
+    )
+    
+    if odds_response.status_code == 200:
+        odds_json = odds_response.json()
+        # Extract relevant data
+        for event in odds_json.get('data', []):
+            game_id = event['id']
+            home_team = event['home_team']
+            away_team = event['away_team']
+            commence_time = event['commence_time']
 
-    data = []
-    for event in odds_json.get('data', []):
-        game_id = event['id']
-        home_team = event['home_team']
-        away_team = event['away_team']
-        commence_time = event['commence_time']
-        
-        for bookmaker in event.get('bookmakers', []):
-            for market in bookmaker.get('markets', []):
-                if market['key'] == 'spreads':  # We're interested in spread odds
-                    for outcome in market.get('outcomes', []):
-                        data.append({
-                            'Game ID': game_id,
-                            'Home Team': home_team,
-                            'Away Team': away_team,
-                            'Commence Time': commence_time,
-                            'Bookmaker': bookmaker['title'],
-                            'Outcome Name': outcome['name'],
-                            'Point': outcome['point'],
-                            'Price': outcome['price'],
-                        })
+            for bookmaker in event.get('bookmakers', []):
+                if bookmaker['key'] == BOOKMAKERS:  # Ensure FanDuel odds
+                    for market in bookmaker.get('markets', []):
+                        if market['key'] == 'spreads':  # Only process spread markets
+                            for outcome in market.get('outcomes', []):
+                                all_data.append({
+                                    'Game ID': game_id,
+                                    'Home Team': home_team,
+                                    'Away Team': away_team,
+                                    'Commence Time': commence_time,
+                                    'Bookmaker': bookmaker['title'],
+                                    'Outcome Name': outcome['name'],
+                                    'Point': outcome['point'],
+                                    'Price': outcome['price'],
+                                    'Timestamp': odds_json.get('timestamp'),
+                                })
 
-    df = pd.DataFrame(data)
-    print(df)
-    df.to_csv('fanduel_nba_odds.csv', index=False)
-    print("Data saved to fanduel_nba_odds.csv")
+    else:
+        print(f"Failed to fetch data for {date_str}: {odds_response.status_code}, {odds_response.text}")
 
+    # Increment date
+    current_date += date_increment
+    
+    
+df = pd.DataFrame(all_data)
+df = df.drop_duplicates(subset=['Game ID', 'Home Team', 'Away Team', 'Commence Time', 'Point'])
 
+df.to_csv('all_historical_odds.csv', index=False)
+print("All historical odds data saved to all_historical_odds.csv")
 
-    # Check the usage quota
-    print('Remaining requests', odds_response.headers['x-requests-remaining'])
-    print('Used requests', odds_response.headers['x-requests-used'])
+# Check the usage quota
+print('Remaining requests', odds_response.headers['x-requests-remaining'])
+print('Used requests', odds_response.headers['x-requests-used'])
