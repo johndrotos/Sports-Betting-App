@@ -428,7 +428,13 @@ def format(raw_data_loc, output_loc, season_start_date, season_end_date):
 
     # Remove first 10 games
     df = remove_first_10(df)
-
+    
+    # Remove quarterly scores
+    columns_to_drop = ['scores.home.quarter_1', 'scores.home.quarter_2', 'scores.home.quarter_3', 
+                       'scores.home.quarter_4', 'scores.home.over_time', 'scores.away.quarter_1', 'scores.away.quarter_2', 
+                       'scores.away.quarter_3', 'scores.away.quarter_4', 'scores.away.over_time']
+    df = df.drop(columns=columns_to_drop)
+    
     # Saving the new file
     df.to_csv(save_location, index=False)
 
@@ -484,9 +490,8 @@ def main():
 
     df = pd.read_csv('./formatted_data/all_seasons.csv')
 
-    columns_to_drop = ['date', 'teams.home.name', 'teams.away.name', 'scores.home.quarter_1', 'scores.home.quarter_2', 'scores.home.quarter_3', 'scores.home.quarter_4',
-                       'scores.home.over_time', 'scores.home.total', 'scores.away.quarter_1', 'scores.away.quarter_2', 'scores.away.quarter_3', 'scores.away.quarter_4', 
-                       'scores.away.over_time', 'scores.away.total', 'WIN_PERCENTAGES', 'CUMULATIVE_AVERAGES', 'AT_HOME_AVGS', 'ON_ROAD_AVGS', 'L10_AVERAGES', 
+    columns_to_drop = ['date', 'teams.home.name', 'teams.away.name', 
+                        'scores.home.total', 'scores.away.total', 'WIN_PERCENTAGES', 'CUMULATIVE_AVERAGES', 'AT_HOME_AVGS', 'ON_ROAD_AVGS', 'L10_AVERAGES', 
                        'L5_AVERAGES', 'DAYS_SINCE', 'H2H']
     df = df.drop(columns=columns_to_drop)
 

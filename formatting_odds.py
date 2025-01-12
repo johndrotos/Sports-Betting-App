@@ -1,9 +1,5 @@
 import pandas as pd
 
-df = pd.read_csv('./all_historical_odds.csv')
-print(len(df))
+odds_df = pd.read_csv('./all_historical_odds.csv')
+stats_df = pd.read_csv('../foramtted_data/23-24.csv')
 
-df = df.drop_duplicates(subset=['Game ID'])
-print(len(df))
-
-df.to_csv('all_historical_odds.csv', index=False)
