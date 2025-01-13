@@ -1,0 +1,910 @@
+,teams.home.name,teams.away.name,home_spread,odds_spread
+0,Indiana Pacers,Portland Trail Blazers,-4,12.0
+1,New Orleans Pelicans,Philadelphia 76ers,10,-1.5
+2,Cleveland Cavaliers,Portland Trail Blazers,-8,12.0
+3,Brooklyn Nets,Charlotte Hornets,-1,8.5
+4,Chicago Bulls,Milwaukee Bucks,7,-9.5
+5,Orlando Magic,Washington Wizards,5,10.5
+6,Toronto Raptors,New York Knicks,-13,1.5
+7,New Orleans Pelicans,San Antonio Spurs,15,13.0
+8,Brooklyn Nets,Orlando Magic,28,2.5
+9,Chicago Bulls,New Orleans Pelicans,6,-1.0
+10,Cleveland Cavaliers,Orlando Magic,10,4.5
+11,Detroit Pistons,Memphis Grizzlies,-14,-1.0
+12,Toronto Raptors,Miami Heat,-9,3.0
+13,Minnesota Timberwolves,San Antonio Spurs,8,12.0
+14,Chicago Bulls,Charlotte Hornets,11,5.0
+15,Golden State Warriors,Portland Trail Blazers,4,11.0
+16,Philadelphia 76ers,Atlanta Hawks,11,8.0
+17,Orlando Magic,Detroit Pistons,32,12.0
+18,Charlotte Hornets,Toronto Raptors,3,-4.5
+19,Brooklyn Nets,Washington Wizards,27,9.0
+20,Oklahoma City Thunder,Golden State Warriors,2,4.0
+21,San Antonio Spurs,Chicago Bulls,-9,-2.0
+22,Phoenix Suns,Sacramento Kings,-8,-1.5
+23,Utah Jazz,Los Angeles Clippers,-14,-5.0
+24,Orlando Magic,Cleveland Cavaliers,10,2.5
+25,Philadelphia 76ers,Washington Wizards,45,12.0
+26,Detroit Pistons,Indiana Pacers,-8,-7.0
+27,Charlotte Hornets,Miami Heat,-2,-3.5
+28,Oklahoma City Thunder,Utah Jazz,14,12.5
+29,New Orleans Pelicans,Minnesota Timberwolves,14,2.5
+30,Memphis Grizzlies,Dallas Mavericks,-7,-3.0
+31,Milwaukee Bucks,Chicago Bulls,4,10.5
+32,Houston Rockets,San Antonio Spurs,11,8.5
+33,Los Angeles Clippers,Portland Trail Blazers,5,12.5
+34,Boston Celtics,Cleveland Cavaliers,7,9.5
+35,Dallas Mavericks,Los Angeles Lakers,2,-1.5
+36,Chicago Bulls,Denver Nuggets,-8,-7.5
+37,Phoenix Suns,Golden State Warriors,3,3.5
+38,Los Angeles Clippers,Sacramento Kings,20,4.5
+39,Detroit Pistons,Philadelphia 76ers,-18,-12.0
+40,Toronto Raptors,Atlanta Hawks,7,1.5
+41,San Antonio Spurs,Los Angeles Lakers,-3,-3.5
+42,Houston Rockets,Memphis Grizzlies,13,7.5
+43,Milwaukee Bucks,Indiana Pacers,14,6.5
+44,Phoenix Suns,Brooklyn Nets,-4,4.5
+45,Utah Jazz,New York Knicks,4,-6.5
+46,Boston Celtics,Cleveland Cavaliers,9,8.5
+47,Miami Heat,Chicago Bulls,-8,3.5
+48,Dallas Mavericks,Minnesota Timberwolves,-18,-1.0
+49,Denver Nuggets,Brooklyn Nets,23,9.5
+50,Los Angeles Clippers,Golden State Warriors,8,5.5
+51,Charlotte Hornets,New Orleans Pelicans,-5,-7.0
+52,Philadelphia 76ers,Detroit Pistons,32,16.0
+53,Toronto Raptors,Atlanta Hawks,-21,2.5
+54,San Antonio Spurs,Los Angeles Lakers,14,-4.0
+55,Boston Celtics,Orlando Magic,17,5.5
+56,Memphis Grizzlies,Houston Rockets,-7,-3.0
+57,Phoenix Suns,New York Knicks,-17,4.5
+58,Milwaukee Bucks,Detroit Pistons,32,31.5
+59,Charlotte Hornets,Philadelphia 76ers,-53,-12.0
+60,Cleveland Cavaliers,Atlanta Hawks,8,4.5
+61,Miami Heat,Chicago Bulls,2,4.5
+62,Minnesota Timberwolves,Indiana Pacers,18,7.0
+63,Golden State Warriors,Brooklyn Nets,4,3.5
+64,Denver Nuggets,Oklahoma City Thunder,-1,5.0
+65,Sacramento Kings,Utah Jazz,21,11.0
+66,Los Angeles Clippers,New York Knicks,22,6.0
+67,Boston Celtics,Orlando Magic,17,8.5
+68,San Antonio Spurs,New Orleans Pelicans,-36,-8.0
+69,Milwaukee Bucks,Houston Rockets,9,7.0
+70,Phoenix Suns,Washington Wizards,4,13.0
+71,Portland Trail Blazers,Golden State Warriors,-4,-4.5
+72,Cleveland Cavaliers,Houston Rockets,5,3.5
+73,Indiana Pacers,Los Angeles Clippers,-24,-3.5
+74,Philadelphia 76ers,Chicago Bulls,-4,10.5
+75,Miami Heat,Minnesota Timberwolves,-4,-2.0
+76,Toronto Raptors,Charlotte Hornets,15,12.0
+77,Atlanta Hawks,Detroit Pistons,6,12.0
+78,Oklahoma City Thunder,Memphis Grizzlies,19,10.5
+79,Denver Nuggets,Dallas Mavericks,26,8.5
+80,Utah Jazz,Brooklyn Nets,17,-4.0
+81,Sacramento Kings,Washington Wizards,12,14.0
+82,Los Angeles Lakers,New York Knicks,-5,5.0
+83,New Orleans Pelicans,Memphis Grizzlies,-2,7.0
+84,Milwaukee Bucks,San Antonio Spurs,13,16.5
+85,Portland Trail Blazers,Phoenix Suns,5,-7.5
+86,Golden State Warriors,Boston Celtics,6,-5.5
+87,Cleveland Cavaliers,Utah Jazz,8,6.5
+88,Indiana Pacers,Charlotte Hornets,31,10.5
+89,Orlando Magic,Miami Heat,-9,5.0
+90,Philadelphia 76ers,Minnesota Timberwolves,14,3.5
+91,Brooklyn Nets,New York Knicks,-19,-1.0
+92,Toronto Raptors,Denver Nuggets,-9,-4.5
+93,Houston Rockets,Atlanta Hawks,-7,3.0
+94,Chicago Bulls,Los Angeles Lakers,16,-4.5
+95,Dallas Mavericks,Los Angeles Clippers,-9,-2.5
+96,Sacramento Kings,Boston Celtics,-25,3.0
+97,Detroit Pistons,Utah Jazz,-8,2.0
+98,Cleveland Cavaliers,New Orleans Pelicans,-19,-3.5
+99,Chicago Bulls,San Antonio Spurs,19,6.0
+100,Memphis Grizzlies,Indiana Pacers,13,4.5
+101,Milwaukee Bucks,Orlando Magic,4,9.5
+102,Oklahoma City Thunder,Los Angeles Clippers,19,6.0
+103,Minnesota Timberwolves,Los Angeles Lakers,7,9.5
+104,Portland Trail Blazers,Washington Wizards,-1,4.0
+105,Philadelphia 76ers,Toronto Raptors,10,8.0
+106,Brooklyn Nets,Denver Nuggets,-5,-4.5
+107,Miami Heat,Atlanta Hawks,9,1.5
+108,Houston Rockets,Dallas Mavericks,26,8.0
+109,Golden State Warriors,Washington Wizards,11,12.0
+110,Sacramento Kings,Phoenix Suns,15,2.5
+111,New York Knicks,Milwaukee Bucks,-19,-2.5
+112,Los Angeles Clippers,Boston Celtics,-37,
+113,Charlotte Hornets,Denver Nuggets,-7,-8.5
+114,Indiana Pacers,Orlando Magic,-7,1.0
+115,New Orleans Pelicans,Houston Rockets,-2,7.5
+116,Brooklyn Nets,Detroit Pistons,11,9.5
+117,Toronto Raptors,Utah Jazz,-7,6.0
+118,Atlanta Hawks,Memphis Grizzlies,-6,-1.0
+119,Chicago Bulls,Cleveland Cavaliers,-14,5.5
+120,Oklahoma City Thunder,Los Angeles Lakers,-9,3.0
+121,Dallas Mavericks,San Antonio Spurs,25,8.0
+122,Golden State Warriors,Portland Trail Blazers,20,8.5
+123,Sacramento Kings,Minnesota Timberwolves,-12,3.0
+124,New York Knicks,Milwaukee Bucks,7,-3.0
+125,Denver Nuggets,Golden State Warriors,6,4.5
+126,Los Angeles Lakers,Boston Celtics,-11,-1.5
+127,Miami Heat,Philadelphia 76ers,6,1.0
+128,Phoenix Suns,Dallas Mavericks,-14,4.0
+129,Washington Wizards,Orlando Magic,-8,-6.5
+130,Detroit Pistons,Brooklyn Nets,-6,-6.0
+131,Oklahoma City Thunder,Minnesota Timberwolves,23,4.5
+132,San Antonio Spurs,Utah Jazz,-12,-2.5
+133,Chicago Bulls,Atlanta Hawks,5,1.0
+134,New Orleans Pelicans,Memphis Grizzlies,-1,4.5
+135,Houston Rockets,Indiana Pacers,-6,2.5
+136,Portland Trail Blazers,Sacramento Kings,17,-5.5
+137,Los Angeles Clippers,Charlotte Hornets,9,11.5
+138,Washington Wizards,Toronto Raptors,-30,-6.5
+139,Orlando Magic,Philadelphia 76ers,-20,2.5
+140,Brooklyn Nets,Milwaukee Bucks,-22,-3.0
+141,Houston Rockets,Phoenix Suns,-16,-1.0
+142,Oklahoma City Thunder,New York Knicks,9,2.5
+143,Dallas Mavericks,Cleveland Cavaliers,-3,4.0
+144,Boston Celtics,Detroit Pistons,6,17.5
+145,New Orleans Pelicans,Utah Jazz,7,8.5
+146,Chicago Bulls,Indiana Pacers,-16,-2.0
+147,Minnesota Timberwolves,Dallas Mavericks,8,12.5
+148,Denver Nuggets,Memphis Grizzlies,37,6.0
+149,Golden State Warriors,Miami Heat,-12,2.0
+150,Portland Trail Blazers,San Antonio Spurs,-13,5.5
+151,Los Angeles Lakers,Charlotte Hornets,21,12.0
+152,Orlando Magic,New York Knicks,9,1.5
+153,Washington Wizards,Brooklyn Nets,6,-6.0
+154,Atlanta Hawks,Sacramento Kings,-7,-1.5
+155,Boston Celtics,Toronto Raptors,2,4.5
+156,Cleveland Cavaliers,Milwaukee Bucks,-8,-5.0
+157,Houston Rockets,Philadelphia 76ers,-4,-1.5
+158,Phoenix Suns,Charlotte Hornets,14,16.0
+159,Denver Nuggets,Oklahoma City Thunder,-26,1.5
+160,Portland Trail Blazers,San Antonio Spurs,6,5.5
+161,Los Angeles Clippers,Memphis Grizzlies,11,4.5
+162,Utah Jazz,Miami Heat,8,-1.5
+163,Detroit Pistons,Toronto Raptors,2,-4.5
+164,Indiana Pacers,New York Knicks,14,3.5
+165,Chicago Bulls,Philadelphia 76ers,13,1.0
+166,Minnesota Timberwolves,Los Angeles Lakers,2,4.0
+167,Golden State Warriors,Dallas Mavericks,-10,4.0
+168,Washington Wizards,Atlanta Hawks,-4,-6.5
+169,New Orleans Pelicans,Los Angeles Lakers,20,5.5
+170,Oklahoma City Thunder,Brooklyn Nets,16,8.0
+171,San Antonio Spurs,Boston Celtics,-33,-12.5
+172,Phoenix Suns,Orlando Magic,5,5.5
+173,Memphis Grizzlies,Sacramento Kings,-31,-1.0
+174,New York Knicks,Minnesota Timberwolves,6,-1.0
+175,Toronto Raptors,Cleveland Cavaliers,3,2.5
+176,Milwaukee Bucks,Indiana Pacers,-9,7.5
+177,Houston Rockets,Detroit Pistons,23,7.5
+178,Denver Nuggets,Charlotte Hornets,18,16.0
+179,Phoenix Suns,Portland Trail Blazers,21,9.5
+180,Utah Jazz,Dallas Mavericks,37,-3.5
+181,Los Angeles Clippers,Miami Heat,17,8.0
+182,Philadelphia 76ers,Chicago Bulls,13,11.0
+183,Oklahoma City Thunder,Boston Celtics,4,-3.0
+184,Memphis Grizzlies,San Antonio Spurs,8,12.5
+185,New Orleans Pelicans,Brooklyn Nets,27,7.0
+186,Sacramento Kings,Charlotte Hornets,-7,15.0
+187,Golden State Warriors,Orlando Magic,6,3.5
+188,Cleveland Cavaliers,Washington Wizards,39,9.0
+189,Indiana Pacers,Milwaukee Bucks,12,-3.5
+190,Atlanta Hawks,Oklahoma City Thunder,3,-1.0
+191,Memphis Grizzlies,Toronto Raptors,-5,2.0
+192,Minnesota Timberwolves,New Orleans Pelicans,-11,6.0
+193,Houston Rockets,Brooklyn Nets,11,6.5
+194,Dallas Mavericks,Portland Trail Blazers,29,11.0
+195,New York Knicks,Chicago Bulls,16,8.0
+196,Phoenix Suns,Los Angeles Clippers,-9,1.0
+197,Utah Jazz,Detroit Pistons,6,6.5
+198,Los Angeles Lakers,Miami Heat,-14,5.0
+199,Sacramento Kings,Orlando Magic,3,4.0
+200,San Antonio Spurs,Milwaukee Bucks,-4,-9.0
+201,Golden State Warriors,Denver Nuggets,-3,-3.0
+202,Boston Celtics,Utah Jazz,29,14.5
+203,Indiana Pacers,Atlanta Hawks,34,4.0
+204,Cleveland Cavaliers,Washington Wizards,24,10.5
+205,Brooklyn Nets,Oklahoma City Thunder,9,-5.5
+206,Philadelphia 76ers,New York Knicks,-36,6.0
+207,Chicago Bulls,Charlotte Hornets,13,7.5
+208,Houston Rockets,Minnesota Timberwolves,-27,-3.5
+209,New Orleans Pelicans,Los Angeles Clippers,-16,-1.0
+210,Dallas Mavericks,Portland Trail Blazers,36,11.0
+211,Denver Nuggets,Orlando Magic,-2,9.5
+212,Phoenix Suns,Miami Heat,16,2.5
+213,Golden State Warriors,Detroit Pistons,4,10.5
+214,Sacramento Kings,Toronto Raptors,5,5.0
+215,Los Angeles Lakers,Memphis Grizzlies,-14,5.0
+216,Washington Wizards,New York Knicks,-16,-9.5
+217,Indiana Pacers,Boston Celtics,-17,-7.0
+218,Philadelphia 76ers,Utah Jazz,-11,8.5
+219,Houston Rockets,Milwaukee Bucks,4,-7.0
+220,Cleveland Cavaliers,San Antonio Spurs,2,10.0
+221,Brooklyn Nets,Portland Trail Blazers,-7,7.5
+222,Orlando Magic,Atlanta Hawks,7,-2.0
+223,Sacramento Kings,New Orleans Pelicans,-33,3.5
+224,Dallas Mavericks,Minnesota Timberwolves,7,-2.0
+225,Denver Nuggets,Detroit Pistons,17,16.5
+226,Phoenix Suns,Memphis Grizzlies,-6,4.5
+227,Golden State Warriors,Toronto Raptors,-15,2.5
+228,Los Angeles Lakers,Los Angeles Clippers,3,-3.0
+229,Charlotte Hornets,Chicago Bulls,-7,-7.0
+230,Indiana Pacers,Boston Celtics,2,-3.5
+231,Washington Wizards,Oklahoma City Thunder,-8,-11.0
+232,Miami Heat,Houston Rockets,7,4.0
+233,Milwaukee Bucks,Utah Jazz,-16,8.0
+234,Los Angeles Clippers,Phoenix Suns,27,5.5
+235,Detroit Pistons,Sacramento Kings,-21,-10.5
+236,Orlando Magic,Minnesota Timberwolves,-21,-4.5
+237,New York Knicks,Portland Trail Blazers,28,11.5
+238,Dallas Mavericks,Memphis Grizzlies,-17,4.5
+239,Los Angeles Lakers,Toronto Raptors,1,4.5
+240,Detroit Pistons,San Antonio Spurs,-22,-3.5
+241,Indiana Pacers,Washington Wizards,8,7.5
+242,Charlotte Hornets,Sacramento Kings,-25,-8.5
+243,Boston Celtics,Minnesota Timberwolves,7,10.5
+244,Atlanta Hawks,Philadelphia 76ers,7,2.5
+245,Miami Heat,Oklahoma City Thunder,-8,-3.5
+246,Chicago Bulls,Houston Rockets,5,3.5
+247,Golden State Warriors,New Orleans Pelicans,-36,-2.0
+248,Utah Jazz,Denver Nuggets,13,-7.0
+249,Los Angeles Clippers,Toronto Raptors,6,10.5
+250,Cleveland Cavaliers,Brooklyn Nets,9,3.0
+251,Milwaukee Bucks,Boston Celtics,33,2.5
+252,Oklahoma City Thunder,Portland Trail Blazers,62,13.5
+253,Dallas Mavericks,New York Knicks,4,-5.0
+254,Los Angeles Lakers,Phoenix Suns,-18,2.0
+255,Philadelphia 76ers,Sacramento Kings,19,1.0
+256,Atlanta Hawks,Indiana Pacers,-18,6.0
+257,Detroit Pistons,Houston Rockets,-2,-8.0
+258,San Antonio Spurs,Charlotte Hornets,36,2.5
+259,Minnesota Timberwolves,Portland Trail Blazers,23,16.0
+260,Memphis Grizzlies,Los Angeles Clippers,-9,-8.5
+261,Chicago Bulls,Golden State Warriors,-9,3.0
+262,Miami Heat,Orlando Magic,3,3.0
+263,Utah Jazz,Toronto Raptors,32,2.5
+264,Denver Nuggets,New Orleans Pelicans,12,5.5
+265,Boston Celtics,Houston Rockets,32,15.0
+266,Atlanta Hawks,Washington Wizards,-28,8.0
+267,Oklahoma City Thunder,Orlando Magic,12,11.5
+268,Memphis Grizzlies,New York Knicks,-12,-7.0
+269,Milwaukee Bucks,Golden State Warriors,11,11.0
+270,Dallas Mavericks,New Orleans Pelicans,-10,4.0
+271,San Antonio Spurs,Chicago Bulls,-6,-5.0
+272,Utah Jazz,Los Angeles Lakers,7,-2.5
+273,Denver Nuggets,Indiana Pacers,8,11.0
+274,Miami Heat,Charlotte Hornets,17,17.5
+275,Milwaukee Bucks,Sacramento Kings,1,5.5
+276,Minnesota Timberwolves,Los Angeles Clippers,4,1.0
+277,Portland Trail Blazers,Phoenix Suns,-11,-10.5
+278,Philadelphia 76ers,Houston Rockets,9,7.5
+279,Dallas Mavericks,New Orleans Pelicans,5,-3.5
+280,New York Knicks,Orlando Magic,-4,6.5
+281,Washington Wizards,Detroit Pistons,-12,5.5
+282,Atlanta Hawks,San Antonio Spurs,10,8.0
+283,Memphis Grizzlies,Golden State Warriors,9,-7.5
+284,Cleveland Cavaliers,Chicago Bulls,18,4.0
+285,Brooklyn Nets,Miami Heat,-1,-1.0
+286,Toronto Raptors,Boston Celtics,-9,-7.5
+287,Utah Jazz,Indiana Pacers,27,7.0
+288,Los Angeles Lakers,Oklahoma City Thunder,7,-3.0
+289,Philadelphia 76ers,Denver Nuggets,5,1.5
+290,Phoenix Suns,Sacramento Kings,2,4.0
+291,Los Angeles Clippers,Oklahoma City Thunder,11,6.5
+292,Detroit Pistons,Minnesota Timberwolves,-7,-12.0
+293,Atlanta Hawks,Orlando Magic,2,3.0
+294,Boston Celtics,San Antonio Spurs,19,15.0
+295,Cleveland Cavaliers,Milwaukee Bucks,40,-4.5
+296,New York Knicks,Houston Rockets,15,7.0
+297,Toronto Raptors,Miami Heat,24,-1.5
+298,New Orleans Pelicans,Charlotte Hornets,20,12.5
+299,Los Angeles Lakers,Dallas Mavericks,17,4.0
+300,Portland Trail Blazers,Brooklyn Nets,2,-6.5
+301,Toronto Raptors,Chicago Bulls,-6,-2.0
+302,New York Knicks,Washington Wizards,4,12.0
+303,Utah Jazz,Oklahoma City Thunder,-5,-3.5
+304,Minnesota Timberwolves,Memphis Grizzlies,15,12.5
+305,Sacramento Kings,Indiana Pacers,-5,8.0
+306,Charlotte Hornets,San Antonio Spurs,4,4.5
+307,Orlando Magic,Philadelphia 76ers,-15,-5.0
+308,Boston Celtics,Denver Nuggets,-2,5.5
+309,Miami Heat,Atlanta Hawks,-1,6.5
+310,New Orleans Pelicans,Phoenix Suns,-14,2.5
+311,Portland Trail Blazers,Indiana Pacers,3,-8.0
+312,Los Angeles Lakers,Brooklyn Nets,-18,6.5
+313,Detroit Pistons,Milwaukee Bucks,-6,-12.5
+314,Charlotte Hornets,Philadelphia 76ers,-8,-10.0
+315,Washington Wizards,San Antonio Spurs,-4,2.0
+316,New York Knicks,Toronto Raptors,26,7.5
+317,Atlanta Hawks,Cleveland Cavaliers,-21,-1.5
+318,Chicago Bulls,Memphis Grizzlies,29,7.5
+319,Houston Rockets,Utah Jazz,1,2.5
+320,Minnesota Timberwolves,Oklahoma City Thunder,-5,2.5
+321,Los Angeles Clippers,Brooklyn Nets,11,10.5
+322,Orlando Magic,Miami Heat,18,-1.0
+323,Washington Wizards,Denver Nuggets,-9,-13.5
+324,Houston Rockets,Boston Celtics,-9,-10.0
+325,Phoenix Suns,Indiana Pacers,7,4.5
+326,Los Angeles Lakers,Portland Trail Blazers,24,10.5
+327,Detroit Pistons,Milwaukee Bucks,-9,-12.0
+328,Orlando Magic,Cleveland Cavaliers,-27,-1.0
+329,Philadelphia 76ers,San Antonio Spurs,10,14.0
+330,Toronto Raptors,Memphis Grizzlies,-8,7.0
+331,Minnesota Timberwolves,Charlotte Hornets,-3,15.5
+332,Dallas Mavericks,Boston Celtics,-9,-3.5
+333,Phoenix Suns,Chicago Bulls,2,6.0
+334,Sacramento Kings,Atlanta Hawks,15,8.0
+335,Indiana Pacers,Denver Nuggets,-5,-3.0
+336,Brooklyn Nets,New York Knicks,-5,-4.0
+337,New Orleans Pelicans,Utah Jazz,29,6.5
+338,Oklahoma City Thunder,Portland Trail Blazers,2,14.5
+339,Los Angeles Clippers,Los Angeles Lakers,11,6.5
+340,Detroit Pistons,Charlotte Hornets,7,3.0
+341,Washington Wizards,Minnesota Timberwolves,-11,-11.0
+342,Miami Heat,Memphis Grizzlies,-9,10.0
+343,Milwaukee Bucks,Cleveland Cavaliers,10,6.5
+344,Houston Rockets,Portland Trail Blazers,-6,10.0
+345,Dallas Mavericks,Phoenix Suns,-23,-1.5
+346,San Antonio Spurs,Oklahoma City Thunder,-26,-8.0
+347,Golden State Warriors,Atlanta Hawks,22,6.0
+348,Indiana Pacers,Philadelphia 76ers,12,-4.5
+349,Washington Wizards,Utah Jazz,-15,-7.0
+350,Brooklyn Nets,Minnesota Timberwolves,-2,-4.5
+351,Miami Heat,Boston Celtics,-33,-7.0
+352,New York Knicks,Denver Nuggets,38,-2.5
+353,Golden State Warriors,Sacramento Kings,-1,-2.0
+354,Los Angeles Lakers,Chicago Bulls,9,5.0
+355,Indiana Pacers,Phoenix Suns,2,-5.0
+356,Atlanta Hawks,Dallas Mavericks,-5,-2.0
+357,Charlotte Hornets,Houston Rockets,-34,-5.5
+358,Toronto Raptors,Los Angeles Clippers,-20,-7.5
+359,Memphis Grizzlies,Orlando Magic,1,-5.0
+360,Milwaukee Bucks,Cleveland Cavaliers,-12,6.0
+361,New Orleans Pelicans,Oklahoma City Thunder,-24,2.0
+362,San Antonio Spurs,Portland Trail Blazers,16,1.5
+363,Detroit Pistons,Washington Wizards,-14,2.0
+364,New York Knicks,Miami Heat,16,5.0
+365,Denver Nuggets,Philadelphia 76ers,6,5.0
+366,Brooklyn Nets,Houston Rockets,2,4.5
+367,Boston Celtics,Los Angeles Clippers,-19,7.0
+368,Charlotte Hornets,Utah Jazz,-12,-8.5
+369,Milwaukee Bucks,New Orleans Pelicans,24,5.0
+370,Golden State Warriors,Los Angeles Lakers,-1,1.5
+371,San Antonio Spurs,Minnesota Timberwolves,1,-11.0
+372,Dallas Mavericks,Sacramento Kings,-5,-4.5
+373,Detroit Pistons,Oklahoma City Thunder,16,
+374,Indiana Pacers,Memphis Grizzlies,6,
+375,Orlando Magic,Phoenix Suns,15,-3.5
+376,Atlanta Hawks,Toronto Raptors,1,2.5
+377,Portland Trail Blazers,Chicago Bulls,-8,-7.5
+378,Charlotte Hornets,New York Knicks,-21,-10.0
+379,Cleveland Cavaliers,Los Angeles Clippers,10,-2.0
+380,Miami Heat,Phoenix Suns,-13,3.0
+381,Brooklyn Nets,Utah Jazz,33,1.0
+382,Boston Celtics,New Orleans Pelicans,6,8.0
+383,Oklahoma City Thunder,Minnesota Timberwolves,-6,2.5
+384,Houston Rockets,Los Angeles Lakers,16,-1.0
+385,Memphis Grizzlies,Sacramento Kings,-9,-8.0
+386,San Antonio Spurs,Washington Wizards,-5,4.0
+387,Dallas Mavericks,Orlando Magic,2,4.5
+388,Denver Nuggets,Milwaukee Bucks,6,4.5
+389,Portland Trail Blazers,Philadelphia 76ers,26,-8.5
+390,New York Knicks,Utah Jazz,15,3.0
+391,Boston Celtics,Indiana Pacers,5,8.0
+392,Atlanta Hawks,Los Angeles Lakers,16,5.5
+393,Chicago Bulls,Toronto Raptors,-11,6.5
+394,Golden State Warriors,Philadelphia 76ers,12,3.5
+395,Charlotte Hornets,Chicago Bulls,-7,-6.0
+396,Cleveland Cavaliers,Detroit Pistons,7,13.5
+397,Washington Wizards,Los Angeles Clippers,-16,-12.0
+398,Miami Heat,Sacramento Kings,9,1.0
+399,San Antonio Spurs,Orlando Magic,-10,-5.0
+400,Houston Rockets,New Orleans Pelicans,-11,-2.5
+401,Minnesota Timberwolves,Dallas Mavericks,34,13.0
+402,Oklahoma City Thunder,Denver Nuggets,5,5.5
+403,Brooklyn Nets,Phoenix Suns,-16,-3.5
+404,Portland Trail Blazers,Milwaukee Bucks,3,-9.5
+405,Boston Celtics,Los Angeles Lakers,-9,11.0
+406,New York Knicks,Indiana Pacers,4,4.0
+407,Memphis Grizzlies,Cleveland Cavaliers,-7,-8.5
+408,Utah Jazz,Philadelphia 76ers,-3,5.0
+409,Detroit Pistons,Los Angeles Clippers,-11,-10.5
+410,Washington Wizards,Miami Heat,-8,-8.5
+411,Atlanta Hawks,Phoenix Suns,9,-3.5
+412,Indiana Pacers,Sacramento Kings,-11,-3.5
+413,Houston Rockets,Toronto Raptors,29,4.5
+414,Memphis Grizzlies,Golden State Warriors,-20,-5.5
+415,Minnesota Timberwolves,Orlando Magic,-2,7.5
+416,Oklahoma City Thunder,Charlotte Hornets,20,17.0
+417,San Antonio Spurs,New Orleans Pelicans,-1,-7.0
+418,Denver Nuggets,Portland Trail Blazers,12,12.0
+419,Philadelphia 76ers,Brooklyn Nets,-15,4.5
+420,Atlanta Hawks,Golden State Warriors,7,2.5
+421,Chicago Bulls,Sacramento Kings,-8,1.5
+422,Dallas Mavericks,Milwaukee Bucks,-12,-3.5
+423,New York Knicks,Los Angeles Lakers,-8,6.0
+424,San Antonio Spurs,Cleveland Cavaliers,-16,-10.0
+425,Detroit Pistons,Orlando Magic,-12,-6.5
+426,Washington Wizards,Phoenix Suns,-28,-11.5
+427,Miami Heat,Los Angeles Clippers,-8,-3.5
+428,Charlotte Hornets,Indiana Pacers,-16,-9.0
+429,Boston Celtics,Memphis Grizzlies,40,16.0
+430,Oklahoma City Thunder,Toronto Raptors,8,10.0
+431,Minnesota Timberwolves,Houston Rockets,21,7.0
+432,Utah Jazz,Milwaukee Bucks,15,1.0
+433,Denver Nuggets,Portland Trail Blazers,9,13.0
+434,Charlotte Hornets,Los Angeles Lakers,-6,-10.5
+435,Cleveland Cavaliers,Sacramento Kings,26,6.0
+436,Philadelphia 76ers,Dallas Mavericks,-16,-2.5
+437,Brooklyn Nets,Golden State Warriors,-11,-1.0
+438,Atlanta Hawks,Los Angeles Clippers,-5,-4.0
+439,New Orleans Pelicans,Toronto Raptors,38,11.5
+440,Indiana Pacers,Houston Rockets,3,7.0
+441,New York Knicks,Memphis Grizzlies,10,13.5
+442,Brooklyn Nets,Dallas Mavericks,-12,-3.5
+443,Miami Heat,Orlando Magic,26,3.0
+444,Chicago Bulls,Minnesota Timberwolves,6,-5.0
+445,Utah Jazz,Oklahoma City Thunder,7,-3.5
+446,Phoenix Suns,Milwaukee Bucks,8,3.5
+447,Charlotte Hornets,Toronto Raptors,-6,-6.5
+448,Washington Wizards,Cleveland Cavaliers,-8,-11.0
+449,Boston Celtics,Atlanta Hawks,8,11.5
+450,Miami Heat,San Antonio Spurs,12,8.0
+451,Philadelphia 76ers,Golden State Warriors,-23,-1.5
+452,Sacramento Kings,Detroit Pistons,-13,12.0
+453,Los Angeles Clippers,New Orleans Pelicans,-11,6.0
+454,Indiana Pacers,Golden State Warriors,-22,6.0
+455,Orlando Magic,San Antonio Spurs,16,10.5
+456,New York Knicks,Dallas Mavericks,-14,-2.5
+457,Brooklyn Nets,Cleveland Cavaliers,-23,-6.0
+458,Memphis Grizzlies,Chicago Bulls,-8,-5.5
+459,Milwaukee Bucks,Minnesota Timberwolves,-24,1.0
+460,Phoenix Suns,Utah Jazz,14,7.0
+461,Los Angeles Lakers,Denver Nuggets,-8,-3.5
+462,Portland Trail Blazers,Detroit Pistons,-6,5.0
+463,Philadelphia 76ers,Atlanta Hawks,-6,-4.0
+464,Boston Celtics,Washington Wizards,4,17.0
+465,Toronto Raptors,Houston Rockets,3,2.0
+466,Milwaukee Bucks,Charlotte Hornets,36,16.0
+467,Sacramento Kings,Denver Nuggets,29,1.0
+468,Los Angeles Lakers,New Orleans Pelicans,17,-1.0
+469,Dallas Mavericks,Oklahoma City Thunder,35,-2.0
+470,Los Angeles Clippers,Detroit Pistons,6,15.5
+471,Brooklyn Nets,San Antonio Spurs,20,6.0
+472,Washington Wizards,Philadelphia 76ers,-6,-5.5
+473,Orlando Magic,Chicago Bulls,6,5.0
+474,Charlotte Hornets,Memphis Grizzlies,9,-5.0
+475,Toronto Raptors,Cleveland Cavaliers,-24,-9.0
+476,Atlanta Hawks,Houston Rockets,9,7.0
+477,New York Knicks,Indiana Pacers,-14,-5.0
+478,Golden State Warriors,Phoenix Suns,1,-1.5
+479,Portland Trail Blazers,New Orleans Pelicans,-9,-8.0
+480,Miami Heat,Boston Celtics,-4,-5.5
+481,Oklahoma City Thunder,Sacramento Kings,14,3.5
+482,Cleveland Cavaliers,Philadelphia 76ers,-2,10.0
+483,Charlotte Hornets,Indiana Pacers,9,-11.5
+484,Toronto Raptors,San Antonio Spurs,-23,7.0
+485,Atlanta Hawks,Chicago Bulls,-10,3.5
+486,Houston Rockets,New York Knicks,2,-4.5
+487,Memphis Grizzlies,New Orleans Pelicans,-9,-9.0
+488,Milwaukee Bucks,Denver Nuggets,17,-1.5
+489,Dallas Mavericks,Washington Wizards,8,14.0
+490,Utah Jazz,Golden State Warriors,-22,1.0
+491,Los Angeles Clippers,Minnesota Timberwolves,-21,3.5
+492,Brooklyn Nets,Boston Celtics,-8,-8.5
+493,Orlando Magic,Oklahoma City Thunder,-14,-2.5
+494,Milwaukee Bucks,Miami Heat,-26,8.0
+495,Portland Trail Blazers,Minnesota Timberwolves,-12,-7.5
+496,Phoenix Suns,Sacramento Kings,5,4.5
+497,Los Angeles Lakers,Detroit Pistons,14,12.0
+498,Charlotte Hornets,Atlanta Hawks,23,-7.5
+499,Orlando Magic,New York Knicks,18,2.5
+500,Philadelphia 76ers,Miami Heat,-5,3.0
+501,Toronto Raptors,Indiana Pacers,-2,-3.5
+502,Cleveland Cavaliers,Chicago Bulls,3,9.0
+503,Boston Celtics,Brooklyn Nets,50,11.5
+504,Memphis Grizzlies,Houston Rockets,8,-4.0
+505,New Orleans Pelicans,Washington Wizards,7,12.5
+506,Dallas Mavericks,San Antonio Spurs,23,12.0
+507,Denver Nuggets,Sacramento Kings,-4,5.5
+508,Phoenix Suns,Detroit Pistons,16,14.0
+509,Utah Jazz,Los Angeles Lakers,-16,5.5
+510,Golden State Warriors,Los Angeles Clippers,-5,-2.0
+511,Memphis Grizzlies,Milwaukee Bucks,3,-10.0
+512,Utah Jazz,Golden State Warriors,-3,1.0
+513,Portland Trail Blazers,Minnesota Timberwolves,-37,-10.0
+514,Toronto Raptors,Brooklyn Nets,28,1.5
+515,Philadelphia 76ers,New York Knicks,-14,1.5
+516,Cleveland Cavaliers,Orlando Magic,-7,8.0
+517,Indiana Pacers,Detroit Pistons,14,12.0
+518,Dallas Mavericks,Phoenix Suns,10,2.0
+519,Chicago Bulls,Boston Celtics,-17,-7.5
+520,New Orleans Pelicans,Houston Rockets,22,7.0
+521,Oklahoma City Thunder,Los Angeles Clippers,22,2.5
+522,Utah Jazz,Charlotte Hornets,-8,9.0
+523,Denver Nuggets,Washington Wizards,20,16.0
+524,Golden State Warriors,Los Angeles Lakers,18,3.0
+525,Sacramento Kings,San Antonio Spurs,5,11.0
+526,Philadelphia 76ers,Cleveland Cavaliers,7,-4.5
+527,Atlanta Hawks,Toronto Raptors,-2,6.5
+528,Houston Rockets,Phoenix Suns,4,-3.0
+529,Memphis Grizzlies,Los Angeles Clippers,-6,-10.0
+530,Oklahoma City Thunder,Washington Wizards,41,15.0
+531,New Orleans Pelicans,Miami Heat,-11,3.0
+532,Minnesota Timberwolves,Milwaukee Bucks,-5,4.5
+533,Portland Trail Blazers,Denver Nuggets,-15,-9.0
+534,Golden State Warriors,Charlotte Hornets,13,14.0
+535,Los Angeles Lakers,San Antonio Spurs,5,10.0
+536,Detroit Pistons,Orlando Magic,-3,-7.0
+537,New York Knicks,Boston Celtics,-14,-7.0
+538,Minnesota Timberwolves,Brooklyn Nets,15,8.0
+539,Philadelphia 76ers,Milwaukee Bucks,-21,-4.5
+540,Phoenix Suns,Los Angeles Lakers,10,4.5
+541,Indiana Pacers,Dallas Mavericks,22,-1.0
+542,Washington Wizards,Cleveland Cavaliers,-9,-11.0
+543,Atlanta Hawks,Orlando Magic,17,1.5
+544,Golden State Warriors,Denver Nuggets,-16,-1.5
+545,Houston Rockets,Oklahoma City Thunder,-13,-5.5
+546,New Orleans Pelicans,Chicago Bulls,-8,5.0
+547,Utah Jazz,San Antonio Spurs,19,7.0
+548,Portland Trail Blazers,Charlotte Hornets,-13,3.5
+549,Los Angeles Clippers,Sacramento Kings,-16,6.5
+550,Indiana Pacers,Toronto Raptors,-8,6.5
+551,New York Knicks,Detroit Pistons,2,11.5
+552,Memphis Grizzlies,Brooklyn Nets,-25,-1.0
+553,Sacramento Kings,Miami Heat,-11,7.5
+554,Cleveland Cavaliers,Dallas Mavericks,2,3.5
+555,Orlando Magic,Brooklyn Nets,27,6.5
+556,Washington Wizards,Golden State Warriors,-11,-11.0
+557,New York Knicks,New Orleans Pelicans,-23,-6.5
+558,Boston Celtics,Philadelphia 76ers,18,12.5
+559,Atlanta Hawks,Utah Jazz,27,3.0
+560,Minnesota Timberwolves,San Antonio Spurs,9,13.5
+561,Milwaukee Bucks,Charlotte Hornets,38,15.0
+562,Chicago Bulls,Detroit Pistons,-10,10.5
+563,Oklahoma City Thunder,Houston Rockets,17,10.5
+564,Portland Trail Blazers,Miami Heat,-10,-7.0
+565,Indiana Pacers,New Orleans Pelicans,9,4.0
+566,Toronto Raptors,Dallas Mavericks,-11,-2.5
+567,Chicago Bulls,Cleveland Cavaliers,9,-4.0
+568,Minnesota Timberwolves,Memphis Grizzlies,9,13.0
+569,Denver Nuggets,Sacramento Kings,21,6.5
+570,Los Angeles Clippers,Los Angeles Lakers,-4,5.5
+571,Charlotte Hornets,Milwaukee Bucks,-12,-11.5
+572,Orlando Magic,Utah Jazz,8,5.5
+573,Brooklyn Nets,Atlanta Hawks,27,2.0
+574,New York Knicks,Golden State Warriors,-11,-3.0
+575,San Antonio Spurs,Oklahoma City Thunder,14,-11.5
+576,Phoenix Suns,Houston Rockets,5,8.5
+577,Denver Nuggets,Miami Heat,6,6.0
+578,Los Angeles Lakers,Washington Wizards,3,11.0
+579,Detroit Pistons,Cleveland Cavaliers,-10,-9.0
+580,Philadelphia 76ers,Charlotte Hornets,7,12.0
+581,Boston Celtics,Dallas Mavericks,28,9.5
+582,Toronto Raptors,Golden State Warriors,-15,-2.5
+583,Memphis Grizzlies,Portland Trail Blazers,-30,3.0
+584,Minnesota Timberwolves,Sacramento Kings,-4,6.5
+585,New Orleans Pelicans,Indiana Pacers,27,4.5
+586,Chicago Bulls,Milwaukee Bucks,-16,-4.0
+587,Los Angeles Clippers,Washington Wizards,25,16.5
+588,Brooklyn Nets,Atlanta Hawks,12,2.0
+589,Miami Heat,Utah Jazz,6,7.5
+590,Memphis Grizzlies,Portland Trail Blazers,-7,2.0
+591,Los Angeles Lakers,Denver Nuggets,-10,1.0
+592,Phoenix Suns,Houston Rockets,-9,9.5
+593,Dallas Mavericks,Philadelphia 76ers,-4,8.5
+594,Boston Celtics,Golden State Warriors,52,10.5
+595,Minnesota Timberwolves,Los Angeles Clippers,-1,-1.5
+596,Orlando Magic,Detroit Pistons,22,11.0
+597,Toronto Raptors,Charlotte Hornets,5,9.0
+598,San Antonio Spurs,Indiana Pacers,12,-6.5
+599,Cleveland Cavaliers,New York Knicks,-9,5.0
+600,Phoenix Suns,Oklahoma City Thunder,-8,-2.0
+601,Brooklyn Nets,Memphis Grizzlies,-4,8.5
+602,Milwaukee Bucks,Los Angeles Clippers,7,4.5
+603,Minnesota Timberwolves,Portland Trail Blazers,5,14.5
+604,Utah Jazz,Washington Wizards,12,10.0
+605,Sacramento Kings,Chicago Bulls,-4,7.0
+606,Los Angeles Lakers,Oklahoma City Thunder,12,1.0
+607,Charlotte Hornets,Orlando Magic,-12,-8.5
+608,Toronto Raptors,New Orleans Pelicans,-41,-8.0
+609,Miami Heat,Detroit Pistons,8,11.5
+610,New York Knicks,Atlanta Hawks,-16,1.5
+611,Cleveland Cavaliers,Boston Celtics,1,-8.0
+612,Brooklyn Nets,Philadelphia 76ers,5,-1.0
+613,Houston Rockets,San Antonio Spurs,13,6.5
+614,Dallas Mavericks,Indiana Pacers,-17,5.5
+615,Denver Nuggets,Phoenix Suns,-10,9.0
+616,Washington Wizards,Orlando Magic,-10,-7.0
+617,Philadelphia 76ers,Memphis Grizzlies,-6,5.0
+618,Atlanta Hawks,Cleveland Cavaliers,11,-2.0
+619,Houston Rockets,Los Angeles Clippers,-6,-6.5
+620,Utah Jazz,Chicago Bulls,-2,1.0
+621,Portland Trail Blazers,Oklahoma City Thunder,-8,-11.5
+622,Golden State Warriors,Milwaukee Bucks,35,3.0
+623,Los Angeles Lakers,Sacramento Kings,-10,2.5
+624,Detroit Pistons,Brooklyn Nets,6,-2.0
+625,Indiana Pacers,Minnesota Timberwolves,-2,1.5
+626,Dallas Mavericks,Miami Heat,6,5.0
+627,Phoenix Suns,Toronto Raptors,7,10.5
+628,Denver Nuggets,Boston Celtics,6,-1.0
+629,Golden State Warriors,Chicago Bulls,-3,7.0
+630,Sacramento Kings,San Antonio Spurs,2,9.0
+631,Washington Wizards,Charlotte Hornets,12,2.5
+632,Philadelphia 76ers,New Orleans Pelicans,-8,-6.5
+633,Cleveland Cavaliers,Minnesota Timberwolves,9,-1.0
+634,New York Knicks,Orlando Magic,24,1.0
+635,Memphis Grizzlies,Atlanta Hawks,-7,-2.5
+636,Oklahoma City Thunder,Miami Heat,7,8.5
+637,Los Angeles Lakers,Milwaukee Bucks,1,-1.0
+638,Portland Trail Blazers,Houston Rockets,-16,-4.5
+639,Los Angeles Clippers,Chicago Bulls,10,9.0
+640,Charlotte Hornets,Brooklyn Nets,11,-5.0
+641,Detroit Pistons,Dallas Mavericks,-18,-6.5
+642,Phoenix Suns,Boston Celtics,-10,-6.0
+643,Golden State Warriors,San Antonio Spurs,-13,9.0
+644,Denver Nuggets,Utah Jazz,21,12.0
+645,Portland Trail Blazers,Toronto Raptors,10,-1.5
+646,Los Angeles Clippers,Milwaukee Bucks,-7,-2.0
+647,Orlando Magic,Indiana Pacers,-14,1.5
+648,Sacramento Kings,Houston Rockets,-8,6.5
+649,Atlanta Hawks,New Orleans Pelicans,-13,-6.0
+650,Miami Heat,Washington Wizards,-2,10.0
+651,Oklahoma City Thunder,Memphis Grizzlies,31,14.5
+652,Cleveland Cavaliers,Brooklyn Nets,-19,7.5
+653,New York Knicks,Philadelphia 76ers,-6,7.0
+654,Los Angeles Lakers,Minnesota Timberwolves,11,3.0
+655,Detroit Pistons,Charlotte Hornets,17,7.5
+656,Cleveland Cavaliers,Phoenix Suns,-6,-1.5
+657,Chicago Bulls,Dallas Mavericks,-35,-3.5
+658,San Antonio Spurs,Golden State Warriors,-10,-5.0
+659,Denver Nuggets,Toronto Raptors,6,15.5
+660,Portland Trail Blazers,Boston Celtics,-22,-12.0
+661,New York Knicks,Philadelphia 76ers,27,5.5
+662,Memphis Grizzlies,Washington Wizards,12,-1.0
+663,Oklahoma City Thunder,Indiana Pacers,-10,6.5
+664,San Antonio Spurs,Houston Rockets,-2,-3.5
+665,Utah Jazz,Boston Celtics,-16,-6.5
+666,Sacramento Kings,Milwaukee Bucks,35,1.0
+667,Los Angeles Clippers,Minnesota Timberwolves,-18,6.5
+668,Detroit Pistons,Toronto Raptors,9,2.5
+669,Orlando Magic,Brooklyn Nets,8,7.0
+670,Indiana Pacers,Chicago Bulls,-3,4.0
+671,Miami Heat,Denver Nuggets,-12,-3.0
+672,Memphis Grizzlies,Charlotte Hornets,-12,-2.5
+673,New Orleans Pelicans,Cleveland Cavaliers,-21,6.5
+674,Dallas Mavericks,Golden State Warriors,10,7.5
+675,Sacramento Kings,Los Angeles Lakers,13,-1.5
+676,Portland Trail Blazers,Atlanta Hawks,4,-3.5
+677,Boston Celtics,Phoenix Suns,15,4.5
+678,Chicago Bulls,Los Angeles Clippers,-15,-6.0
+679,Houston Rockets,Washington Wizards,16,8.5
+680,Milwaukee Bucks,Philadelphia 76ers,9,8.5
+681,Oklahoma City Thunder,Dallas Mavericks,7,7.0
+682,Portland Trail Blazers,New York Knicks,-12,-8.5
+683,Detroit Pistons,Miami Heat,-13,-10.5
+684,Charlotte Hornets,Phoenix Suns,-11,-16.5
+685,Toronto Raptors,Orlando Magic,-10,-7.5
+686,New Orleans Pelicans,Los Angeles Clippers,8,7.0
+687,San Antonio Spurs,Denver Nuggets,-11,-10.5
+688,Utah Jazz,Atlanta Hawks,2,-2.0
+689,Houston Rockets,Cleveland Cavaliers,14,
+690,Indiana Pacers,Brooklyn Nets,21,3.5
+691,New Orleans Pelicans,Portland Trail Blazers,19,10.5
+692,Philadelphia 76ers,Charlotte Hornets,11,9.5
+693,Memphis Grizzlies,Oklahoma City Thunder,-6,-10.5
+694,Chicago Bulls,Washington Wizards,29,9.5
+695,Los Angeles Lakers,Golden State Warriors,-7,1.5
+696,Utah Jazz,Minnesota Timberwolves,-19,-8.5
+697,Sacramento Kings,New York Knicks,-7,4.0
+698,Milwaukee Bucks,Phoenix Suns,11,2.0
+699,Detroit Pistons,Miami Heat,-3,-7.0
+700,Dallas Mavericks,Denver Nuggets,2,-3.5
+701,Orlando Magic,Toronto Raptors,15,11.5
+702,Washington Wizards,Boston Celtics,-26,-10.0
+703,San Antonio Spurs,Brooklyn Nets,7,1.0
+704,Los Angeles Clippers,Atlanta Hawks,-17,10.0
+705,Indiana Pacers,Cleveland Cavaliers,-5,7.5
+706,Boston Celtics,Detroit Pistons,25,15.5
+707,Philadelphia 76ers,Miami Heat,7,3.5
+708,Chicago Bulls,Portland Trail Blazers,3,7.0
+709,Utah Jazz,Minnesota Timberwolves,-10,-7.5
+710,Golden State Warriors,New York Knicks,-7,4.0
+711,Sacramento Kings,Memphis Grizzlies,10,9.5
+712,Los Angeles Lakers,Atlanta Hawks,31,9.5
+713,Orlando Magic,Charlotte Hornets,20,13.0
+714,Washington Wizards,Houston Rockets,-23,-6.5
+715,Brooklyn Nets,New Orleans Pelicans,-13,-7.0
+716,San Antonio Spurs,Dallas Mavericks,-6,-8.0
+717,Minnesota Timberwolves,Denver Nuggets,-3,-4.0
+718,Detroit Pistons,Indiana Pacers,-19,-9.5
+719,Cleveland Cavaliers,Miami Heat,-3,3.0
+720,Boston Celtics,Milwaukee Bucks,3,6.5
+721,Toronto Raptors,Sacramento Kings,-34,-9.5
+722,Oklahoma City Thunder,Utah Jazz,12,14.0
+723,Portland Trail Blazers,Los Angeles Clippers,-13,-11.5
+724,Golden State Warriors,Memphis Grizzlies,21,10.0
+725,Phoenix Suns,Philadelphia 76ers,13,9.0
+726,Orlando Magic,New Orleans Pelicans,15,-1.5
+727,Washington Wizards,Sacramento Kings,7,-10.5
+728,Houston Rockets,Chicago Bulls,10,3.0
+729,Milwaukee Bucks,Brooklyn Nets,7,10.5
+730,Dallas Mavericks,Utah Jazz,16,14.5
+731,Denver Nuggets,New York Knicks,13,9.0
+732,Phoenix Suns,Atlanta Hawks,13,9.0
+733,Detroit Pistons,Boston Celtics,-27,-13.0
+734,Toronto Raptors,Oklahoma City Thunder,-20,-15.0
+735,Miami Heat,New Orleans Pelicans,-23,3.0
+736,Minnesota Timberwolves,Cleveland Cavaliers,13,7.5
+737,San Antonio Spurs,Memphis Grizzlies,-2,6.0
+738,Golden State Warriors,Indiana Pacers,-12,4.0
+739,Portland Trail Blazers,Los Angeles Clippers,-8,-14.0
+740,Los Angeles Lakers,Philadelphia 76ers,7,8.0
+741,New York Knicks,Brooklyn Nets,12,7.5
+742,Orlando Magic,Sacramento Kings,-2,4.5
+743,Atlanta Hawks,Charlotte Hornets,41,9.5
+744,Chicago Bulls,Boston Celtics,-11,-5.0
+745,Houston Rockets,Utah Jazz,28,10.5
+746,San Antonio Spurs,Phoenix Suns,-25,-9.0
+747,Washington Wizards,Toronto Raptors,3,5.5
+748,Portland Trail Blazers,Denver Nuggets,-3,-10.0
+749,Detroit Pistons,New Orleans Pelicans,-13,-11.5
+750,Los Angeles Clippers,Philadelphia 76ers,-14,9.5
+751,Miami Heat,Cleveland Cavaliers,37,3.5
+752,Minnesota Timberwolves,Golden State Warriors,4,3.5
+753,Milwaukee Bucks,Oklahoma City Thunder,25,2.0
+754,Los Angeles Lakers,Indiana Pacers,5,3.0
+755,Cleveland Cavaliers,Charlotte Hornets,23,12.5
+756,Atlanta Hawks,Boston Celtics,2,-11.0
+757,New York Knicks,Detroit Pistons,25,16.5
+758,Toronto Raptors,Brooklyn Nets,-8,-5.0
+759,San Antonio Spurs,Phoenix Suns,2,-12.0
+760,Houston Rockets,Portland Trail Blazers,18,9.5
+761,Chicago Bulls,Washington Wizards,-2,10.5
+762,Denver Nuggets,Memphis Grizzlies,25,14.5
+763,Utah Jazz,Dallas Mavericks,-10,-8.0
+764,Sacramento Kings,Philadelphia 76ers,12,9.0
+765,Los Angeles Clippers,Indiana Pacers,-17,6.0
+766,Miami Heat,Golden State Warriors,-21,-2.0
+767,Milwaukee Bucks,Los Angeles Lakers,-4,8.0
+768,New Orleans Pelicans,Oklahoma City Thunder,-7,-1.0
+769,Sacramento Kings,Dallas Mavericks,-36,1.5
+770,Orlando Magic,Golden State Warriors,-8,4.5
+771,Washington Wizards,Brooklyn Nets,-3,-2.5
+772,Charlotte Hornets,Cleveland Cavaliers,7,-10.5
+773,Toronto Raptors,New York Knicks,-44,-12.5
+774,Philadelphia 76ers,Los Angeles Clippers,-1,-6.0
+775,Atlanta Hawks,Portland Trail Blazers,14,11.0
+776,Chicago Bulls,Indiana Pacers,26,-3.0
+777,Memphis Grizzlies,Los Angeles Lakers,-12,-4.5
+778,Minnesota Timberwolves,Detroit Pistons,15,16.5
+779,Oklahoma City Thunder,Houston Rockets,-6,6.5
+780,Utah Jazz,San Antonio Spurs,-7,4.0
+781,Denver Nuggets,Phoenix Suns,-7,7.0
+782,Atlanta Hawks,Boston Celtics,1,-12.5
+783,New Orleans Pelicans,Milwaukee Bucks,7,-1.5
+784,Washington Wizards,Detroit Pistons,-9,3.0
+785,Orlando Magic,Los Angeles Clippers,-3,-1.0
+786,Indiana Pacers,Los Angeles Lakers,19,2.0
+787,Charlotte Hornets,Golden State Warriors,-18,-11.5
+788,Cleveland Cavaliers,Philadelphia 76ers,3,7.5
+789,Brooklyn Nets,Chicago Bulls,17,-5.5
+790,San Antonio Spurs,New York Knicks,4,-10.0
+791,Miami Heat,Portland Trail Blazers,60,15.5
+792,Oklahoma City Thunder,Phoenix Suns,25,-1.0
+793,Denver Nuggets,Minnesota Timberwolves,-13,6.5
+794,Utah Jazz,Houston Rockets,-1,-5.5
+795,Sacramento Kings,Dallas Mavericks,-4,1.0
+796,New Orleans Pelicans,Boston Celtics,-12,
+797,Orlando Magic,Memphis Grizzlies,30,22.5
+798,Atlanta Hawks,Milwaukee Bucks,-9,-5.5
+799,Denver Nuggets,Cleveland Cavaliers,29,5.0
+800,Brooklyn Nets,Los Angeles Lakers,-12,-5.5
+801,Charlotte Hornets,Los Angeles Clippers,-12,-16.0
+802,Toronto Raptors,Philadelphia 76ers,-15,-11.5
+803,Washington Wizards,Miami Heat,-12,-10.5
+804,New York Knicks,Oklahoma City Thunder,-1,3.0
+805,San Antonio Spurs,Golden State Warriors,-4,-8.5
+806,Houston Rockets,Dallas Mavericks,-18,1.0
+807,Minnesota Timberwolves,Chicago Bulls,-8,8.5
+808,Sacramento Kings,Utah Jazz,21,11.5
+809,Charlotte Hornets,Boston Celtics,-14,-17.0
+810,Detroit Pistons,Memphis Grizzlies,-2,2.5
+811,Indiana Pacers,Brooklyn Nets,22,10.0
+812,Orlando Magic,Portland Trail Blazers,1,16.0
+813,Chicago Bulls,Atlanta Hawks,-12,2.5
+814,New Orleans Pelicans,Phoenix Suns,-13,1.0
+815,Washington Wizards,Milwaukee Bucks,4,-13.5
+816,Toronto Raptors,Los Angeles Lakers,-17,-13.0
+817,Miami Heat,New York Knicks,10,2.5
+818,Philadelphia 76ers,Oklahoma City Thunder,4,-5.0
+819,Minnesota Timberwolves,Houston Rockets,7,8.0
+820,Denver Nuggets,San Antonio Spurs,5,16.5
+821,Utah Jazz,Cleveland Cavaliers,-16,-9.5
+822,Golden State Warriors,Dallas Mavericks,4,1.0
+823,Sacramento Kings,Los Angeles Clippers,14,-1.5
+824,Charlotte Hornets,Portland Trail Blazers,-3,1.5
+825,Washington Wizards,Los Angeles Lakers,-5,-12.5
+826,Brooklyn Nets,Indiana Pacers,4,-7.5
+827,Boston Celtics,Oklahoma City Thunder,35,8.5
+828,Atlanta Hawks,Detroit Pistons,8,13.0
+829,Milwaukee Bucks,Memphis Grizzlies,-10,14.0
+830,Minnesota Timberwolves,Toronto Raptors,48,15.5
+831,New Orleans Pelicans,Orlando Magic,-9,4.0
+832,Phoenix Suns,Cleveland Cavaliers,21,6.0
+833,Miami Heat,Philadelphia 76ers,-4,2.5
+834,New York Knicks,Sacramento Kings,11,3.5
+835,Dallas Mavericks,Atlanta Hawks,14,11.0
+836,Houston Rockets,Golden State Warriors,-23,-3.5
+837,Los Angeles Clippers,Denver Nuggets,2,-3.5
+838,Indiana Pacers,Oklahoma City Thunder,14,4.5
+839,Charlotte Hornets,Orlando Magic,9,-11.5
+840,Washington Wizards,Portland Trail Blazers,-6,2.0
+841,Boston Celtics,Sacramento Kings,1,8.5
+842,Chicago Bulls,New York Knicks,8,1.0
+843,Houston Rockets,Miami Heat,-15,1.0
+844,Memphis Grizzlies,Detroit Pistons,18,
+845,Milwaukee Bucks,Toronto Raptors,-6,
+846,New Orleans Pelicans,San Antonio Spurs,-2,13.0
+847,Dallas Mavericks,Golden State Warriors,2,5.0
+848,Phoenix Suns,Minnesota Timberwolves,10,3.5
+849,Los Angeles Clippers,Utah Jazz,29,15.5
+850,Los Angeles Lakers,Cleveland Cavaliers,19,4.5
+851,Brooklyn Nets,Detroit Pistons,10,8.0
+852,Memphis Grizzlies,Philadelphia 76ers,-20,-12.0
+853,Denver Nuggets,Atlanta Hawks,32,12.0
+854,Dallas Mavericks,Houston Rockets,11,7.5
+855,Los Angeles Clippers,Cleveland Cavaliers,2,4.0
+856,Indiana Pacers,Miami Heat,2,1.0
+857,Phoenix Suns,New Orleans Pelicans,-8,5.5
+858,Orlando Magic,Chicago Bulls,15,7.5
+859,Toronto Raptors,Washington Wizards,8,4.5
+860,Boston Celtics,Portland Trail Blazers,17,16.5
+861,Charlotte Hornets,Oklahoma City Thunder,-3,-9.0
+862,Milwaukee Bucks,New York Knicks,-13,1.5
+863,San Antonio Spurs,Philadelphia 76ers,-7,-4.5
+864,Brooklyn Nets,Sacramento Kings,-30,-6.5
+865,Golden State Warriors,Utah Jazz,8,10.0
+866,Los Angeles Lakers,Minnesota Timberwolves,-10,3.5
+867,Charlotte Hornets,Dallas Mavericks,-26,-10.5
+868,Philadelphia 76ers,Detroit Pistons,18,15.0
+869,Toronto Raptors,Indiana Pacers,-17,-10.0
+870,Milwaukee Bucks,Boston Celtics,13,-2.0
+871,Atlanta Hawks,Miami Heat,-6,-3.5
+872,Minnesota Timberwolves,Washington Wizards,9,16.5
+873,Oklahoma City Thunder,Sacramento Kings,7,4.0
+874,Chicago Bulls,New York Knicks,-11,-4.0
+875,Memphis Grizzlies,San Antonio Spurs,-15,-3.5
+876,Houston Rockets,Orlando Magic,12,-2.5
+877,Utah Jazz,Denver Nuggets,-16,-14.0
+878,Los Angeles Lakers,Golden State Warriors,-14,2.0
+879,Phoenix Suns,Los Angeles Clippers,-13,3.5
+880,Portland Trail Blazers,New Orleans Pelicans,-10,-10.5
+881,Cleveland Cavaliers,Memphis Grizzlies,12,11.5
+882,Atlanta Hawks,Charlotte Hornets,-1,12.5
+883,Miami Heat,Dallas Mavericks,-19,0.5
+884,Brooklyn Nets,Toronto Raptors,4,10.5
+885,Milwaukee Bucks,Orlando Magic,18,-1.5
+886,Oklahoma City Thunder,San Antonio Spurs,38,17.0
+887,Denver Nuggets,Minnesota Timberwolves,9,6.0
+888,Los Angeles Clippers,Phoenix Suns,-16,-11.0
+889,Detroit Pistons,Chicago Bulls,-22,-12.5
+890,Boston Celtics,New York Knicks,-9,-1.5
+891,Utah Jazz,Houston Rockets,3,-11.0
+892,Sacramento Kings,New Orleans Pelicans,-12,1.0
+893,Portland Trail Blazers,Golden State Warriors,-8,-13.0
+894,Philadelphia 76ers,Orlando Magic,12,6.5
+895,Washington Wizards,Chicago Bulls,-2,4.5
+896,Boston Celtics,Charlotte Hornets,33,6.5
+897,Cleveland Cavaliers,Indiana Pacers,9,3.0
+898,New York Knicks,Brooklyn Nets,4,10.5
+899,San Antonio Spurs,Denver Nuggets,1,-11.5
+900,Minnesota Timberwolves,Atlanta Hawks,3,12.5
+901,Miami Heat,Toronto Raptors,22,14.0
+902,Oklahoma City Thunder,Milwaukee Bucks,18,11.0
+903,Memphis Grizzlies,Los Angeles Lakers,-3,-16.0
+904,Dallas Mavericks,Detroit Pistons,-18,11.0
+905,Golden State Warriors,New Orleans Pelicans,-5,4.0
+906,Portland Trail Blazers,Houston Rockets,-9,-6.0
+907,Los Angeles Clippers,Utah Jazz,-1,15.5
+908,Sacramento Kings,Phoenix Suns,-1,-3.0

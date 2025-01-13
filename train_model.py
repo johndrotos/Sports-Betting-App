@@ -101,18 +101,21 @@ def train_xgBoost(data_loc, n_estimators, max_depth, test_size):
 
 def train_DNN():
     data = pd.read_csv('./formatted_data/training_data.csv')
+    test_data = data[data['league.season'] == '2023-2024']
+    train_data = data[data['league.season'] != '2023-2024']
     
     # Load the data
-    X = data.drop(columns=['league.season', 'teams.home.id', 'teams.away.id', 'home_spread', 'winner', 'total'])
-    y = data['home_spread']
+    X_train = train_data.drop(columns=['league.season', 'teams.home.id', 'teams.away.id', 'home_spread', 'winner', 'total', 'odds_spread'])
+    y_train = train_data['home_spread']
 
-    X_train, X_temp, y_train, y_temp = train_test_split(X, y, test_size=0.2, random_state=42)
-    X_val, X_test, y_val, y_test = train_test_split(X_temp, y_temp, test_size=0.5, random_state=42)
+    X_test = test_data.drop(columns=['league.season', 'teams.home.id', 'teams.away.id', 'home_spread', 'winner', 'total', 'odds_spread'])
+    y_test = test_data['home_spread']
+    odds_spread_test = test_data['odds_spread']
+
 
     # Normalize the data
     scaler = StandardScaler()
     X_train = scaler.fit_transform(X_train)
-    X_val = scaler.transform(X_val)
     X_test = scaler.transform(X_test)
 
     # Define the model
@@ -138,12 +141,36 @@ def train_DNN():
 
     # Train the model with early stopping
     early_stopping = tf.keras.callbacks.EarlyStopping(monitor='val_loss', patience=20, restore_best_weights=True)
-    history = model.fit(X_train, y_train, validation_data=(X_val, y_val), epochs=300, batch_size=32, callbacks=[early_stopping])
+    history = model.fit(
+        X_train, 
+        y_train, 
+        validation_split = 0.2, 
+        epochs=300, 
+        batch_size=32, 
+        callbacks=[early_stopping])
 
     # Evaluate on the test set
     test_loss = model.evaluate(X_test, y_test)
     print(f'Test loss (MAE): {test_loss}')
 
+    # Predict spreads on the test set
+    y_pred = model.predict(X_test)
+
+    # Compare predictions with odds spreads
+    test_df = pd.DataFrame({
+        'actual_spread': y_test,
+        'predicted_spread': y_pred.flatten(),
+        'odds_spread': odds_spread_test
+    })
+    
+    test_df['model_error'] = abs(test_df['actual_spread'] - test_df['predicted_spread'])
+    test_df['odds_error'] = abs(test_df['actual_spread'] - test_df['odds_spread'])
+    avg_model_error = test_df['model_error'].mean()
+    avg_odds_error = test_df['odds_error'].mean()
+    print(f'Average Model Error (MAE): {avg_model_error:.2f}')
+    print(f'Average Odds Spread Error (MAE): {avg_odds_error:.2f}')
+    
+    test_df.to_csv('testing.csv')
 
 def main():
     ### RANDOM FOREST GENERATOR ###
